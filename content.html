@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<h2>AWS Certified Cloud Practitioner</h2>
+
+<ul id="myUL">
+    <li><span class="caret">Content</span>
+      <ul class="nested">
+        
+        <li><span class="caret">Cloud Concepts</span>
+          <ul class="nested">
+            <li>What is Cloud Computing?</li>
+            <li>Evolution of Cloud Hosting</li>
+            <li>What is Amazon?</li>
+            <li>What is AWS?</li>
+            <li>What is a Cloud Service Provider?</li>
+            <li>Landscape of CSPs</li>
+            <li>Gartner Magic Quadrant for Cloud</li>
+            <li>AWS Services Preview</li>
+            <li>Evolution of Computing</li>
+            <li>Types of Cloud Computing</li>
+            <li>Cloud Computing Deployment Models</li>
+          </ul>
+        </li>
+
+        <li><span class="caret">Getting Started</span>
+            <ul class="nested">
+              <li>Create an AWS Account</li>
+              <li>Create IAM User</li>
+              <li>AWS Region Selector</li>
+              <li>Overbilling Story</li>
+              <li>AWS Budgets</li>
+              <li>AWS Free Tier</li>
+              <li>Billing Alarm</li>
+              <li>Turning on MFA</li>
+            </ul>
+        </li>
+
+        <li><span class="caret">Digital Transformation</span>
+            <ul class="nested">
+              <li>Innovation Waves</li>
+              <li>Burning Platform</li>
+              <li>Digital Transformation Checklist</li>
+              <li>Evolution of Computing Power</li>
+              <li>Amazon Braket</li>
+            </ul>
+        </li>
+
+        <li><span class="caret">The Benefits of Cloud</span>
+            <ul class="nested">
+              <li>The Benefits of Cloud</li>
+              <li>The Six Advantages of Cloud</li>
+              <li>The Six Advantages of Cloud Doc Reference</li>
+              <li>The Seven Advantages of Cloud</li>
+            </ul>
+        </li>
+
+        <li><span class="caret">AWS Global Infrastructure</span>
+            <ul class="nested">
+              <li>AWS Global Infrastructure Overview</li>
+              <li>AWS Global Infrastructure Follow Along</li>
+              <li>Regions</li>
+              <li>Regions vs Global Services</li>
+              <li>Availability Zones (AZs)</li>
+              <li>Regions vs AZ Visualized</li>
+              <li>Selecting Regions and AZs Follow Along</li>
+              <li>Fault Tolerance</li>
+              <li>AWS Global Network</li>
+              <li>Points of Presence (PoP)</li>
+              <li>Tier 1</li>
+              <li>AWS Services using PoPs</li>
+              <li>AWS Direct Connect</li>
+              <li>Direct Connect Location</li>
+              <li>AWS Local Zones</li>
+              <li>Wavelength Zones</li>
+              <li>Data Residency</li>
+              <li>AWS for Government</li>
+              <li>GovCloud</li>
+              <li>AWS in China</li>
+              <li>AWS in China Follow Along</li>
+              <li>Sustainability</li>
+              <li>Sustainability Follow Along</li>
+              <li>AWS Ground Station </li>
+              <li>AWS Outposts</li>
+            </ul>
+        </li>
+
+        <li><span class="caret">Cloud Architecture</span>
+            <ul class="nested">
+              <li>Cloud Architecture Terminologies</li>
+              <li>High Availability</li>
+              <li>High Scalability</li>
+              <li>High Elasticity</li>
+              <li>Fault Tolerance</li>
+              <li>High Durability</li>
+              <li>Business Continuity Plan</li>
+              <li>Disaster Recovery Options</li>
+              <li>RTO Visualized</li>
+              <li>Architectural diagram examples</li>
+              <li>HA Follow Along</li>
+            </ul>
+        </li>
+
+        <li><span class="caret">Management and Development Tools</span>
+            <ul class="nested">
+              <li>AWS API</li>
+              <li>AWS API Follow Along</li>
+              <li>AWS Management Console</li>
+              <li>AWS Management Follow Along</li>
+              <li>Service Console</li>
+              <li>Service Console Follow Along</li>
+              <li>AWS Account ID</li>
+              <li>AWS Account ID Follow Along</li>
+              <li>AWS Tools for PowerShell</li>
+              <li>AWS Tools fro PowerShell Follow Along</li>
+              <li>Amazon Resource Names</li>
+              <li>ARN Follow Along</li>
+              <li>AWS CLI</li>
+              <li>AWS CLI Follow Along</li>
+              <li>AWS SDK</li>
+              <li>AWS SDK Follow Along</li>
+              <li>AWS CloudShell</li>
+              <li>Infrastructure as Code (But says AWS CLI, maybe wrong)</li>
+              <li>CloudFormation</li>
+              <li>CloudFormation Follow Along</li>
+              <li>CDK</li>
+              <li>CDK Follow Along</li>
+              <li>AWS Toolkit for VSCode</li>
+              <li>Access Keys</li>
+              <li>Access Keys Follow Along</li>
+              <li>AWS Documentation</li>
+              <li>AWS Documentation Follow Along</li>
+            </ul>
+        </li>
+
+      </ul>
+    </li>
+  </ul> 
+<script>
+var toggler = document.getElementsByClassName("caret");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+</script>
+
+</body>
+</html>
