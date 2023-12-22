@@ -1,0 +1,30 @@
+Cloud Computing
+
+The "textbook" definition of Cloud Computing:
+
+Cloud Computing is the practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than on a local server or personal computer.
+
+Cloud computing allows companies or individuals to rent the resources they need for their companies or personal projects like storage space.
+
+Companies no longer have to purchase physical hardware with expensive IT departments.
+
+This has helped a lot of smaller companies launch their projects or services quickly.
+
+Companies can adjust the types of services they need on demand instead of waiting weeks or longer for new servers or other equipment to scale their businesses.
+
+Individuals no longer need a computer with a huge hard drive for photos or files. They can now store these on services like Google Drive.
+On-premise On-premises vs Cloud Providers
+
+On-premise On-premises
+
+    You own the servers
+    You hire the IT people
+    You pay or rent the real-estate
+    You take all the risk.
+
+Cloud Providers
+
+    Someone else owns the servers
+    Someone else hires the IT people
+    Someone else pays or rents the real-estate
+    You are responsible for configuring your cloud services and code, someone else takes care of the rest

@@ -52,8 +52,8 @@ ul, #myUL {
         
         <li><span class="caret">Cloud Concepts</span>
           <ul class="nested">
-            <li>What is Cloud Computing?</li>
-            <li>Evolution of Cloud Hosting</li>
+            <li onclick="loadTextFile('contents/cloud_computing.txt')">What is Cloud Computing?</li>
+            <li onclick="loadTextFile('contents/cloud_hosting.txt')">Evolution of Cloud Hosting</li>
             <li>What is Amazon?</li>
             <li>What is AWS?</li>
             <li>What is a Cloud Service Provider?</li>
@@ -497,7 +497,17 @@ ul, #myUL {
 
       </ul>
     </li>
-  </ul> 
+</ul> 
+
+<iframe id="textFileFrame" width="100%" height="500" src=""></iframe>
+
+<script>
+  function loadTextFile(filePath) {
+      document.getElementById('textFileFrame').src = filePath;
+      return false; // Prevents the browser from following the link
+  }
+</script>
+
 <script>
 var toggler = document.getElementsByClassName("caret");
 var i;
