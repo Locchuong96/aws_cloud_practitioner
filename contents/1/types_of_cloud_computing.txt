@@ -1,0 +1,38 @@
+Types of Cloud Computing
+Cloud Computing models
+
+There are three main models of Cloud Computing:
+
+    SaaS - Software as a Service
+    PaaS- Platform as a Service
+    IaaS- Infrastructure as a Service
+
+IaaS- Infrastructure as a Service (Host)
+
+Most basic building blocks of cloud IT infrastructure. It has the most flexibility and management control of all the different cloud computing models. It is the closest to having a traditional on-premises data center.
+
+Examples:
+
+    Amazon Web Services
+    Microsoft Azure
+    Google Cloud
+
+PaaS- Platform as a Service (Build)
+
+Provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure typically associated with developing and launching an app. Less flexibility than IaaS because of pre-constructed packages.
+
+Examples:
+
+    AWS Elastic Beanstalk
+    Windows Azure
+    Heroku
+    Google App Engine
+
+SaaS- Software as a Service (Consume)
+
+Completed projects managed by a service provider. Easy to use and comes complete with a user interface. Least flexibility
+
+Examples:
+
+    Gmail
+    Adobe Creative Cloud
