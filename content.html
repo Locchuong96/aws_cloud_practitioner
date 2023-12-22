@@ -1,539 +1,535 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-ul, #myUL {
-  list-style-type: none;
-}
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      
+      ul, #myUL {
+        list-style-type: none;
+      }
 
-#myUL {
-  margin: 0;
-  padding: 0;
-}
+      #myUL {
+        margin: 0;
+        padding: 0;
+      }
 
-.caret {
-  cursor: pointer;
-  -webkit-user-select: none; /* Safari 3.1+ */
-  -moz-user-select: none; /* Firefox 2+ */
-  -ms-user-select: none; /* IE 10+ */
-  user-select: none;
-}
+      .caret {
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari 3.1+ */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none;
+      }
 
-.caret::before {
-  content: "\25B6";
-  color: black;
-  display: inline-block;
-  margin-right: 6px;
-}
+      .caret::before {
+        content: "\25B6";
+        color: black;
+        display: inline-block;
+        margin-right: 6px;
+      }
 
-.caret-down::before {
-  -ms-transform: rotate(90deg); /* IE 9 */
-  -webkit-transform: rotate(90deg); /* Safari */'
-  transform: rotate(90deg);  
-}
+      .caret-down::before {
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari */'
+        transform: rotate(90deg);  
+      }
 
-.nested {
-  display: none;
-}
+      .nested {
+        display: none;
+      }
 
-.active {
-  display: block;
-}
+      .active {
+        display: block;
+      }
 
-* {
-  box-sizing: border-box;
-}
+      /**/
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
+      /* container */
+      .responsive-two-column-grid {
+          display:block;
+      }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+      /* columns */
+      .responsive-two-column-grid > * {
+          padding:1rem;
+      }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
+      /* tablet breakpoint */
+      @media (min-width:768px) {
+          .responsive-two-column-grid {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+          }
+      }
 
-</style>
-</head>
+    </style>
+  </head>
 <body>
+
+<a href="index.html">Index Page</a>
 
 <h2>AWS Certified Cloud Practitioner</h2>
 
-<div class="row">
-  
-  <div class="column">
+<div class="responsive-two-column-grid">
+  <!-- Column1 -->
+  <div>
     <ul id="myUL">
-    <li><span class="caret">Content</span>
-      <ul class="nested">
-        
-        <li><span class="caret">Cloud Concepts</span>
-          <ul class="nested">
-            <li onclick="loadTextFile('contents/cloud_computing.txt')">What is Cloud Computing?</li>
-            <li onclick="loadTextFile('contents/cloud_hosting.txt')">Evolution of Cloud Hosting</li>
-            <li>What is Amazon?</li>
-            <li>What is AWS?</li>
-            <li>What is a Cloud Service Provider?</li>
-            <li>Landscape of CSPs</li>
-            <li>Gartner Magic Quadrant for Cloud</li>
-            <li>AWS Services Preview</li>
-            <li>Evolution of Computing</li>
-            <li>Types of Cloud Computing</li>
-            <li>Cloud Computing Deployment Models</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Getting Started</span>
+      <li><span class="caret">Content</span>
+        <ul class="nested">
+          
+          <li><span class="caret">Cloud Concepts</span>
             <ul class="nested">
-              <li>Create an AWS Account</li>
-              <li>Create IAM User</li>
-              <li>AWS Region Selector</li>
-              <li>Overbilling Story</li>
-              <li>AWS Budgets</li>
+              <li onclick="loadTextFile('contents/cloud_computing.txt')">What is Cloud Computing?</li>
+              <li onclick="loadTextFile('contents/cloud_hosting.txt')">Evolution of Cloud Hosting</li>
+              <li>What is Amazon?</li>
+              <li>What is AWS?</li>
+              <li>What is a Cloud Service Provider?</li>
+              <li>Landscape of CSPs</li>
+              <li>Gartner Magic Quadrant for Cloud</li>
+              <li>AWS Services Preview</li>
+              <li>Evolution of Computing</li>
+              <li>Types of Cloud Computing</li>
+              <li>Cloud Computing Deployment Models</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Getting Started</span>
+              <ul class="nested">
+                <li>Create an AWS Account</li>
+                <li>Create IAM User</li>
+                <li>AWS Region Selector</li>
+                <li>Overbilling Story</li>
+                <li>AWS Budgets</li>
+                <li>AWS Free Tier</li>
+                <li>Billing Alarm</li>
+                <li>Turning on MFA</li>
+              </ul>
+          </li>
+
+          <li><span class="caret">Digital Transformation</span>
+              <ul class="nested">
+                <li>Innovation Waves</li>
+                <li>Burning Platform</li>
+                <li>Digital Transformation Checklist</li>
+                <li>Evolution of Computing Power</li>
+                <li>Amazon Braket</li>
+              </ul>
+          </li>
+
+          <li><span class="caret">The Benefits of Cloud</span>
+              <ul class="nested">
+                <li>The Benefits of Cloud</li>
+                <li>The Six Advantages of Cloud</li>
+                <li>The Six Advantages of Cloud Doc Reference</li>
+                <li>The Seven Advantages of Cloud</li>
+              </ul>
+          </li>
+
+          <li><span class="caret">AWS Global Infrastructure</span>
+              <ul class="nested">
+                <li>AWS Global Infrastructure Overview</li>
+                <li>AWS Global Infrastructure Follow Along</li>
+                <li>Regions</li>
+                <li>Regions vs Global Services</li>
+                <li>Availability Zones (AZs)</li>
+                <li>Regions vs AZ Visualized</li>
+                <li>Selecting Regions and AZs Follow Along</li>
+                <li>Fault Tolerance</li>
+                <li>AWS Global Network</li>
+                <li>Points of Presence (PoP)</li>
+                <li>Tier 1</li>
+                <li>AWS Services using PoPs</li>
+                <li>AWS Direct Connect</li>
+                <li>Direct Connect Location</li>
+                <li>AWS Local Zones</li>
+                <li>Wavelength Zones</li>
+                <li>Data Residency</li>
+                <li>AWS for Government</li>
+                <li>GovCloud</li>
+                <li>AWS in China</li>
+                <li>AWS in China Follow Along</li>
+                <li>Sustainability</li>
+                <li>Sustainability Follow Along</li>
+                <li>AWS Ground Station </li>
+                <li>AWS Outposts</li>
+              </ul>
+          </li>
+
+          <li><span class="caret">Cloud Architecture</span>
+              <ul class="nested">
+                <li>Cloud Architecture Terminologies</li>
+                <li>High Availability</li>
+                <li>High Scalability</li>
+                <li>High Elasticity</li>
+                <li>Fault Tolerance</li>
+                <li>High Durability</li>
+                <li>Business Continuity Plan</li>
+                <li>Disaster Recovery Options</li>
+                <li>RTO Visualized</li>
+                <li>Architectural diagram examples</li>
+                <li>HA Follow Along</li>
+              </ul>
+          </li>
+
+          <li><span class="caret">Management and Development Tools</span>
+              <ul class="nested">
+                <li>AWS API</li>
+                <li>AWS API Follow Along</li>
+                <li>AWS Management Console</li>
+                <li>AWS Management Follow Along</li>
+                <li>Service Console</li>
+                <li>Service Console Follow Along</li>
+                <li>AWS Account ID</li>
+                <li>AWS Account ID Follow Along</li>
+                <li>AWS Tools for PowerShell</li>
+                <li>AWS Tools fro PowerShell Follow Along</li>
+                <li>Amazon Resource Names</li>
+                <li>ARN Follow Along</li>
+                <li>AWS CLI</li>
+                <li>AWS CLI Follow Along</li>
+                <li>AWS SDK</li>
+                <li>AWS SDK Follow Along</li>
+                <li>AWS CloudShell</li>
+                <li>Infrastructure as Code (But says AWS CLI, maybe wrong)</li>
+                <li>CloudFormation</li>
+                <li>CloudFormation Follow Along</li>
+                <li>CDK</li>
+                <li>CDK Follow Along</li>
+                <li>AWS Toolkit for VSCode</li>
+                <li>Access Keys</li>
+                <li>Access Keys Follow Along</li>
+                <li>AWS Documentation</li>
+                <li>AWS Documentation Follow Along</li>
+              </ul>
+          </li>
+
+          <li><span class="caret">Shared Responsibility Mode</span>
+            <ul class="nested">
+              <li>Introduction to Shared Responsibility Model</li>
+              <li>AWS Shared Responsibility Model</li>
+              <li>Types of Cloud Responsibilities</li>
+              <li>Shared Responsibility for Compute</li>
+              <li>Shared Responsibility Model Alternate</li>
+              <li>Shared Responsibility Model Architecture</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Compute</span>
+            <ul class="nested">
+              <li>EC2 Overview</li>
+              <li>VMs, Containers and Serverless</li>
+              <li>Compute Follow Along</li>
+              <li>High Performance Computing (HPC)</li>
+              <li>HPC Follow Along</li>
+              <li>Edge and Hybrid</li>
+              <li>Edge Computing Follow Along</li>
+              <li>Cost & Capacity Management</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Storage</span>
+            <ul class="nested">
+              <li>Types of Storage Services</li>
+              <li>Introduction to S3</li>
+              <li>S3 Storage Classes</li>
+              <li>AWS Snow Family</li>
+              <li>Storage Services</li>
+              <li>S3 Follow Along</li>
+              <li>EBS Follow Along</li>
+              <li>EFS Follow Along</li>
+              <li>Snow Family Follow Along</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Databases</span>
+            <ul class="nested">
+              <li>What is a Database</li>
+              <li>What is a data warehouse?</li>
+              <li>What is a key value store?</li>
+              <li>What is a document database?</li>
+              <li>NoSQL Database Services</li>
+              <li>Relational Database Services</li>
+              <li>Other Database Services</li>
+              <li>DynamoDB Follow Along</li>
+              <li>RDS Follow Along</li>
+              <li>Redshift Follow Along</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Networking</span>
+            <ul class="nested">
+              <li>Cloud-Native Networking Services</li>
+              <li>Enterprise/Hybrid Networking Services</li>
+              <li>Virtual Private Cloud (VPC) & Subnets</li>
+              <li>Security Groups vs NACLs</li>
+              <li>Security Groups vs NACLs Follow Along</li>
+              <li>AWS CloudFront (FA)</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">EC2</span>
+            <ul class="nested">
+              <li>Introduction to EC2</li>
+              <li>EC2 Instance Families</li>
+              <li>EC2 Instance Types</li>
+              <li>Dedicated Host vs Dedicated Instances</li>
+              <li>EC2 Tenancy</li>
+              <li>Launch an EC2, SSH and Sessions Manager</li>
+              <li>Elastic IP</li>
+              <li>AMI and Launch Template</li>
+              <li>Launch an ASG</li>
+              <li>Launch an ALB</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">EC2 Pricing Models</span>
+            <ul class="nested">
+              <li>EC2 Pricing Models</li>
+              <li>On Demand</li>
+              <li>Reserved</li>
+              <li>RI Attributes</li>
+              <li>Regional and Zonal RI</li>
+              <li>RI Limits</li>
+              <li>Capacity Reservations</li>
+              <li>Standard vs Convertible RI</li>
+              <li>RI Marketplace</li>
+              <li>Spot</li>
+              <li>Dedicated</li>
+              <li>Savings Plan</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Identity</span>
+            <ul class="nested">
+              <li>Zero-Trust Model</li>
+              <li>Zero-Trust on AWS</li>
+              <li>Zero-Trust on AWS with Third-Parties</li>
+              <li>Directory Service</li>
+              <li>Active Directory</li>
+              <li>Identity Providers</li>
+              <li>Single-Sign-On</li>
+              <li>LDAP</li>
+              <li>Multi-Factor-Authentication</li>
+              <li>Security Keys</li>
+              <li>AWS IAM</li>
+              <li>Anatomy of an IAM Policy</li>
+              <li>IAM Policies Follow Along</li>
+              <li>Principle-of-Least-Privilege</li>
+              <li>AWS Account Root User</li>
+              <li>AWS SSO</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Application Integration</span>
+            <ul class="nested">
+              <li>Introduction to Application Integration</li>
+              <li>Queueing and SQS</li>
+              <li>Streaming and Kinesis</li>
+              <li>Pub-Sub and SNS</li>
+              <li>API Gateway and Amazon API Gateway</li>
+              <li>State Machines and AWS Step Functions</li>
+              <li>Event Bus and Amazon Event Bridge</li>
+              <li>Application Integration Services</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Containers</span>
+            <ul class="nested">
+              <li>VMs vs Containers</li>
+              <li>What are Microservices?</li>
+              <li>Kuberenetes</li>
+              <li>Docker</li>
+              <li>Podman</li>
+              <li>Container Services</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Governance</span>
+            <ul class="nested">
+              <li>Organizations and Accounts</li>
+              <li>AWS Control Tower</li>
+              <li>AWS Config</li>
+              <li>AWS Config Follow Along</li>
+              <li>AWS Quick Starts</li>
+              <li>AWS QuickStarts Follow Along</li>
+              <li>Tagging</li>
+              <li>Tag Name Follow Along</li>
+              <li>Resource Groups</li>
+              <li>Resource Groups Follow Along</li>
+              <li>Business Centric Services</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Provisioning</span>
+            <ul class="nested">
+              <li>Provisioning Services</li>
+              <li>AWS Elastic Beanstalk</li>
+              <li>AWS Elastic Beanstalk Follow Along</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Serverless Services</span>
+            <ul class="nested">
+              <li> What is Serverless?</li>
+              <li>Serverless Services</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Windows on AWS</span>
+            <ul class="nested">
+              <li>Windows on AWS</li>
+              <li>EC2 Windows Follow Along</li>
+              <li>AWS License Manager</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Logging</span>
+            <ul class="nested">
+              <li>Logging Service</li>
+              <li>AWS Cloud Trail</li>
+              <li>CloudWatch Alarm</li>
+              <li>Anatomy of an Alarm</li>
+              <li>Log Events</li>
+              <li>Log Insights</li>
+              <li>CloudWatch Metrics</li>
+              <li>AWS CloudTrail Follow Along</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">ML, AI and Big Data</span>
+            <ul class="nested">
+              <li>Introduction to ML and AI</li>
+              <li>AI and ML Services</li>
+              <li>BigData and Analytics Services</li>
+              <li>Amazon QuickSight</li>
+              <li>QuickSight Follow Along</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">AWS Well-Architected Framework</span>
+            <ul class="nested">
+              <li>AWS Well-Architected Framework</li>
+              <li>General Defintions</li>
+              <li>On Architecture</li>
+              <li>Amazon Leadership Principles</li>
+              <li>General Design Principles</li>
+              <li>Anatomy of a Pillar</li>
+              <li>Operational Excellence</li>
+              <li>Security</li>
+              <li>Reliability</li>
+              <li>Performance Efficiency</li>
+              <li>Cost Optimization</li>
+              <li>AWS Well-Architected-Tool</li>
+              <li>Well-Architected Framework and Tool- Follow Along</li>
+              <li></li>
+              <li>AWS Architecture Center</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">TCO and Migration</span>
+            <ul class="nested">
+              <li>TCO and Migration</li>
+              <li>Total Cost of Ownership (TCO)</li>
+              <li>CAPEX vs OPEX</li>
+              <li>Shifting-IT Personnel</li>
+              <li>AWS Pricing Calculator</li>
+              <li>AWS Pricing Calculator Follow Along</li>
+              <li>Migration Evaluator</li>
+              <li>VM Import Export</li>
+              <li>Database Migration Service</li>
+              <li>Cloud Adoption Framework</li>
+            </ul>
+          </li>
+
+          <li><span class="caret">Billing, Pricing and Support</span>
+            <ul class="nested">
+              <li>AWS Free Services</li>
+              <li>AWS Support Plans</li>
+              <li>Technical Account Manager</li>
+              <li>AWS Support Follow Along</li>
+              <li>AWS Marketplace</li>
+              <li>AWS Marketplace Follow Along</li>
+              <li>Consolidated Billing</li>
+              <li>Consolidated Billing Volume Discounts</li>
+              <li>AWS Trusted Advisor</li>
+              <li>AWS Trusted Advisor Follow Along</li>
+              <li>SLAs</li>
+              <li>AWS SLA Examples</li>
+              <li>AWS SLA Follow Along</li>
+              <li>Service Health Dashboard</li>
+              <li>AWS Personal Health Dashboard</li>
+              <li>AWS Abuse</li>
+              <li>AWS Abuse Report Follow Along</li>
               <li>AWS Free Tier</li>
-              <li>Billing Alarm</li>
-              <li>Turning on MFA</li>
+              <li>AWS Credits</li>
+              <li>AWS Partner Network</li>
+              <li>AWS Budgets</li>
+              <li>AWS Budget Reports</li>
+              <li>AWS Cost and Usage Reports</li>
+              <li>Cost Allocation Tags</li>
+              <li>Billing Alarms</li>
+              <li>AWS Cost Explorer</li>
+              <li>AWS Cost Explorer Follow Along</li>
+              <li>Programmatic Pricing APIs</li>
+              <li>AWS Savings Plan Follow Along</li>
             </ul>
-        </li>
+          </li>
 
-        <li><span class="caret">Digital Transformation</span>
+          <li><span class="caret">Security</span>
             <ul class="nested">
-              <li>Innovation Waves</li>
-              <li>Burning Platform</li>
-              <li>Digital Transformation Checklist</li>
-              <li>Evolution of Computing Power</li>
-              <li>Amazon Braket</li>
+              <li>Defense-In-Depth</li>
+              <li>CIA Triad</li>
+              <li>Vulnerabilities</li>
+              <li>Encryption</li>
+              <li>Cyphers</li>
+              <li>Cryptographic Keys</li>
+              <li>Hashing and Salting</li>
+              <li>Digital Signatures and Signing</li>
+              <li>In-Transit vs At-Rest Encryption</li>
+              <li>Compliance Programs</li>
+              <li>AWS Compliance Programs Follow Along</li>
+              <li>Pen Testing</li>
+              <li>Pen Testing Follow Along</li>
+              <li>AWS Artifact</li>
+              <li>AWS Artifact Follow Along</li>
+              <li>AWS Inspector</li>
+              <li>DDoS</li>
+              <li>AWS Shield</li>
+              <li>AWS Guard Duty</li>
+              <li>AWS Guard Duty Follow Along</li>
+              <li>Amazon Macie</li>
+              <li>AWS VPN</li>
+              <li>AWS WAF</li>
+              <li>AWS WAF Follow Along</li>
+              <li>Hardware Security Module</li>
+              <li>AWS KMS</li>
+              <li>AWS KMS Follow Along</li>
+              <li>CloudHSM</li>
             </ul>
-        </li>
+          </li>
 
-        <li><span class="caret">The Benefits of Cloud</span>
+          <li><span class="caret">Variation Study</span>
             <ul class="nested">
-              <li>The Benefits of Cloud</li>
-              <li>The Six Advantages of Cloud</li>
-              <li>The Six Advantages of Cloud Doc Reference</li>
-              <li>The Seven Advantages of Cloud</li>
+              <li>Know Your Initialisms</li>
+              <li>AWS Config AWS AppConfig</li>
+              <li>SNS vs SQS</li>
+              <li>SNS vs SES vs PinPoint vs Workmail</li>
+              <li>Amazon Inspector vs AWS Trusted Advisor</li>
+              <li>Connect Named Services</li>
+              <li>Elastic Transcoder vs MediaConvert</li>
+              <li>AWS Artifact vs Amazon Inspector</li>
+              <li>ELB Variants</li>
             </ul>
-        </li>
+          </li>
 
-        <li><span class="caret">AWS Global Infrastructure</span>
-            <ul class="nested">
-              <li>AWS Global Infrastructure Overview</li>
-              <li>AWS Global Infrastructure Follow Along</li>
-              <li>Regions</li>
-              <li>Regions vs Global Services</li>
-              <li>Availability Zones (AZs)</li>
-              <li>Regions vs AZ Visualized</li>
-              <li>Selecting Regions and AZs Follow Along</li>
-              <li>Fault Tolerance</li>
-              <li>AWS Global Network</li>
-              <li>Points of Presence (PoP)</li>
-              <li>Tier 1</li>
-              <li>AWS Services using PoPs</li>
-              <li>AWS Direct Connect</li>
-              <li>Direct Connect Location</li>
-              <li>AWS Local Zones</li>
-              <li>Wavelength Zones</li>
-              <li>Data Residency</li>
-              <li>AWS for Government</li>
-              <li>GovCloud</li>
-              <li>AWS in China</li>
-              <li>AWS in China Follow Along</li>
-              <li>Sustainability</li>
-              <li>Sustainability Follow Along</li>
-              <li>AWS Ground Station </li>
-              <li>AWS Outposts</li>
-            </ul>
-        </li>
-
-        <li><span class="caret">Cloud Architecture</span>
-            <ul class="nested">
-              <li>Cloud Architecture Terminologies</li>
-              <li>High Availability</li>
-              <li>High Scalability</li>
-              <li>High Elasticity</li>
-              <li>Fault Tolerance</li>
-              <li>High Durability</li>
-              <li>Business Continuity Plan</li>
-              <li>Disaster Recovery Options</li>
-              <li>RTO Visualized</li>
-              <li>Architectural diagram examples</li>
-              <li>HA Follow Along</li>
-            </ul>
-        </li>
-
-        <li><span class="caret">Management and Development Tools</span>
-            <ul class="nested">
-              <li>AWS API</li>
-              <li>AWS API Follow Along</li>
-              <li>AWS Management Console</li>
-              <li>AWS Management Follow Along</li>
-              <li>Service Console</li>
-              <li>Service Console Follow Along</li>
-              <li>AWS Account ID</li>
-              <li>AWS Account ID Follow Along</li>
-              <li>AWS Tools for PowerShell</li>
-              <li>AWS Tools fro PowerShell Follow Along</li>
-              <li>Amazon Resource Names</li>
-              <li>ARN Follow Along</li>
-              <li>AWS CLI</li>
-              <li>AWS CLI Follow Along</li>
-              <li>AWS SDK</li>
-              <li>AWS SDK Follow Along</li>
-              <li>AWS CloudShell</li>
-              <li>Infrastructure as Code (But says AWS CLI, maybe wrong)</li>
-              <li>CloudFormation</li>
-              <li>CloudFormation Follow Along</li>
-              <li>CDK</li>
-              <li>CDK Follow Along</li>
-              <li>AWS Toolkit for VSCode</li>
-              <li>Access Keys</li>
-              <li>Access Keys Follow Along</li>
-              <li>AWS Documentation</li>
-              <li>AWS Documentation Follow Along</li>
-            </ul>
-        </li>
-
-        <li><span class="caret">Shared Responsibility Mode</span>
-          <ul class="nested">
-            <li>Introduction to Shared Responsibility Model</li>
-            <li>AWS Shared Responsibility Model</li>
-            <li>Types of Cloud Responsibilities</li>
-            <li>Shared Responsibility for Compute</li>
-            <li>Shared Responsibility Model Alternate</li>
-            <li>Shared Responsibility Model Architecture</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Compute</span>
-          <ul class="nested">
-            <li>EC2 Overview</li>
-            <li>VMs, Containers and Serverless</li>
-            <li>Compute Follow Along</li>
-            <li>High Performance Computing (HPC)</li>
-            <li>HPC Follow Along</li>
-            <li>Edge and Hybrid</li>
-            <li>Edge Computing Follow Along</li>
-            <li>Cost & Capacity Management</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Storage</span>
-          <ul class="nested">
-            <li>Types of Storage Services</li>
-            <li>Introduction to S3</li>
-            <li>S3 Storage Classes</li>
-            <li>AWS Snow Family</li>
-            <li>Storage Services</li>
-            <li>S3 Follow Along</li>
-            <li>EBS Follow Along</li>
-            <li>EFS Follow Along</li>
-            <li>Snow Family Follow Along</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Databases</span>
-          <ul class="nested">
-            <li>What is a Database</li>
-            <li>What is a data warehouse?</li>
-            <li>What is a key value store?</li>
-            <li>What is a document database?</li>
-            <li>NoSQL Database Services</li>
-            <li>Relational Database Services</li>
-            <li>Other Database Services</li>
-            <li>DynamoDB Follow Along</li>
-            <li>RDS Follow Along</li>
-            <li>Redshift Follow Along</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Networking</span>
-          <ul class="nested">
-            <li>Cloud-Native Networking Services</li>
-            <li>Enterprise/Hybrid Networking Services</li>
-            <li>Virtual Private Cloud (VPC) & Subnets</li>
-            <li>Security Groups vs NACLs</li>
-            <li>Security Groups vs NACLs Follow Along</li>
-            <li>AWS CloudFront (FA)</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">EC2</span>
-          <ul class="nested">
-            <li>Introduction to EC2</li>
-            <li>EC2 Instance Families</li>
-            <li>EC2 Instance Types</li>
-            <li>Dedicated Host vs Dedicated Instances</li>
-            <li>EC2 Tenancy</li>
-            <li>Launch an EC2, SSH and Sessions Manager</li>
-            <li>Elastic IP</li>
-            <li>AMI and Launch Template</li>
-            <li>Launch an ASG</li>
-            <li>Launch an ALB</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">EC2 Pricing Models</span>
-          <ul class="nested">
-            <li>EC2 Pricing Models</li>
-            <li>On Demand</li>
-            <li>Reserved</li>
-            <li>RI Attributes</li>
-            <li>Regional and Zonal RI</li>
-            <li>RI Limits</li>
-            <li>Capacity Reservations</li>
-            <li>Standard vs Convertible RI</li>
-            <li>RI Marketplace</li>
-            <li>Spot</li>
-            <li>Dedicated</li>
-            <li>Savings Plan</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Identity</span>
-          <ul class="nested">
-            <li>Zero-Trust Model</li>
-            <li>Zero-Trust on AWS</li>
-            <li>Zero-Trust on AWS with Third-Parties</li>
-            <li>Directory Service</li>
-            <li>Active Directory</li>
-            <li>Identity Providers</li>
-            <li>Single-Sign-On</li>
-            <li>LDAP</li>
-            <li>Multi-Factor-Authentication</li>
-            <li>Security Keys</li>
-            <li>AWS IAM</li>
-            <li>Anatomy of an IAM Policy</li>
-            <li>IAM Policies Follow Along</li>
-            <li>Principle-of-Least-Privilege</li>
-            <li>AWS Account Root User</li>
-            <li>AWS SSO</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Application Integration</span>
-          <ul class="nested">
-            <li>Introduction to Application Integration</li>
-            <li>Queueing and SQS</li>
-            <li>Streaming and Kinesis</li>
-            <li>Pub-Sub and SNS</li>
-            <li>API Gateway and Amazon API Gateway</li>
-            <li>State Machines and AWS Step Functions</li>
-            <li>Event Bus and Amazon Event Bridge</li>
-            <li>Application Integration Services</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Containers</span>
-          <ul class="nested">
-            <li>VMs vs Containers</li>
-            <li>What are Microservices?</li>
-            <li>Kuberenetes</li>
-            <li>Docker</li>
-            <li>Podman</li>
-            <li>Container Services</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Governance</span>
-          <ul class="nested">
-            <li>Organizations and Accounts</li>
-            <li>AWS Control Tower</li>
-            <li>AWS Config</li>
-            <li>AWS Config Follow Along</li>
-            <li>AWS Quick Starts</li>
-            <li>AWS QuickStarts Follow Along</li>
-            <li>Tagging</li>
-            <li>Tag Name Follow Along</li>
-            <li>Resource Groups</li>
-            <li>Resource Groups Follow Along</li>
-            <li>Business Centric Services</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Provisioning</span>
-          <ul class="nested">
-            <li>Provisioning Services</li>
-            <li>AWS Elastic Beanstalk</li>
-            <li>AWS Elastic Beanstalk Follow Along</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Serverless Services</span>
-          <ul class="nested">
-            <li> What is Serverless?</li>
-            <li>Serverless Services</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Windows on AWS</span>
-          <ul class="nested">
-            <li>Windows on AWS</li>
-            <li>EC2 Windows Follow Along</li>
-            <li>AWS License Manager</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Logging</span>
-          <ul class="nested">
-            <li>Logging Service</li>
-            <li>AWS Cloud Trail</li>
-            <li>CloudWatch Alarm</li>
-            <li>Anatomy of an Alarm</li>
-            <li>Log Events</li>
-            <li>Log Insights</li>
-            <li>CloudWatch Metrics</li>
-            <li>AWS CloudTrail Follow Along</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">ML, AI and Big Data</span>
-          <ul class="nested">
-            <li>Introduction to ML and AI</li>
-            <li>AI and ML Services</li>
-            <li>BigData and Analytics Services</li>
-            <li>Amazon QuickSight</li>
-            <li>QuickSight Follow Along</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">AWS Well-Architected Framework</span>
-          <ul class="nested">
-            <li>AWS Well-Architected Framework</li>
-            <li>General Defintions</li>
-            <li>On Architecture</li>
-            <li>Amazon Leadership Principles</li>
-            <li>General Design Principles</li>
-            <li>Anatomy of a Pillar</li>
-            <li>Operational Excellence</li>
-            <li>Security</li>
-            <li>Reliability</li>
-            <li>Performance Efficiency</li>
-            <li>Cost Optimization</li>
-            <li>AWS Well-Architected-Tool</li>
-            <li>Well-Architected Framework and Tool- Follow Along</li>
-            <li></li>
-            <li>AWS Architecture Center</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">TCO and Migration</span>
-          <ul class="nested">
-            <li>TCO and Migration</li>
-            <li>Total Cost of Ownership (TCO)</li>
-            <li>CAPEX vs OPEX</li>
-            <li>Shifting-IT Personnel</li>
-            <li>AWS Pricing Calculator</li>
-            <li>AWS Pricing Calculator Follow Along</li>
-            <li>Migration Evaluator</li>
-            <li>VM Import Export</li>
-            <li>Database Migration Service</li>
-            <li>Cloud Adoption Framework</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Billing, Pricing and Support</span>
-          <ul class="nested">
-            <li>AWS Free Services</li>
-            <li>AWS Support Plans</li>
-            <li>Technical Account Manager</li>
-            <li>AWS Support Follow Along</li>
-            <li>AWS Marketplace</li>
-            <li>AWS Marketplace Follow Along</li>
-            <li>Consolidated Billing</li>
-            <li>Consolidated Billing Volume Discounts</li>
-            <li>AWS Trusted Advisor</li>
-            <li>AWS Trusted Advisor Follow Along</li>
-            <li>SLAs</li>
-            <li>AWS SLA Examples</li>
-            <li>AWS SLA Follow Along</li>
-            <li>Service Health Dashboard</li>
-            <li>AWS Personal Health Dashboard</li>
-            <li>AWS Abuse</li>
-            <li>AWS Abuse Report Follow Along</li>
-            <li>AWS Free Tier</li>
-            <li>AWS Credits</li>
-            <li>AWS Partner Network</li>
-            <li>AWS Budgets</li>
-            <li>AWS Budget Reports</li>
-            <li>AWS Cost and Usage Reports</li>
-            <li>Cost Allocation Tags</li>
-            <li>Billing Alarms</li>
-            <li>AWS Cost Explorer</li>
-            <li>AWS Cost Explorer Follow Along</li>
-            <li>Programmatic Pricing APIs</li>
-            <li>AWS Savings Plan Follow Along</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Security</span>
-          <ul class="nested">
-            <li>Defense-In-Depth</li>
-            <li>CIA Triad</li>
-            <li>Vulnerabilities</li>
-            <li>Encryption</li>
-            <li>Cyphers</li>
-            <li>Cryptographic Keys</li>
-            <li>Hashing and Salting</li>
-            <li>Digital Signatures and Signing</li>
-            <li>In-Transit vs At-Rest Encryption</li>
-            <li>Compliance Programs</li>
-            <li>AWS Compliance Programs Follow Along</li>
-            <li>Pen Testing</li>
-            <li>Pen Testing Follow Along</li>
-            <li>AWS Artifact</li>
-            <li>AWS Artifact Follow Along</li>
-            <li>AWS Inspector</li>
-            <li>DDoS</li>
-            <li>AWS Shield</li>
-            <li>AWS Guard Duty</li>
-            <li>AWS Guard Duty Follow Along</li>
-            <li>Amazon Macie</li>
-            <li>AWS VPN</li>
-            <li>AWS WAF</li>
-            <li>AWS WAF Follow Along</li>
-            <li>Hardware Security Module</li>
-            <li>AWS KMS</li>
-            <li>AWS KMS Follow Along</li>
-            <li>CloudHSM</li>
-          </ul>
-        </li>
-
-        <li><span class="caret">Variation Study</span>
-          <ul class="nested">
-            <li>Know Your Initialisms</li>
-            <li>AWS Config AWS AppConfig</li>
-            <li>SNS vs SQS</li>
-            <li>SNS vs SES vs PinPoint vs Workmail</li>
-            <li>Amazon Inspector vs AWS Trusted Advisor</li>
-            <li>Connect Named Services</li>
-            <li>Elastic Transcoder vs MediaConvert</li>
-            <li>AWS Artifact vs Amazon Inspector</li>
-            <li>ELB Variants</li>
-          </ul>
-        </li>
-
-      </ul>
-    </li>
+        </ul>
+      </li>
     </ul>
   </div>
-
-  <div class="column">
+  <!-- Column2 -->
+  <div>
     <iframe id="textFileFrame" width="100%" height="600" src=""></iframe>
   </div>
-
 </div>
  
 <script>
