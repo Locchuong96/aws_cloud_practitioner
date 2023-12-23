@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Style for the overlay background */
+      .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+      }
+
+      /* Style for the popup container */
+      .popup {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+      }
+
+      /* Close button style */
+      .close-btn {
+        cursor: pointer;
+        font-size: 20px;
+        color: #555;
+      }
+
+      body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .row {
+            width: 100%;
+            display: flex;
+        }
+
+        .row > div {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    </style>
+    <title>SVG Button Example</title>
+  </head>
+  <body>
+    <a href="index.html">Home</a>
+    
+    <!-- Content -->
+    <div class="overlay" id="overlay">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <h3>This is a Popup</h3>
+        <pre>Popup content goes here. Second line of text page,
+          Popup content goes here. Second line of text page
+        </pre>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="row">
+      <button onclick="openPopup()">
+        <img src="assets/AWS_icons/icons_16/Arch_Amazon-EC2_16.svg" alt="SVG Image" style="height:50px;width:50px">
+      </button>
+
+      <button onclick="openPopup()">
+        <img src="assets/AWS_icons/icons_16/Arch_Amazon-EC2_16.svg" alt="SVG Image" style="height:50px;width:50px">
+      </button>
+    </div>
+
+    <div class="row">
+      <button onclick="openPopup()">
+        <img src="assets/AWS_icons/icons_16/Arch_Amazon-EC2_16.svg" alt="SVG Image" style="height:50px;width:50px">
+      </button>
+
+      <button onclick="openPopup()">
+        <img src="assets/AWS_icons/icons_16/Arch_Amazon-EC2_16.svg" alt="SVG Image" style="height:50px;width:50px">
+      </button>
+
+      <button onclick="openPopup()">
+        <img src="assets/AWS_icons/icons_16/Arch_Amazon-EC2_16.svg" alt="SVG Image" style="height:50px;width:50px">
+      </button>
+    </div>
+
+    <!-- Function -->
+    <script>
+      // Function to open the popup
+      function openPopup() {
+        document.getElementById('overlay').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup() {
+        document.getElementById('overlay').style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
