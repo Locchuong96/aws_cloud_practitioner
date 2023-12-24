@@ -1,0 +1,18 @@
+AWS CloudTrail
+
+AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account.
+
+AWS CloudTrail is used to monitor API calls and Actions made on an AWS account.
+
+Easily identify which users and accounts made the call to AWS eg.
+
+    Where — Source IP Address
+    When — EventTime
+    Who — User, UserAgent
+    What — Region, Resource, Action
+
+CloudTrail is already logging by default and will collect logs for the last 90 days via Event History
+
+If you need more than 90 days you need to create a Trail
+
+Trails are output to S3 and do not have GUI like Event History. To analyze a Trail you’d have to use Amazon Athena.

@@ -1,0 +1,31 @@
+Logging Services
+
+Amazon Web Services (AWS) provides service-specific operational metrics and log files to give customers insight into how the service is operating.
+CloudTrail
+
+CloudTrail - logs all API calls(SDK, CLI) between various AWS services
+
+Questions that CloudTrail can answer:
+
+Who create this bucket? - detect developer mis-configuration
+
+Who spun up that expensive EC2 instance? - Detect malicious actors
+
+Who launched this SageMaker notebook? - Automate responses
+CloudWatch
+
+CloudWatch - is a collection of multiple services
+
+    CloudWatch Logs : Performance data about AWS Services eg. CPU Utilization, Memory, Network in Application Logs eg. Rails, Nginx Lambda Logs
+
+    CloudWatch Metrics: Represents a time-ordered set of data points. A variable to monitor
+
+    CloudWatch Events: trigger an event based on a condition eg. every hour take a snapshot of the server
+
+    CloudWatch Alarms: triggers notifications based on metrics
+
+    CloudWatch Dashboard: create visualizations based on metrics
+
+X-Ray
+
+AWS X-Ray is a distributed tracing system. You can use it to pinpoint issues with your microservices.​ See how data moves from one app to another, how long it took to move, and if it failed to move forward.

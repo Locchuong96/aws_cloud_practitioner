@@ -1,0 +1,15 @@
+Windows Servers on EC2 - You can select from a number of Windows Server versions including the latest version, Windows Server 2019​
+
+SQL Server on RDS - You can select from a number of SQL Server database versions​
+
+AWS Directory Service - lets you run Microsoft Active Directory (AD) as a managed service​
+
+AWS License Manager makes it easier to manage your software licenses from software vendors such as Microsoft.​
+
+Amazon FSx for Windows File Server - is a fully managed scalable storage built for Windows.​
+
+AWS Software Development Kit (SDK) - allows you to write code in your favorite language to interact with AWS API.​ The SDK supports .NET a language favorite for Windows Developers​
+
+Amazon WorkSpaces allows you to run a virtual desktop. You can launch a Windows 10 desktop to a provide secure and durable workstation that is accessible from wherever you have an internet connection.​
+
+AWS Migration Acceleration Program (MAP) - for Windows is a migration methodology from moving large enterprise.​ AWS has Amazon Partners that specialize in providing professional services for MAP.​

@@ -1,0 +1,24 @@
+CloudWatch Alarms
+
+A CloudWatch Alarm monitors a CloudWatch Metric based on a defined threshold.
+
+When alarm breaches (goes outside the defined threshold) then it changes state.
+
+Metric Alarm States
+
+    OK The metric or expression is within the defined threshold
+    ALARM The metric or expression is outside of the defined threshold
+    INSUFFICIENT_DATA
+        The alarm has just started
+        the metric is not available
+        Not enough data is available
+
+When it changes state we can define what action it should trigger.
+
+    Notification
+    Auto Scaling Group
+    EC2 Action
+
+Reference
+
+Using Amazon CloudWatch alarms

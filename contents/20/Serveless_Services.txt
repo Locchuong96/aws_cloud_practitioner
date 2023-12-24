@@ -1,4 +1,4 @@
-Serverless Service​
+Serverless Service​s
 
 When the underlying servers, infrastructure, and Operating System (OS) is taken care of by the Cloud Service Provider (CSP).​
 

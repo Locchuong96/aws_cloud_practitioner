@@ -1,0 +1,26 @@
+CloudWatch Logs — Log Streams
+
+Log Streams
+
+A log stream represents a sequence of events from an application or instance being monitored.
+
+You can create Log Streams manually but generally, this is automatically done by the service you are using
+
+Here is a Log Group for a Lambda function
+
+You can see here the Log Streams are named after the running instance. Lambdas frequency run on new instances so the stream streams contain timestamps
+
+Here is a Log Group for an application log running on EC2. You can see here the Log Streams are named after the running instance’s Instance ID
+
+Here is a Log Group for AWS Glue.
+
+You can see here the Log Streams are named after the Glue Jobs.
+CloudWatch Logs — Log Events
+
+Log Events
+
+Represents a single event in a log file. Log events can be seen within a Log Stream.
+
+You can use filter events to filter
+Out logs based on simple or
+Pattern matching syntax:
