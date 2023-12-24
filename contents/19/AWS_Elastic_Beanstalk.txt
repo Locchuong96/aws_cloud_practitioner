@@ -1,0 +1,38 @@
+AWS Elastic Beanstalk
+
+What is Platform as a Service? (PaaS)
+
+a PaaS allows customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure typically associated with developing and launching an app
+
+Elastic Beanstalk is a PaaS for deploying web applications with little-to-no knowledge of the underlying infrastructure so you can focus on writing application code instead of setting up an automated deployment pipeline and DevOps tasks.
+
+Choose a platform, upload your code and it runs with little knowledge of the infrastructure.
+
+Not Recommended for “Production” applications
+
+AWS is talking about enterprises, large companies.
+
+Elastic Beanstalk is powered by a CloudFormation template and setups for you:
+
+    Elastic Load Balancer
+    Autoscaling Groups
+    RDS Database
+    EC2 Instance preconfigured (or custom ) platforms
+    Monitoring (CloudWatch, SNS)
+    In-Place and Blue/Green deployment methodologies
+    Security (Rotates passwords)
+    Can run Dockerized environments
+
+Reference
+
+AWS OpWorks
+
+AWS Elastic Beanstalk
+
+AWS CloudFormation
+
+AWS AppSync
+
+Amplify Framework Documentation
+
+AWS Quick Starts

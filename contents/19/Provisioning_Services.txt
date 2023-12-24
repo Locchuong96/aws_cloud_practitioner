@@ -1,0 +1,25 @@
+Provisioning Services:
+
+Provisioning is the allocation or creation of resources and services to a customer. ​ AWS Provisioning Services is responsible for setting up and then managing those AWS Services
+
+Types of Services:
+
+    Elastic Beanstalk - an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and Internet Information Services (IIS).
+
+    OpWorks - configuration management service that provides managed instances of Chef and Puppet
+
+    CloudFormation - lets you deploy your cloud resources using infrastructure-as-code with JSON and YAML templates
+
+    AWS Partner Solutions (formerly AWS QuickStarts) - pre-made packages that can launch and configure your AWS compute, network, storage, and other services required to deploy a workload on AWS
+
+    AWS Marketplace - a digital catalogue containing thousands of software listings from independent software vendors you can use to find, buy, test, and deploy software.
+
+    AWS Amplify - is a mobile and web application framework, that will provision multiple AWS services as your backend.​
+
+    AWS App Runner - a fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs, at scale and with no prior infrastructure experience required.
+
+    AWS Copilot - AWS Copilot is a command-line interface (CLI) that enables customers to quickly launch and easily manage containerized applications on AWS
+
+    AWS CodeStar - provides a unified user interface, enabling you to easily manage your software development activities in one place. Easily launch common types of stacks eg LAMP
+
+    AWS Cloud Development Kit (CDK) - an Infrastructure as Code (IaC) tool. Allows you to use your favourite programming language. Generates out CloudFormation templates as the means for IaC

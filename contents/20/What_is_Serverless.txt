@@ -1,0 +1,20 @@
+What is Serverless?
+
+Serverless architecture generally describes fully managed cloud services.
+
+The classification of a cloud service being serverless is not a Boolean answer (yes or no), but an answer on a scale where a cloud service has a degree of serverless.
+
+A serverless service could have all or most of the following characteristics:
+
+    Highly elastic and scalable
+    Highly available
+    Highly durable
+    Secure by default
+
+Abstracts away the underlying infrastructure and are billed based on the execution of your business task.
+
+Serverless can Scale-to-Zero meaning when not in use the serverless resources cost nothing.
+
+Pay-for-Value (you don’t pay for idle servers).
+
+An analogy of serverless could be similar to an energy rating labels which allows consumers to compare the energy efficiency of a product. Some services are more serverless than others.
