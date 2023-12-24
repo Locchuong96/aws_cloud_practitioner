@@ -1,0 +1,15 @@
+Cost Allocation Tags
+
+Cost Allocation Tags are optional metadata that can be attached to AWS resources so when you generate a Cost and Usage Report you can use that data to better analyze your data.
+
+There are two types of tags:
+
+    User-Defined
+        Eg Project
+    AWS Generated
+        E.g. aws:createdBy
+
+You have to activate the tags you want to show up in the report
+Reference
+
+Using Cost Allocation Tags

@@ -1,0 +1,25 @@
+
+Consolidated Billing – Volume Discounts
+
+AWS has Volume Discounts for many services
+
+The more you use, the more you save.
+
+Consolidated Billing lets you take advantage of Volume Discounts
+
+Consolidate Billing is a feature of AWS Organizations
+
+Data Transfer
+
+First 10TB | $0.17 per GB
+Next 40 TB | $0.13 per GB
+
+1TB = 1024 GB
+
+Odo (4 * 1024) * 0.17 = $696.32
+Dax (8 * 1024) * 0.17 = $1392.64
+Unconsolidated 696.32+1392.64 = $2088.96
+Consolidated ((10 * 1024) * 0.17)+((2 * 1024) * 0.13) = $2007.04
+Reference
+
+Consolidated billing for AWS Organizations

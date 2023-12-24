@@ -1,0 +1,171 @@
+AWS Trusted Advisor
+
+AWS Trusted Advisor is a recommendation tool that automatically and actively monitors your AWS account to provide actional recommendations across a series of categories.
+
+Think of AWS Trusted Advisor like an automated checklist of best practices on AWS
+
+The 5 categories of AWS Trusted Advisor
+
+    Cost Optimization – How can we save money?
+    Performance – How can we improve performance?
+    Security – How can we improve security?
+    Fault Tolerance – How can we prevent a disaster or data loss?
+    Service Limits – Are we going to hit the maximum limit for a service?
+
+AWS Trusted Advisor provides different levels of checks based on your AWS Support Plan
+Basic
+
+    7 Trusted Advisor Checks
+
+Developer
+
+    7 Trusted Advisor Checks
+
+Business
+
+    All Trusted Advisor Checks
+        Includes the 5 check categories
+        You can use the AWS Support API and AWS CLI to access your checks
+
+Enterprise
+
+    All Trusted Advisor Checks
+        Includes the 5 check categories
+        You can use the AWS Support API and AWS CLI to access your checks
+
+AWS provides the following six security checks for free:
+
+    MFA on Root Account
+    Security Groups – Specific Ports of Unrestricted
+    Amazon S3 Bucket Permissions
+    Amazon EBS Public Snapshots
+    Amazon RDS Public Snapshots
+    IAM Use -  discourage the use of root access
+    Service Limits (All Service limits checks are free)
+
+Cost Optimization
+
+    Amazon EC2 Reserved Instances Optimization
+    Low Utilization Amazon EC2 Instances
+    Underutilized Amazon EBS Volumes
+    Amazon EC2 Reserved Instance Lease Expiration
+    Amazon RDS Idle DB Instances
+    Amazon Route 53 Latency Resource Record Sets
+    Idle Load Balancers
+    Unassociated Elastic IP Addresses
+    Underutilized Amazon Redshift Clusters
+
+Performance
+
+    CloudFront Alternate Domain Names
+    Amazon EBS Provisioned IOPS (SSD) Volume Attachment Configuration
+    Amazon EC2 to EBS Throughput Optimization
+    Amazon Route 53 Alias Resource Record Sets
+    CloudFront Content Delivery Optimization
+    CloudFront Header Forwarding and Cache Hit Ratio
+    High Utilization Amazon EC2 Instances
+    Large Number of EC2 Security Group Rules Applied to an Instance
+    Large Number of Rules in an EC2 Security Group
+    Overutilized Amazon EBS Magnetic Volumes
+
+Security
+
+    AWS CloudTrail Logging
+    IAM Password Policy
+    MFA on Root Account
+    Security Groups - Specific Ports Unrestricted
+    Security Groups - Unrestricted Access
+    Amazon S3 Bucket Permissions
+    IAM Access Key Rotation
+    Amazon EBS Public Snapshots
+    Amazon RDS Public Snapshots
+    Amazon RDS Security Group Access Risk
+    Amazon Route 53 MX Resource Record Sets and Sender Policy Framework
+    CloudFront Custom SSL Certificates in the IAM Certificate Store
+    CloudFront SSL Certificate on the Origin Server
+    ELB Listener Security
+    ELB Security Groups
+    Exposed Access Keys
+    IAM Use
+
+Fault Tolerance
+
+    Amazon EBS Snapshots
+    Amazon RDS Multi-AZ
+    Amazon S3 Bucket Logging
+    Amazon S3 Bucket Versioning
+    Amazon Aurora DB Instance Accessibility
+    Amazon EC2 Availability Zone Balance
+    Amazon RDS Backups
+    Amazon Route 53 Deleted Health Checks
+    Amazon Route 53 Failover Resource Record Sets
+    Amazon Route 53 High TTL Resource Record Sets
+    Amazon Route 53 Name Server Delegations
+    Auto Scaling Group Health Check
+    Auto Scaling Group Resources
+    ELB Connection Draining
+    ELB Cross-Zone Load Balancing
+    Load Balancer Optimization
+    VPN Tunnel Redundancy
+    AWS Direct Connect Connection Redundancy
+    AWS Direct Connect Location Redundancy
+    AWS Direct Connect Virtual Interface Redundancy
+    EC2Config Service for EC2 Windows Instances
+    ENA Driver Version for EC2 Windows Instances
+    NVMe Driver Version for EC2 Windows Instances
+    PV Driver Version for EC2 Windows Instances
+
+Service Limits
+
+    Auto Scaling Groups
+    Auto Scaling Launch Configurations
+    CloudFormation Stacks
+    DynamoDB Read Capacity
+    DynamoDB Write Capacity
+    EBS Active Snapshots
+    EBS Active Volumes
+    EBS Cold HDD (sc1) Volume Storage
+    EBS General Purpose SSD (gp2) Volume Storage
+    EBS Magnetic (standard) Volume Storage
+    EBS Provisioned IOPS (SSD) Volume Aggregate IOPS
+    EBS Provisioned IOPS SSD (io1) Volume Storage
+    EBS Throughput Optimized HDD (st1) Volume Storage
+    EC2 Elastic IP Addresses
+    EC2 On-Demand Instances
+    EC2 Reserved Instance Leases
+    ELB Active Load Balancers
+    IAM Group
+    IAM Instance Profiles
+    IAM Policies
+    IAM Roles
+    IAM Server Certificates
+    IAM Users
+    Kinesis Shards per Region
+    RDS Cluster Parameter Groups
+    RDS Cluster Roles
+    RDS Clusters
+    RDS DB Instances
+    RDS DB Parameter Groups
+    RDS DB Security Groups
+    RDS DB Snapshots Per User
+    RDS Event Subscriptions
+    RDS Max Auths per Security Group
+    RDS Option Groups
+    RDS Read Replicas per Master
+    RDS Reserved Instances
+    RDS Subnet Groups
+    RDS Subnets per Subnet Group
+    RDS Total Storage Quota
+    Route 53 Hosted Zones
+    Route 53 Max Health Checks
+    Route 53 Reusable Delegation Sets
+    Route 53 Traffic Policies
+    Route 53 Traffic Policy Instances
+    SES Daily Sending Quota
+    VPC
+    VPC Elastic IP Address
+    VPC Internet Gateways
+
+Reference
+
+AWS Trusted Advisor check reference

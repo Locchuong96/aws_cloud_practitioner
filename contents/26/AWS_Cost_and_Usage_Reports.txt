@@ -1,0 +1,18 @@
+AWS Cost and Usage Reports (CUR)
+
+Generate a detailed spreadsheet, enabling you to better analyze and understand your AWS costs
+
+Places the reports into S3
+
+Use Athena to turn the report into a queryable database
+
+Use QuickSight to visualize your billing data as graphs
+
+Choose the granularity of your data by selecting hourly, daily, or monthly
+
+The report will contain Cost Allocation Tags
+
+CUR data is stored in a CSV (GZIP) or Parquet format in your selected S3 bucket
+Reference
+
+What are AWS Cost and Usage Reports?

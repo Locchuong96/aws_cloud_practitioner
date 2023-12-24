@@ -1,0 +1,20 @@
+AWS Cost Explorer
+
+AWS Cost Explorer lets you visualize, understand, and manage your AWS costs and usage over time.
+
+Specific type range and aggregation
+
+Robust filtering
+
+Default reports help you gain insight into your cost drivers and usage trends.
+
+Use forecasting to get an idea of future costs
+
+Choose if you want to view your data at a monthly or daily level of granularity
+
+Use filter and grouping functionalities to dig even deeper into your data!
+
+Cost Explorer shows up in US-East-1
+Reference
+
+AWS Cost Explorer
