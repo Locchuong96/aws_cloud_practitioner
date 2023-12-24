@@ -1,0 +1,32 @@
+AWS Well-Architected Framework
+Note: On Dec 2, 2021, AWS introduced a new AWS Well-Architected Sustainability Pillar to help organizations learn, measure, and improve workloads using environmental best practices for cloud computing.
+
+The AWS Well-Architected Framework is a Whitepaper created by AWS to help customers build using best practices defined by AWS.
+
+aws.amazon.com/architecture/well-architected
+
+The framework is divided into 5 6 sections called pillars which address different aspects of “lenses” that can be applied to a cloud workload.
+
+Your Cloud Workload
+
+AWS Well-Architected Framework
+
+    General Definitions
+    General Design Principles
+    The Review Process
+
+If the Foundation is Not Solid Structural Problems will Arise
+
+5 6 Pillars
+
+    Operational Excellence
+    Security
+    Reliability
+    Performance Efficiency
+    Cost Optimization
+    [New] Sustainability
+
+Reference
+
+    AWS Well-Architected
+    New Sustainability Pillar for the AWS Well-Architected Framework

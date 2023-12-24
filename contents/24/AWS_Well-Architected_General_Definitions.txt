@@ -1,0 +1,32 @@
+AWS Well-Architected – General Definitions
+Note: On Dec 2, 2021, AWS introduced a new AWS Well-Architected Sustainability Pillar to help organizations learn, measure, and improve workloads using environmental best practices for cloud computing.
+
+Operational Excellent Pillar    — Run and monitor systems
+
+Security Pillar                            — Protect data and systems, mitigate risk
+
+Reliability Pillar                          — Mitigate and recover from disruptions
+
+Performance Efficiency Pillar  — Use computing resources effectively 
+
+Cost Optimization Pillar           — Get the lowest price
+
+[New] Sustainability — Use environmental best practices
+
+*Trade-Off Pillars Based on Business Context
+
+General Definitions
+
+Component     — Code, Configuration, and AWS Resource against a requirement
+
+Workload        — A set of components that work together to deliver business value
+
+Milestones      — Key changes of your architecture through product life cycle
+
+Architecture   — How components work together in a workload
+
+Technology Portfolio  — A collection of workloads required for the business to operate
+Reference
+
+    AWS Well-Architected
+    New Sustainability Pillar for the AWS Well-Architected Framework

@@ -1,0 +1,31 @@
+The AWS Well-Architected Framework is designed around a different kind of team structure.
+
+Enterprises generally have centralized teams with specific roles whereas AWS has distributed teams with flexible roles.
+
+Distributed teams can come with new risks, AWS mitigates these with Practices, Mechanisms, and Leadership Principles
+
+On-Premise Enterprise
+
+Centralized team consisting of:
+
+    Technical Architect (infrastructure)
+    Solution Architect (software)
+    Data Architect
+    Networking Architect
+    Security Architect
+
+Managed by either TOGAF or Zachman Framework
+
+Amazon Web Services
+
+Distributed teams consisting of:
+
+    Practices
+        Team Experts (Raise the Bar)
+    Mechanisms
+        Automated Checks for Standards
+    *Amazon Leadership Principle
+
+Supported by a virtual community of SMEs, Principle Engineers
+
+eg. lunchtime talks - recycled into onboarding material

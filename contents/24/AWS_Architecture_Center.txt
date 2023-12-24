@@ -1,0 +1,8 @@
+AWS Architecture Center
+
+The AWS Architecture Center is a web portal that contains best practices and reference architectures for a variety of different workloads.
+
+aws.amazon.com/architecture
+Reference
+
+AWS Architecture Center
