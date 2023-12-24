@@ -1,0 +1,37 @@
+Organizations and Accounts
+
+    Organizations allow the creation of new AWS accounts. Centrally manage billing, control access, compliance, security, and share resources across your AWS accounts.
+
+    Root Account User is a single sign-in identity that has complete access to all AWS services and resources in an account. Each account has a Root Account User
+
+    Organization Units are a group of AWS accounts within an organization which can also contain other organizational units - creating a hierarchy
+
+    Service Control Policies give central control over the allowed permissions for all accounts in your organization, helping to ensure your accounts stay within your organization’s guidelines.
+
+AWS Organizations must be turned on, once turned it cannot be turned off.
+
+You can create as many AWS Accounts as you like, one account will be the Master/Root Account
+
+AWS Account is not the same as a User Account
+
+Key Points:
+
+    In AWS you can have more than one account managed through a single account using Organizations
+
+    Organizations allow you to setup consolidated billing where 1 account pays the AWS bill for all
+
+    The payer account is the root level account in an Organization
+
+    You can create isolated AWS accounts for different teams under the payer account - and place them inside Organizational Units (OU)
+
+    The separation of accounts into OUs allows you to set customized permission boundaries on the accounts using Service Control Policies (SCPs)
+
+Reference
+
+Service control policies (SCPs)
+
+AWS Organizations FAQs
+
+AWS account root user
+
+AWS Organizations

@@ -1,0 +1,17 @@
+Business Centric Services
+
+Amazon Connect - Call center as a self-service - cloud-based contact center service that makes it easy for any business to deliver better customer service at lower cost.
+
+WorkSpaces - Virtual Remote Desktops - a fully managed, secure cloud desktop service. You can use Amazon WorkSpaces to provision either Windows or Linux desktops in just a few minutes and quickly scale to provide thousands of desktops to workers across the globe.
+
+WorkDocs - a content creation and collaboration service. Easily create, edit, and share content saved centrally in AWS
+
+Chime - AWS platform for online meetings, video conferencing, and business calling which elastically scales to meet your capacity needs.
+
+WorkMail - Managed business email, contacts, and calendar service with support for existing desktop and mobile email client applications
+
+Pinpoint - Marketing campaign management system you can use for sending targeted email, SMS, push notifications, and voice messages.
+
+SES - Simple Email Service- A cloud based email sending service designed fro marketers and application developers to send marketing, notifications, and emails.
+
+QuickSight - A Business Intelligence (BI) service. Connect multiple datasource and quickly visualize data in the form of graphs with little to no programming knowledge.

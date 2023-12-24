@@ -1,0 +1,22 @@
+AWS Quick Starts
+
+AWS Quick Starts are Prebuilt templates by AWS and AWS Partners to help deploy a wide range of stacks
+
+Reduce hundreds of manual procedures into just a few steps
+
+A Quick Start is composed of 3 parts
+
+    A reference architecture for the deployment
+    AWS CloudFormation templates that automate and configure the deployment
+    A deployment guide explaining the architecture and implementation in detail 
+
+Most Quick Start reference deployments enable you to spin up a fully functional architecture in less than an hour!
+Reference
+
+Amazon EC2 Reserved Instances
+
+Amazon EC2 Reserved Instances Pricing
+
+Amazon EC2 Reserved Instance Marketplace
+
+AWS Quick Starts FAQ
