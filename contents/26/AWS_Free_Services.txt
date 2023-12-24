@@ -1,0 +1,17 @@
+AWS Free Services
+
+AWS Free services are free forever, unlike the “free-tier” that are up to a point of usage or time
+
+The AWS services are also free. However these AWS Services provision other services which may cost money
+
+    IAM - Identity Access Management
+    Amazon VPC
+    Auto Scaling
+    CloudFormation
+    Elastic Beanstalk
+    Opsworks
+    Amplify
+    AppSync
+    CodeStar
+    Organizations & Consolidated Billing
+    AWS Cost Explorer

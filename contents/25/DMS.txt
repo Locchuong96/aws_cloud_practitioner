@@ -1,0 +1,43 @@
+WS Database Migration Service (DMS) allows you to quickly and securely migrate one database to another.
+
+DMS can be used to migrate your on-premise database to AWS.
+
+Possible Sources:
+
+    Oracle Database
+    Microsoft SQL
+    MySQL
+    MariaDB
+    PostgreSQL
+    MongoDB
+    SAP ASE
+    IMDB Db2
+    Azure SQL Database
+    Amazon RDS
+    Amazon S3 (database dumps)
+    Amazon Aurora
+    Amazon DocumentDB
+
+AWS Schema Conversion Tool is used in many cases to automatically convert a source database schema to a target database schema.
+
+Each migration path requires a bit of research since not all combinations of sources and targets are possible.
+
+Possible Targets:
+
+    Oracle Database
+    Microsoft SQL
+    MySQL
+    MariaDB
+    PostgreSQL
+    Redis
+    SAP ASE
+    Amazon Redshift
+    Amazon RDS
+    Amazon DynamoDB
+    Amazon S3
+    Amazon Aurora
+    Amazon OpenSearch Service
+    Amazon ElastiCache for Redis
+    Amazon DocumentDB
+    Amazon Neptune
+    Apache Kafka

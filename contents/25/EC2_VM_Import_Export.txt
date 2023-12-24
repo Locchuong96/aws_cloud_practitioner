@@ -1,0 +1,19 @@
+EC2 VM Import/Export
+
+VM Import/Export allows users to import Virtual Machine images into EC2.
+
+AWS has import instructions for:
+
+    VMWare
+    Citrix
+    Microsoft Hyper-V
+    Windows VHD from Azure
+    Linux VHD from Azure
+
+vmware, citrix, hyper-v, vhd
+
+Prepare your Virtual Image for Upload
+
+Upload your Virtual Image to S3
+
+Use the AWS CLI to Import your Image It will generate an Amazon Machine Image (AMI)

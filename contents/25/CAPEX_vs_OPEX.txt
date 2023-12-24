@@ -1,0 +1,26 @@
+CAPEX vs OPEX
+Capital Expenditure (CAPEX)
+
+Spending money upfront on physical infrastructure deducting that expense from your tax bill over time.
+
+    Server Costs (computers)
+    Storage Costs (hard drives)
+    Network Costs (Routers, Cables, Switches)
+    Backup and Archive Costs
+    Disaster Recovery Costs
+    Datacenter Costs (Rent, Cooling, Physical Security)
+    Technical Personal
+
+With Capital Expenses, you have to guess upfront what you plan to spend
+Operational Expenditure (OPEX)
+
+The costs associated with an on-premises data center that has shifted the cost to the service provider. The customer only has to be concerned with non-physical costs.
+
+    Leasing Software and Customizing features
+    Training Employees in Cloud Services
+    Paying for Cloud Support
+    Billing based on cloud metrics eg.
+        compute usage
+        storage usage
+
+With Operational Expenses you can try a product or service without investing in equipment

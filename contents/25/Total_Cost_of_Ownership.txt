@@ -1,0 +1,38 @@
+Total Cost of Ownership (TCO)
+What is the Total Cost of Ownership (TCO)?
+
+TCO is a financial estimate intended to help buyers and owners determine the direct and indirect costs of a product or service.
+
+Creating a TCO report is useful when your company is looking to migrate from on-premise to cloud.
+
+According to research stated by Garter:
+
+“cloud services can initially be more expensive than running on-premises data centers. [However, it also proves that] cloud services can become cost-effective over time if organizations learn to use and operate them more efficiently”
+
+Example of a 2,500 Virtual Machines (VMs) moved to Amazon EC2
+
+CAPEX
+
+On-Premise
+
+Software License Fees
+
+    Implementation
+    Configuration
+    Training
+    Physical Security
+    Hardware
+    IT Personal
+    Maintenance
+
+AWS's Responsibility
+
+OPEX
+
+AWS (75% Savings)
+
+Subscription Fees
+
+    Implementation
+    Configuration
+    Training
