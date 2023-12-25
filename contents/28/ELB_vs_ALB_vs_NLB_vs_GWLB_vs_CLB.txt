@@ -1,0 +1,36 @@
+ELB vs ALB vs NLB vs GWLB vs CLB
+
+Elastic Load Balancer (ELB) has 4 different types of possible load balancers.
+
+Application Load Balancer (ALB)
+
+Layer 7 - HTTP/S
+Routing Rules
+
+    create rules to change routing based on information found in an HTTP/S request
+
+Can attach an AWS WAF
+
+Network Load Balancer (NLB)
+
+Layer 3 and 4 – TCP and UDP
+
+Where extreme performance is required for TCP and TLS traffic
+
+Capable of handling millions of requests per second while maintaining ultra-low latencies
+
+Optimized for sudden and volatile traffic patterns while using a single static IP address per Availability Zone
+
+Gateway Load Balancer (GWLB)
+
+When you need to deploy a fleet of third-party virtual appliances that support GENEVE
+
+Classic Load Balancer (CLB)
+
+Layer 3,4 and 7
+
+Intended for applications that were built within the EC2-Classic network
+
+Doesn’t use Target Groups
+
+Retires on Aug 15, 2022

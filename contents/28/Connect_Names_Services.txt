@@ -1,0 +1,25 @@
+Connect Names Services
+
+They all have “Connect” in the name but they are not related or similar in functionality
+
+AWS Direct Connect
+
+    A Dedicated Fiber Optics Connection from your DataCenter to AWS
+    Intended for large enterprises with their own data center and they need an insanely fast and private connection directly to AWS.
+    If you need a secure connection you need to apply an AWS VPN connection on top of Direct Connect
+
+Amazon Connect
+
+    Call Center as a Service
+    Get a toll-free number, accept inbound and outbound calls, set up automated phone systems.
+    Interactive Voice System (IVS)
+
+Media Connect
+
+    New Version of Elastic Transcoder, Converts Videos to Different Video Types
+    You have 1000 videos of you and you need to transcode them into different videos format, maybe you need to apply watermarks, or insert an introduction video in front of every video
+
+AWS Elemental MediaConnect
+
+    A high-quality transport service for live video
+    Get the reliability and security of satellite and fiber combined with the flexibility, agility, and economics of IP-based networks using AWS Elemental MediaConnect

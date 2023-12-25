@@ -1,0 +1,17 @@
+AWS Config vs AWS AppConfig
+
+AWS Config
+
+AWS Config is a governance tool for Compliance as Code (CoC).
+
+You can create rules that will check to see if resources are configured the way you expect them to be.
+
+If a resource drifts from the expected configuration you are notified or AWS Config can auto-remediate (correct) the configuration back to the expected state
+
+AWS AppConfig
+
+AWS App Config is used to automate the process of deploying application configuration variable changes to your web application (s).
+
+You can write a validator to ensure the changed variable will not break your web-app
+
+You can monitor deployments and automate integrations to catch errors or rollback.

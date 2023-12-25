@@ -1,0 +1,28 @@
+SNS vs SQS
+
+The Both Connect Apps via Messages
+
+Simple Notifications Service
+
+Pass Along Messages eg. PubSub
+
+Send notifications to subscribers of topics via multiple protocols. eg, HTTP, Email, SQS, SMS
+
+SNS is generally used for sending plain text emails which are triggered via other AWS Services. The best example of this is billing alarms.
+
+Can retry sending in case of failure for HTTPS
+
+Really good for webhooks, simple internal emails, triggering Lambda functions
+
+Simple Queue Service
+
+Queue Up Messages, Guaranteed Delivery
+
+Places messages into a queue. Applications pull queue using AWS SDK
+
+    Can retain a message for up to 14 days
+    Can send them in sequential order or in parallel
+    Can ensure only one message is sent
+    Can ensure messages are delivered at least once
+
+Really good for delayed tasks, queueing up emails

@@ -1,0 +1,19 @@
+Amazon Inspector vs AWS Trusted Advisor
+
+Both are security tools and they both perform audits
+
+Amazon Inspector
+
+Audits a single EC2 instance that you’ve selected
+
+Generates a report from a long list of security checks i.e 699 checks.
+
+Trusted Advisor
+
+Trusted Advisor doesn’t generate out a PDF report.
+
+Gives you a holistic view of recommendations across multiple services and best practices
+
+eg. You have open ports on these security groups
+
+You should enable MFA on your root account when using Trusted advisor.

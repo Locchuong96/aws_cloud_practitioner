@@ -1,0 +1,45 @@
+SNS vs SES vs PinPoint vs Workmail
+
+They All Send Emails
+
+Simple Notifications Service
+
+Practical and Internal Emails
+
+Send notifications to subscribers of topics via multiple protocols. eg, HTTP, Email, SQS, SMS
+
+SNS is generally used for sending plain text emails which are triggered via other AWS Services. The best example of this is billing alarms.
+
+Most exam questions are going to be talking about SNS because lots of services can trigger SNS for notifications.
+
+You Need to Know what are Topics and Subscriptions regarding SNS
+
+Simple Email Service
+
+Transactional Emails
+
+Emails that should be triggered based on in-app actions: Signup, Reset Password, Invoices…
+
+    A cloud-based email service. eg. SendGrid
+    SES sends HTML emails, SNS cannot.
+    SES can receive inbound emails
+    SES can create Email Templates
+    Custom domain name email
+    Monitor your email reputation
+
+Amazon PinPoint
+
+Promotional Emails
+
+Emails for marketing
+
+    Create email campaigns
+    Segment your contacts
+    Create customer journeys via emails
+    A/B emailing testing
+
+Amazon Workmail
+
+Email Web Client
+
+Similar to Gmail and Outlook. Create company emails, read, write and send emails from a Web Client within AWS Management Console

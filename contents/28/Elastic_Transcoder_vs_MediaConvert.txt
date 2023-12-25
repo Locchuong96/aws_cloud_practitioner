@@ -1,0 +1,25 @@
+Elastic Transcoder vs MediaConvert
+
+Both services transcode videos
+
+Elastic Transcoder
+
+The Old Way
+
+Elastic Transcoder was the original transcoding service. It may have programmatic APIs or workflows not available in MediaConvert.
+
+It exists due to legacy customers still using the platform
+
+    Transcodes videos to streaming formats
+
+AWS Elemental MediaConvert
+
+The New Way
+
+MediaConvert is a more robust transcoding service that can perform various operations during transcoding.
+
+    Transcodes videos to streaming formats
+    Overlays images
+    Insert videos clips
+    Extracts captions data
+    Robust UI

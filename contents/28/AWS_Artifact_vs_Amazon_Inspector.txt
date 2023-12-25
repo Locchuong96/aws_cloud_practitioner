@@ -1,0 +1,20 @@
+AWS Artifact vs Amazon Inspector
+
+Both Artifact and Inspector compile out PDFs
+
+AWS Artifact
+
+Why should an enterprise trust AWS?
+
+Generates a security report that’s based on global compliance frameworks such as:
+
+    Service Organization Control (SOC)
+    Payment Card Industry (PCI)
+
+Amazon Inspector
+
+How do we know this EC2 instance is Secure? Prove It?
+
+Runs a script that analyzes your EC2 instance, then generates a PDF report telling you which security checks passed.
+
+Audit tool for the security of EC2 instances
