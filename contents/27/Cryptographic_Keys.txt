@@ -1,0 +1,16 @@
+Cryptographic Keys
+
+What is a cryptographic key?
+
+A key is a variable used in conjunction with an encryption algorithm in order to encrypt or decrypt data.
+
+What is symmetric encryption?
+
+The same key is used for encoding and decoding. eg Advanced Encryption Standard (AES)
+
+What is asymmetric encryption?
+
+Two keys are used. One to encode and one to decode eg. Rivest–Shamir–Adleman (RSA)
+Reference
+
+Key (cryptography)

@@ -1,0 +1,16 @@
+Encryption
+
+What is cryptography?
+
+The practice and study of techniques for secure communication in the presence of third parties called adversaries
+
+What is encryption?
+
+The process of encoding (scrabbling) information using a key and a cypher to store sensitive data in an unintelligible format as a means of protection. An encryption takes in plaintext and produces ciphertext.
+
+The enigma machine was used during WW2. A different key for each day was used to set the position of the rotors. It relied on simple cypher substitution.
+Reference
+
+Key (cryptography)
+
+A Brief History of Cryptography

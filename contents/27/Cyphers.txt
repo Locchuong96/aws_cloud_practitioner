@@ -1,0 +1,20 @@
+Cyphers
+
+What is a cypher?
+
+An algorithm that performs encryption or decryption. Cipher is synonymous with “code”
+
+A cipher (also spelled "cypher") is a cryptographic technique that encrypts information to ensure its confidentiality and integrity. It scrambles data, making it unreadable without the correct decryption key or algorithm.
+
+What is ciphertext
+
+Ciphertext is the result of encryption performed on plaintext via an algorithm
+
+Ciphertext is the encrypted form of a message or data resulting from applying encryption to plaintext.
+
+A codebook is a type of document used for gathering and storing cryptography codes
+Reference
+
+Key (cryptography)
+
+Codebook

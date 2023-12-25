@@ -1,0 +1,18 @@
+Amazon Guard Duty
+
+What is IDS/IPS?
+
+Intrusion Detection System and Intrusion Protection System.
+
+A device or software application that monitors a network or systems for malicious activity or policy violations.
+
+Guard Duty is a threat detection service that continuously monitors for malicious, suspicious activity and unauthorized behavior. It uses Machine Learning to analyze the following AWS logs:
+
+    CloudTrail Logs
+    VPC Flow Logs
+    DNS logs
+
+It will alert you of Findings which you can automate an incident response via CloudWatch Events or with 3rd Party Services
+Reference
+
+Amazon GuardDuty

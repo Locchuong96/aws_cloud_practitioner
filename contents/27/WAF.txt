@@ -1,0 +1,22 @@
+AWS WAF
+
+AWS Web Application Firewall (WAF) protect your web applications from common web exploits
+
+Write your own rules to ALLOW or DENY traffic based on the contents of HTTP requests
+
+Use a ruleset from a trusted AWS Security Partner in the AWS WAF Rules Marketplace
+
+WAF can be attached to either CloudFront or an Application Load Balancer
+
+Protect web applications from attacks covered in the OWASP Top 10 most dangerous attacks:
+
+    Injection
+    Broken Authentication
+    Sensitive data exposure
+    XML External Entities (XXE)
+    Broken Access control
+    Security misconfigurations
+    Cross-Site Scripting (XSS)
+    Insecure Deserialization
+    Using Components with known vulnerabilities
+    Insufficient logging and monitoring

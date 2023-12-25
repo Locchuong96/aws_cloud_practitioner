@@ -1,0 +1,72 @@
+Common Compliance Programs
+
+Compliance Programs
+
+A set of internal policies and procedures of a company to comply with laws, rules, and regulations or to uphold the business reputation.
+
+Health Insurance Portability and Accountability Act of 1996) is United States legislation that provides data privacy and security provisions for safeguarding medical information.
+
+The Payment Card Industry Data Security Standard (PCI DSS)
+
+When you want to sell things online and you need to handle credit card information.
+
+​International Organization for Standardization (ISO) / International Electrotechnical Commission​
+
+ISO/IEC 27001 — control implementation guidance​
+
+ISO/IEC 27017 — enhanced focus on cloud security​
+
+ISO/IEC 27018 — protection of personal data in the cloud. eg. PII​
+
+ISO/IEC 27701 — Privacy Information Management System (PIMS) framework​
+
+    outlines controls and processes to manage data privacy and protect PII.​
+
+​System and Organization Controls (SOC)​​
+
+SOC 1 — 18 standard and report on the effectiveness of internal controls (SSAE) at a service organization ​
+
+    relevant to their client’s internal control over financial reporting (ICFR).​
+
+SOC 2 — evaluates internal controls, policies, and procedures that directly relate to the security of a system at a service organization​
+
+SOC 3 — A report based on the Trust Services Criteria that can be freely distributed​
+
+​Payment Card Industry Data Security Standard (PCI DSS)​
+
+a set of security standards designed to ensure that ALL companies that accept, process, store or transmit credit card information maintain a secure environment.​
+
+​Federal Information Processing Standard (FIPS) 140-2​​
+
+US and Canadian government standard that specifies the security requirements for cryptographic modules that protect sensitive information.​
+
+​Personal Health Information Protection Act (PHIPA)​​
+
+An Ontario provincial law (Canada) that regulates patient Protected Health Information​
+
+​​Health Insurance Portability and Accountability Act (HIPAA)​.​
+
+US federal law that regulates patient Protected Health Information​
+
+​Cloud Security Alliance (CSA) STAR Certification​​
+
+Independent third-party assessment of a cloud provider's security posture​
+
+​Federal Risk and Authorization Management Program (FedRAMP)​​
+
+US government standardized approach to security authorizations for Cloud Service Offerings​
+
+​Criminal Justice Information Services (CJIS)​​
+
+Any US state or local agency that wants to access the FBI's CJIS database is required to adhere to the CJIS Security Policy. ​
+
+​​General Data Protection Regulation (GDPR)​​
+
+A European privacy law. Imposes new rules on companies, government agencies, non-profits, and other organizations that offer goods and services to people in the European Union (EU) or collect and analyze data tied to EU residents. ​
+References
+
+Compliance resource center
+
+Compliance offerings
+
+What’s The Difference Between SOC 1, SOC 2, and SOC 3?

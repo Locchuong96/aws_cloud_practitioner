@@ -1,0 +1,18 @@
+AWS Key Management Service
+
+AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data.
+
+    KMS is a multi-tenant HSM (hardware security module)
+    Many AWS services are integrated to use KMS to encrypt your data with a simple checkbox
+    KMS uses Envelope Encryption.
+
+Envelope Encryption
+
+When you encrypt your data, your data is protected, but you have to protect your encryption key.
+
+When you encrypt your data key with a master key as an additional layer of security.
+
+[KMS Master Key] encrypts → [Envelope Data Key] encrypts → [Data]
+Reference
+
+AWS Key Management Service (KMS)

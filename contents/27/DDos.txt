@@ -1,0 +1,8 @@
+Distributed Denial of Service (DDoS)
+
+What is a DDoS (Distributed Denial of Service) Attack?
+
+A malicious attempt to disrupt normal traffic by flooding a website with large amounts of fake traffic.
+Reference
+
+AWS Shield

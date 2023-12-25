@@ -1,0 +1,12 @@
+AWS Artifact
+
+AWS Artifact is a self-serve portal for on-demand access to AWS compliance reports
+
+Choose your report
+
+View the PDF
+
+Download the Excel
+Reference
+
+AWS Artifact
