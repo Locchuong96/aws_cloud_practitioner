@@ -1,0 +1,3 @@
+Direct Connect Locations - are trusted third-party datacenters that you can establish a dedicated high speed, low-latency connection from your on-premise to the AWS network.​
+
+    DirectConnect connections are always established through a third-party provider. These APN (Amazon Partner Network) Partners can help you establish network circuits between an AWS Direct Connect location and your datacenter, office, or colocation environment, or assist you in constructing a hybrid environment.

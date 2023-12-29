@@ -1,0 +1,26 @@
+AWS Global Network
+
+The AWS Global Network represents the interconnections between AWS Global Infrastructure.
+
+Commonly referred to as the “The Backbone of AWS”.
+
+Think of it as a private expressway, where things can move very fast between datacenters.
+
+Edge Locations can act as on and off-ramps to the AWS Global Network
+
+AWS Global Accelerator
+
+AWS S3 Transfer Acceleration
+
+Uses Edge Locations as an on-ramp to quickly reach AWS resources in other regions by traversing the fast AWS Global Network
+
+Amazon CloudFront (CDN)
+
+Uses Edge Locations as an off-ramp, to provide at the Edge storage and compute near the end-user.
+
+VPC Endpoints
+
+Ensuring your resources stay within the AWS Network and do not traverse over the public Internet.
+Reference
+
+Global Network

@@ -1,0 +1,19 @@
+AWS Direct Connect
+
+AWS Direct Connect is a private/dedicated connection between your data center, office, co-location, and AWS.
+
+Direct Connect has these very-fast network connection options:
+
+    Lower Bandwidth 1 Gbps
+    Higher Bandwidth 10 Gbps or 100 Gbps
+
+A co-location (aka carrier-hotel) is a data center where equipment, space, and bandwidth are available for rental to retail customers
+
+Helps reduce network costs and increase bandwidth throughput. (great for high traffic networks)
+
+Provides a more consistent network experience than a typical internet-based connection. (reliable and secure)
+Reference
+
+AWS Direct Connect
+
+AWS Direct Connect connections

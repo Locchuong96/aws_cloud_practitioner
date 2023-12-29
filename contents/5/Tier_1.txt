@@ -1,0 +1,7 @@
+Global Infrastructure - Point of Presence (PoP)
+
+PoPs live at the edge/intersection of two networks
+
+Tier 1 network is a network that can reach every other network on the Internet without purchasing IP transit or paying for peering.
+
+AWS Availablity Zones are all redundantly connected to multiple tier-1 transit providers

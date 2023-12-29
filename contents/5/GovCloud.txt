@@ -1,0 +1,17 @@
+GovCloud
+
+AWS GovCloud Regions allow customers to host sensitive Controlled Unclassified Information and other types of regulated workloads.
+
+    GovCloud Regions are only operate by employees who are U.S. citizens on U.S. soil.
+    Only accessible to U.S. entities and account state holders who pass a screening process.
+    Customers can architect secure cloud solutions that comply with:
+        FedRAMP High baseline
+        DOJ's Criminal Justice Information Systems (CJIS) Security Policy
+        U.S. International Traffic in Arms Regulations (TAR)
+        Export Administration Regulations (EAR)
+        Department of Defense (DoD) Cloud Computing Security Requirements Guide
+
+GovCloud Regions are currently only in the US.
+
+    You can view their regions on AWS Map of Regions and Edge Networks.
+    You can view more about GovCloud on the official AWS GovCloud page.

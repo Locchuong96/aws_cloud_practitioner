@@ -1,0 +1,16 @@
+Global Infrastructure – Point of Presence (PoP)
+
+The following AWS Services use PoPs for content delivery or expediated upload.
+
+Amazon CloudFront is a Content Delivery Network (CDN) service that:
+
+    You point your website to CloudFront so that it will route requests to nearest Edge Location cache
+    allows you to choose an origin (such as a web-server or storage) that will be source of cached
+    caches the contents of what origin would returned to various Edge Locations around the world
+
+Amazon S3 Transfer Acceleration allows you to generate a special URL that can be used by end users to upload files to a nearby Edge Location. Once a file is uploaded to an Edge Location, it can move much faster within the AWS Network to reach S3.
+
+AWS Global Accelerator can find the optimal path from the end user to your web-servers. Global Accelerator are deployed within Edge Locations so you send user traffic to an Edge Location instead of directly to your web-application.
+Reference
+
+Global Infrastructure

@@ -1,0 +1,26 @@
+Global Infrastructure – Data Residency
+
+What is Data Residency?
+
+The physical or geographic location of where an organization or cloud resources reside.
+
+What is Compliance Boundaries?
+
+A regulatory compliance (legal requirement) by a government or organization that describes where data and cloud resources are allowed to reside
+
+What is Data Sovereignty?
+
+Data Sovereignty is the jurisdictional control or legal authority that can be asserted over data because its physical location is within jurisdictional boundaries
+
+For workloads that need to meet compliance boundaries strictly defining the data residency of data and cloud resources in AWS you can use:
+
+AWS Config is a Policy as Code service.
+
+You can create rules to continuously check AWS resources configuration. If they deviate from your expectations you are alerted or AWS Config can in some cases auto-remediate.
+
+IAM Policies can be written explicitly to deny access to specific AWS Regions. A Service Control Policy (SCP) are permissions applied organization-wide.
+
+AWS Outposts is a physical rack of servers that you can put in your data center. Your data will reside whenever the Outpost Physically resides
+Reference
+
+Addressing Data Residency with AWS

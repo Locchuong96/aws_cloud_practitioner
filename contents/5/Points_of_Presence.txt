@@ -1,0 +1,22 @@
+Points of Presence
+
+Points of Presence (PoP) are intermediate locations between an AWS Region and the end-user, and this location could be a datacenter or collection of hardware.​
+
+    For AWS a Point of Presence is a data center owned by AWS or a trusted partner that is utilized by AWS Services related for content delivery or expediated upload.​
+
+Edge Locations - are datacenters that hold cached (copy) on the most popular files (eg. web pages, images and videos) so that the delivery of distance to the end users are reduce
+
+Regional Edge Cache - are datacenters that hold much larger caches of less-popular files to reduce a full round trip and also to reduce the cost of transfer fees.​
+The following AWS Services use PoPs for content delivery or expediated upload:
+
+AWS CloudFront - is a Content Delivery Network (CDN) service that:​
+
+    You point your website to CloudFront so that it will route requests to the nearest Edge Location cache​
+
+    Allows you to choose an origin (such as a web-server or storage) that will be a source of cached​
+
+    Caches the contents of what origin would be returned to various Edge Locations around the world​
+
+AWS S3 Transfer Acceleration - allows you to generate a special URL that can be used by end users to upload files to a nearby Edge Location. Once a file is uploaded to an Edge Location, it can move much faster within the AWS Network to reach S3.​
+
+AWS Global Accelerator - can find the optimal path from the end user to your web-servers. Global Accelerators are deployed within Edge Locations so you send user traffic to an Edge Location instead of directly to your web-application.​

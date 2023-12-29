@@ -1,0 +1,19 @@
+Global Infrastructure - AWS for Government
+
+What is Public Sector?
+
+Public sectors include public goods and governmental services such as:
+
+    military
+    law enforcement
+    infrastructure
+    public transit
+    public education
+    health care
+    the government itself
+
+AWS can be utilized by the public sector or organizations developing cloud workloads for public sector
+
+AWS achieve this by meeting regulatory compliance programs along with specific governance and security controls
+
+AWS has special regions for US regulation called GovCloud

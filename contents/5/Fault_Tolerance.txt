@@ -1,0 +1,57 @@
+Global Infrastructure - Fault Tolerance
+
+What is a fault domain?
+
+A fault domain is a section of a network that is vulnerable to damage if a critical device or system fails. The purpose of a fault domain is that if a failure occurs it will not cascade outside that domain, limiting the damage possible.
+
+You can have fault domains nested inside fault domains.
+
+What is a fault level?
+
+A fault level is a collection of fault domains.
+
+The scope of a fault domain could be:
+
+    specific servers in a rack
+    an entire rack in a datacenter
+    an entire room in a datacenter
+    the entire data center building 
+
+It's up to the Cloud Service Provider (CSPs) to define the boundaries of a domain
+
+An AWS Region would be a Fault Level → Fault Level us-east-1 (Region)
+
+An Availability Zone would be a Fault Domain
+
+Fault Domain us-east-1a (AZ)
+
+Fault Domain us-east-1b (AZ)
+
+Each Amazon Region is designed to be completely isolated from the other Amazon Regions.
+
+    This achieves the greatest possible fault tolerance and stability 
+
+Each Availability Zone is isolated, but the Availability Zones in a Region are connected through low-latency links
+Each Availability Zone is designed as an independent failure zone
+
+    A ”Failure Zone” is AWS describing a Fault Domain. 
+
+Failure Zone
+
+    Availability Zones are physically separated within a typical metropolitan region and are located in lower risk flood plains
+    discrete uninterruptible power supply (UPS) and onsite backup generation facilities
+    data centers located in different Availability Zones are designed to be supplied by independent substations to reduce the risk of an event on the power grid impacting more than one Availability Zone.
+    Availability Zones are all redundantly connected to multiple tier-1 transit providers 
+
+Multi-AZ for High Availability
+
+If an application is partitioned across AZs, companies are better isolated and protected from issues such as power outages, lightning strikes, tornadoes, earthquakes, and more.
+Reference
+
+Global Infrastructure
+
+Describing fault domains.
+
+Fault Domain Awareness
+
+Fault Domains and the Vegas Rule

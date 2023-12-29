@@ -1,0 +1,19 @@
+Local Zones - are datacenters located very close to a density populated area to provide single-digit millisecond low latency performance (eg. 7ms) for that area.
+
+Los Angeles, California was the first Local Zone to be deployed​
+
+    It is a logical extension of the US-West Region​
+    The Identifier looks like the following: us-west-2-lax-1a​
+    Only specific AWS Services have been made available​
+        EC2 Instance Types (T3, C5, R5, R5d, I3en, G4)​
+        EBS (io1 and gp2)​
+        Amazon FSx​
+        Application Load Balancer​
+        Amazon VPC​
+
+The purpose of Local Zone is to support highly-demanding applications sensitive to latency:​
+
+    Media & Entertainment​
+    Electronic Design Automation​
+    Ad-Tech​
+    Machine Learning

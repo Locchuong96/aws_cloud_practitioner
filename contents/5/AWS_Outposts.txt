@@ -1,0 +1,21 @@
+Global Infrastructure – AWS Outposts
+
+AWS Outposts is a fully managed service that offers the same AWS infrastructure, AWS services, APIs, and tools to virtually any datacenter, co-location space, or on-premises facility for a truly consistent hybrid experience. 
+
+AWS Outposts is a rack of servers running AWS Infrastructure on your physical location
+
+What is a Server Rack?
+
+A frame design to hold and organize IT equipment.
+
+Rack Heights
+
+U stands for “rack units” or “U spaces” with is equal to 1.75 inches. The industry standard rack size is 48U (7 Foot Rack)
+
+ full-size rack cage is 42U high
+
+    equipment is typically 1U, 2U, 3U, or 4U high
+
+Reference
+
+AWS Outposts

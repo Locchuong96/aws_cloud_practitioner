@@ -1,0 +1,11 @@
+Global Infrastructure - Wavelength Zones
+
+AWS Wavelength Zones allow for edge-computing on 5G Networks.
+
+Applications will have ultra-low latency being as close as possible to the users
+
+AWS has partnered with various Telecom companies to utilize their 5G networks
+
+    Verizon, KDDI, vodafone, SK telecom
+
+You can create a Subnet tied to a Wavelength Zone and then you can launch Virtual Machines (VMs) to the edge of the targeted 5G Networks.
