@@ -1,0 +1,17 @@
+
+Application Integration
+
+What is Application Integration?
+
+Application Integration is the process of letting two independent applications communicate and work with each other, commonly facilitated by an intermediate system.
+
+Cloud workloads encourage systems and services to be loosely coupled and so AWS has many services for the specific purpose of application integration.
+
+The common systems or design patterns utilized for Application Integration generally are:
+
+    Queueing
+    Streaming
+    Pub/Sub
+    API Gateways
+    State Machine
+    Event Bus

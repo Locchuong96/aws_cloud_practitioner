@@ -1,0 +1,38 @@
+
+Zero Trust on AWS
+
+Identity Security Controls you can implement on AWS to meet the Zero Trust Model
+
+AWS Identity and Access Management (IAM)
+
+    IAM Policies
+    Permission Boundaries
+    Service Control Policies (Organization-wide Policies)
+    IAM Policy Conditions
+        aws:SourceIp – Restrict on IP Address
+        aws:RequestedRegion – Restrict on Region
+        aws:MultiFactorAuthPresent – Restrict if MFA is turned off
+        aws:CurrentTime – Restrict access based on time of day
+
+Your AWS Resources
+
+AWS does not have ready-to-use identity controls that are intelligent, which is why AWS is considered to not have a true Zero Trust offering for customers, and third-party services need to be used.
+
+A collection of AWS Services can be setup to intelligent-ish detection of identity concerns but requires expert knowledge
+
+AWS CloudTrail
+
+Tracks all API calls
+
+Amazon GuardDuty
+
+Detects suspicious or malicious activity based on CloudTrail and other logs
+
+Amazon Detective
+
+Used to analyze, investigate and quickly identify security issues (can ingest findings from Guard Duty)
+Reference
+
+Zero Trust on AWS
+
+AWS re:Invent 2020: Zero Trust: An AWS perspective

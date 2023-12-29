@@ -1,0 +1,7 @@
+
+Active Directory
+
+Microsoft introduced Active Directory Domain Services in Windows 2000 to give organizations the ability to manage multiple on-premises infrastructure components and systems using a single identity per user.
+Reference
+
+The Difference Between Active Directory and LDAP

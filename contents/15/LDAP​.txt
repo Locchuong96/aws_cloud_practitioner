@@ -1,0 +1,25 @@
+
+LDAP​
+
+Lightweight Directory Access Protocol (LDAP) is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network.​
+
+A common use of LDAP is to provide a central place to store usernames and passwords​
+
+LDAP enables for same-sign on. The same sign-on allows the same userID and password to be used for multiple applications, but they have to enter it in every time they want to login.​
+
+Why use LDAP when SSO is more convenient?​
+
+Most SSO systems are using LDAP.​
+
+LDAP was not designed natively to work with web applications.​
+
+Some systems only support integration with LDAP and not SSO​
+Reference
+
+Office 365: Single Sign-on vs. Same Sign-on
+
+What Is LDAP & How Does It Work?
+
+Difference Between SSO and LDAP
+
+SAML SSO vs. LDAP — Which Protocol Is Right for You?

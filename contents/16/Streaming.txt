@@ -1,0 +1,12 @@
+
+Streaming
+
+What is streaming?
+
+Multiple consumers can react to events (messages)
+
+Events live in the stream for long periods of time, so complex operations can be applied. Real-time
+
+Amazon Kinesis
+
+Amazon Kinesis is the AWS fully managed solution for collecting, processing, and analyzing streaming data in the cloud.

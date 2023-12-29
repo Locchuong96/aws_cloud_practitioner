@@ -1,0 +1,42 @@
+
+AWS Account Root User
+
+AWS Account – the account which holds all your AWS resources
+
+AWS Account – Root User – a special account with full access that cannot be deleted
+
+AWS Account – User – a user for common tasks that are assigned permissions
+
+AWS Account Root User is a special user who is created at the time of AWS account creation:
+
+    The Root User account uses an Email and Password to log in
+        A regular user has to provide the Account ID / Alias, Username, and Password
+    The Root User account can not be deleted
+    The Root User account has full permissions to the account and its permissions *cannot be limited.
+        You cannot use IAM policies to explicitly deny the root user access to resources.
+        You can only use an AWS Organizations service control policy (SCP) to limit the permissions of the root user
+    There can only be one Root user per AWS account
+    The root user is instead for very specific and specialized tasks that are infrequently or rarely performed
+        An AWS Root Account should not be used for daily or common tasks
+    It's strongly recommended to never use Root User Access Keys
+    It's strongly recommended to turn on MFA for the Root User
+
+Administrative Tasks that only the Root User can perform:
+
+    Change your account settings.
+        includes the account name, email address, root user password, and root user access keys.
+        Other account settings, such as contact information, payment currency preference, and Regions, do not require root user credentials.
+    Restore IAM user permissions.
+        If the only IAM administrator accidentally revokes their own permissions, you can sign in as the root user to edit policies and restore those permissions.
+    Activate IAM access to the Billing and Cost Management console.
+    View certain tax invoices
+    Close your AWS account.
+    Change or Cancel AWS Support plan
+    Register as a seller in the Reserved Instance Marketplace.
+    Enable MFA Delete on an S3 Bucket.
+    Edit or delete an Amazon S3 bucket policy that includes an invalid VPC ID or VPC endpoint ID.
+    Sign up for GovCloud.
+
+Reference
+
+AWS account root user

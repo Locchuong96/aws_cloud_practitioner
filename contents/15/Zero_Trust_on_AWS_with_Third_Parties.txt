@@ -1,0 +1,34 @@
+
+Zero Trust on AWS with Third Parties
+
+AWS does technically implement a Zero Trust Model but does not allow for intelligent identity security controls.
+
+For example:
+
+Azure Active Directory has Real-time and calculated risk detection based on more data points than AWS eg:
+
+    Device and Application
+    Time of Day
+    Location
+    MFA turned on
+    What is being accessed
+
+And the security controls, verifications, or logic restriction is much more robust.
+
+Azure Active Directory
+
+Google BeyondCorp
+
+JumpCloud
+
+AWS Single Sign-On (SSO)
+
+Your AWS Resources
+
+Third-Party Identity solutions
+
+    Azure Active Directory (Azure AD)
+    Google BeyondCorp
+    JumpCloud
+
+all have more intelligent security controls for real-time detection.

@@ -1,0 +1,14 @@
+
+What are Microservices
+
+Monolithic Architecture
+
+One app which is responsible for everything 
+
+Functionality is tightly coupled
+
+Microservices Architecture
+
+Multiple apps are each responsible for one thing 
+
+Functionality is isolated and stateless

@@ -1,0 +1,16 @@
+What is Pub/Sub?
+
+Publish–subscribe pattern commonly implemented in messaging systems.
+In a pub/sub system the sender of messages (publishers) do not send their messages directly to receivers.
+They instead send their messages to an event bus. The event bus categorizes their messages into groups.
+Then receivers of messages (subscribers) subscribe to these groups.
+Whenever new messages appear within their subscription the messages are immediately delivered to them.
+
+Use Case: a real-time chat system. A web-hook system
+
+    Publisher have no knowledge of who their subscribers are.
+    Subscribers do not pull for messages.
+    Messages are instead automatically and immediately pushed to subscribers.
+    Messages and events are interchangeable terms in pub/sub
+
+Simple Notification Service (SNS) is a highly available, durable, secure, fully managed pub/sub messaging service that enables you to decouple microservices, distributed systems, and serverless applications.

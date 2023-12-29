@@ -1,0 +1,55 @@
+
+Container Services
+
+Primary Services
+
+Elastic Container Service (ECS)
+
+    No Cold Starts
+    Self-Managed EC2
+
+AWS Fargate
+
+    More Robust Than Lambda
+    Scale to Zero Cost
+    AWS-Managed EC2
+
+Elastic Kubernetes Services (EKS)
+
+    Open Source
+    Avoid Vendor Lock-In
+
+AWS Lambda
+
+    Only think about code
+    Short running tasks
+    Can deploy custom containers
+
+Provisioning and Deployment
+
+Elastic Beanstalk (EB)
+
+    ECS on training wheels
+    Platform as a Service
+
+App Runner
+
+    Platform as a Service specifically for containers
+
+AWS Copilot CLI
+
+    build, release and operate production-ready containerized applications on AWS App Runner, Amazon ECS, and AWS Fargate
+
+Supporting Services
+
+Elastic Container Registry (ECR)
+
+    Repos for your Docker Images
+
+X-Ray
+
+    Analyze and debug between microservices
+
+Step Functions
+
+    Stitch together Lambdas and ECS tasks
