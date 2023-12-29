@@ -1,0 +1,41 @@
+
+Cloud-Native Networking Services
+
+Key definitions:
+
+Region - the geographical location of your network
+
+Availability Zone (AZ) - a data center containing your AWS resources
+
+Virtual Private Cloud (VPC)- a logically isolated section of the AWS Cloud where you can launch AWS resources
+
+Internet Gateway- enables access to the Internet for your VPC
+
+Route Tables- determines where network traffic from your subnets are directed
+
+NACLs- Network Access Control Lists. Act as a firewall at the subnet level
+
+Security Groups- Act as firewall at the instance level
+
+Subnets- a logical partition of an IP network into multiple, smaller network segments
+
+Availability Zones:
+
+Availability Zones are the data centers where you launch your AWS resources into
+
+Each AZs is associated with a specific region
+
+Key VPC Components:
+
+A virtual private cloud (VPC) network is your own personal isolated section of the AWS cloud.
+
+A route table contains a set of rules (called routes), that are used to determine where network traffic from your subnet or gateway is directed.
+
+Internet Gateway- Allows you to grant internet access to resources inside of your VPC. But you also need a route table which routes the traffic from the VPC network out to the IGW
+
+You can think of it as a door from your VPC outward.
+Reference
+
+Internetwork traffic privacy in Amazon VPC
+
+VPC networking components

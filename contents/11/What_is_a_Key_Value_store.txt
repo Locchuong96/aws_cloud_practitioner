@@ -1,0 +1,17 @@
+What is a Key / Value store?
+
+A key/value stores a unique key alongside a value
+
+Key values stores are dumb and fast.
+
+They generally lack features like:
+
+    Relationships
+    Indexes
+    Aggregation 
+
+A simple key/value store will interpret this data resembling a dictionary (aka Associative arrays or hash)
+
+A key/value store can resemble tabular data, it does not have to have consistent columns per row (hence its schemaless)
+
+Due to their simple design, they can scale well beyond a relational database

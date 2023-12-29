@@ -1,0 +1,13 @@
+
+What is a Document store?
+
+A document store is a NoSQL database that stores documents as its primary data structure.
+
+A document could be an XML but more commonly is JSON or JSON-Like
+
+Document stores are a sub-class of Key/Value stores
+
+The components of a document store compared to a Relational database
+Reference
+
+Document-oriented database

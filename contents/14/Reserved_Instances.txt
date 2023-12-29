@@ -1,0 +1,46 @@
+
+EC2- Reserved Instances (RI)
+
+Designed for applications that have a steady-state, predictable usage, or require reserved capacity.
+
+Reduced Pricing is based on Term x Class Offering x RI Attributes x Payment Option
+
+Terms - You commit to a 1 year or 3-year contract. The longer the term the greater savings
+
+You commit to a 1 Year or 3 Year contract.
+
+Reserved Instances do not renew automatically
+
+When they expire your instance will use On-Demand with no interruption to service
+
+Class — The less flexible the greater the savings
+
+Standard: Up to 75% reduced pricing compared to on-demand. You can modify RI Attributes.
+
+Convertible: Up to 54% reduced pricing compared to on-demand. You can exchange RI based on RI Attributes if greater or equal in value.
+
+Scheduled: AWS no longer offers Scheduled RI
+
+Payment Options — The greater upfront the great the savings
+
+All Upfront
+
+Full payment is made at the start of the term
+
+Partial Upfront
+
+A portion of the cost must be paid upfront and the remaining hours in the term are billed at a discounted hourly rate
+
+No Upfront
+
+You are billed a discounted hourly rate for every hour within the term, regardless of whether the Reserved Instance is being used
+
+    RIs can be shared between multiple accounts within an organization
+
+    Unused RIs can be sold in the Reserved Instance Marketplace.
+
+Reference
+
+Amazon EC2 Reserved Instances
+
+Types of Reserved Instances (offering classes)

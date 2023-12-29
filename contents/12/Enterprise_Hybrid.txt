@@ -1,0 +1,10 @@
+
+
+Direct Connect - is a dedicated Gigabit network connection from your premises location to AWS. Provides a direct fiber optic cable running straight to the AWS network
+
+VPN - establishes a secure connection to your AWS network
+
+    Site-to-Site VPN - connecting your on-premise to your AWS network
+    Client VPN - connecting a Client (ie users laptop) to your AWS network
+
+PrivateLinks (VPC Interface Endpoints) - keeps traffic within the AWS network and not traverse the internet to keep traffic is secure.​

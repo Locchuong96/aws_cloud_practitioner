@@ -1,0 +1,31 @@
+
+AWS Snow Family
+
+AWS Snow Family are storage and compute devices used to physically move data in or out the cloud when moving data over the internet or private connection it to slow, difficult or costly.
+
+Snowcone
+
+Comes in two sizes:
+
+    8 TB of Storage (HHD)
+    14 TB of Storage (SSD)
+
+Snowball Edge
+
+Comes generally in two type:
+
+    Storage Optimized
+        80 TB
+    Compute Optimized
+        39.5 TB
+
+Snowmobile
+
+100 PB of storage
+
+Data is delivered to Amazon S3
+Reference
+
+AWS re:Invent recap: Optimize your data migration with AWS Snow Family
+
+AWS Snowball Edge Device Differences

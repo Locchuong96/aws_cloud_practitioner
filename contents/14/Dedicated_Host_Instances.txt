@@ -1,0 +1,28 @@
+
+Dedicated Host Instances
+
+Dedicated Host Instances are designed to meet regulatory requirements.
+
+When you have strict server-bound licensing that won’t support multi-tenancy or cloud deployments you use Dedicated Hosts.
+
+Multi-tenant: (Think of everyone living in an apartment)
+
+When multiple customers are running workloads on the same hardware. Virtual Isolation is what separate customers ( Like a multi-tenant apartment)
+
+Single Tenant: (Think of everyone having their own house)
+
+When a single customer has dedicated hardware. Physical Isolation is what separates customers( Like a single-family home)
+
+    Most expensive
+    Use when you have strict server-bound licensing that won't support multi-tenancy or cloud deployments
+
+Dedicated can be offered for:
+
+    On-demand
+    Reserved (up to 60% savings)
+    Spot (up to 90% savings)
+
+Enterprises and Large Organizations my have security concerns or obligations against sharing the same hardware with other AWS Customers
+Reference
+
+Amazon EC2 Dedicated Instances

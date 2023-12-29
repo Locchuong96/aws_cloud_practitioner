@@ -1,0 +1,42 @@
+
+AWS Savings Plan
+
+Savings Plans offer you similar discounts as Reserved Instances (RI) but simplifies the purchasing process
+
+There are 3 types of Savings Plans: 
+
+    Compute Savings Plans 
+    EC2 Instance Savings Plans
+    SageMaker Savings Plan
+
+You can choose two different terms
+
+    1 Year
+    3 Year
+
+You choose the following Payment Options:
+
+    All Upfront
+    Partial Upfront
+    No Upfront
+
+AWS Savings Plan has 3 different savings types:
+
+Compute
+
+Compute Savings Plans provide the most flexibility and help to reduce your costs by up to 66%. These plans automatically apply to EC2 instance usage, AWS Fargate, and AWS Lambda service usage regardless of instance family, size, AZ, region, OS, or tenancy.
+
+EC2 Instances
+
+provide the lowest prices, offering savings up to 72% in exchange for commitment to usage of individual instance families in a region. automatically reduces your cost on the selected instance family in that region regardless of AZ, size, OS or tenancy. give you the flexibility to change your usage between instances within a family in that region.
+
+SageMaker
+
+Helps you reduce SageMaker costs by up to 64%. automatically apply to SageMaker usage regardless of instance family, size, component, or AWS region.
+Reference
+
+Savings Plans
+
+New – Savings Plans for AWS Compute Services
+
+The Ultimate Guide To Reserved Instance And AWS Savings Plan

@@ -1,0 +1,29 @@
+
+EC2 - Pricing Model
+
+On-Demand (Least Commitment)
+
+    Low cost and flexible
+    Only pay per hour
+    Short-term, spiky, unpredictable workloads
+    Cannot be interrupted
+    For first-time apps
+
+Reserved up to 75% off (Best Long-term)
+
+    Steady-state or predictable usage
+    Commit to EC2 over a 1 or 3 year
+    Can resell unused reserved instances
+
+Spot up to 90% (Biggest Savings)
+
+    Request spare computing capacity
+    Flexible start and end times
+    Can handle interruptions (server randomly stopping and starting)
+    For non-critical background jobs
+
+Dedicated (Most Expensive)
+
+    Dedicated servers
+    Can be on-demand or reserved (up to 75% off)
+    When you need a guarantee of isolate hardware (enterprise requirements)

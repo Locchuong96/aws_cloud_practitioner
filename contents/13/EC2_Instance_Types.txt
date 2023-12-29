@@ -1,0 +1,30 @@
+EC2 Instance Types
+
+An instance type is a particular instance size and instance family:
+
+A common pattern for instance sizes:
+
+    nano
+    micro
+    small
+    medium
+    large
+    xlarge
+    2xlarge
+    4xlarge
+    8xlarge
+    ….
+
+There are many exceptions to this pattern for sizes e.g.
+
+    c6g.metal – is a bare metal machine.
+    C5.9xlarge – Is not a power of 2 or even number size
+
+EC2 Instance Sizes
+
+EC2 Instance Sizes generally double in price and key attributes
+Name 	vCPU 	RAM (GIB) 	On-Demand per hour 	On-Demand per month
+t2.small 	1 	12 	        $0.023 	            $16.79
+t2.medium 	2 	24 	        $0.0464 	        $33.87
+t2.large 	2 	36 	        $0.0928 	        $67.74
+t2.xlarge 	4 	54 	        $0.1856 	        $135.48

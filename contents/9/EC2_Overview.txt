@@ -1,0 +1,27 @@
+Elastic Compute Cloud (EC2) allows you to launch Virtual Machines (VM)​. When we launch a Virtual Machine we call it an ”instance”​.
+
+What is a Virtual Machine?​
+
+A Virtual Machine (VM) is an emulation of a physical computer using software. ​
+
+Server Virtualization allows you to easily create, copy, resize or migrate your server.​
+
+Multiple VMs can run on the same physical server so you can share the cost with other customers.​
+
+Imagine if your server or computer was an executable file on your computer
+
+An Amazon Machine Image (AMI) is a predefined configuration for a Virtual Machine.
+
+EC2 is considered the backbone of AWS because the majority of AWS services are using EC2 as their underlying servers. eg. S3, RDS, DynamoDB, Lambdas
+
+EC2 is a highly configurable server where you can choose AMI that affects options such as:​
+
+    The amount of CPUs​
+
+    The amount of Memory (RAM)​
+
+    The amount of Network Bandwidth​
+
+    The Operation System (OS) eg. Windows 10, Ubuntu, Amazon Linux 2​
+
+    Attach multiple virtual hard-drives for storage eg. Elastic Block Store (EBS)​

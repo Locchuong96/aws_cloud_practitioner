@@ -1,0 +1,19 @@
+
+
+Redshift - is a petabyte-size data-warehouse. Data-warehouses are for Online Analytical Processing (OLAP)​ Data-warehouses can be expensive because they are keeping data “hot”. Meaning that we can run a very complex query and a large amount of data and get that data back very fast.​ When you want to quickly generate analytics or reports from a large amount of data.​
+
+ElastiCache - is a managed database of the in-memory and caching open-source databases Redis or Memcached. When you need to improve the performance of application by adding a caching layer in-front of web-server or database.​
+
+Neptune - is a managed graph database. Data is represented as interconnected nodes.​ When you need to understand the connections between data eg. Mapping Fraud Rings or Social Media relationships​.
+
+Amazon Timestreams - is a fully managed time series database. Think of devices that send lots of data that are time-sensitive such as IoT devices. When you need to measure how things change over time.​
+
+Amazon Quantum Ledger Database - is a fully managed ledger database that provides transparent, immutable and cryptographically variable transaction logs. ​
+
+Database Migration Service (DMS - is database migration service. You can us it to migrate from:​
+
+    on-premise database to AWS​
+
+    from two database in different or the same AWS accounts using different SQL engines​
+
+    from an SQL to NoSQL database​

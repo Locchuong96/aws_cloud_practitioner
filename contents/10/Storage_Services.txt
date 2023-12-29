@@ -1,0 +1,30 @@
+
+Storage Services:
+
+Provide scalable cloud-based storage solutions for your workloads on AWS.
+
+    S3 (Simple Storage Service) - is an object storage service that offers industry-leading scalability, data availability, security, and performance. Think of it as a "hard drive in the cloud" with a lot of available space.
+
+    S3 Glacier - low cost storage for archiving and long-term backup Trade-off: You may have to wait several hours to access data stored here. Use case: for data that you must hold on to but are unlikely to look at often. Example: an enterprise company that must store records for many years under a litigation hold.
+
+    EBS - Elastic Block Store- is a persistent block storage service. It is a virtual hard drive in the cloud you attach to EC2 instances. You can choose different kinds of hard drives: SSD, IOPS SSD, Throughput HHD, Cold HHD​
+
+    EFS - Elastic File System- file storage mountable to multiple EC2 instances at the same time
+
+    Storage Gateway - hybrid cloud storage with local caching. Expand your on-premises storage capacity into the cloud.
+
+    File Gateway extends your local storage to AWS S3
+
+    Volume Gateway caches your local drives to S3 so you have a continuous backup of local files in the cloud
+
+    Tape Gateway stores files onto virtual tapes for backing up your files on very cost-effective long-term storage.
+
+    AWS Snow Family are storage devices used to physically migrate large amounts of data to the cloud.
+
+    Snowball and Snowball Edge are briefcase-size data storage devices. 50-80 Terabytes
+
+    Snowball edge - A version of Snowball for even larger sets of data - 100 TB
+
+    Snowmobile is a cargo container filled with racks of storage and compute that is transported via semi-trailer tractor truck to transfer up to 100PB of data per trailer.
+
+    Snowcone is a very small version of Snowball that can transfer 8TB of data.

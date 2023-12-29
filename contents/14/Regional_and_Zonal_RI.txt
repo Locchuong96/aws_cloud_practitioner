@@ -1,0 +1,33 @@
+
+Regional and Zonal RI
+
+When you purchase a RI, you determine the scope of the Reserved Instance.
+
+The scope does not affect the price.
+
+Regional RI: purchase for a Region
+
+does not reserve capacity.
+
+RI discount applies to instance usage in any AZ in the Region.
+
+RI discount applies to instance usage within the instance family, regardless of size. Only supported on Amazon Linux/Unix Reserved Instances with default tenancy.
+
+You can queue purchases for regional RI
+
+Zonal RI: purchase for an Availability Zone
+
+reserves capacity in the specified Availability Zone.
+
+RI discount applies to instance in the selected AZ (No AZ Flexibility)
+
+No instance size flexibility
+
+RI discounts discount applies to instance usage for the specified instance type and size only.
+
+You can't queue purchases for zonal RI
+Reference
+
+Regional and zonal Reserved Instances (scope)
+
+Work with Capacity Reservations

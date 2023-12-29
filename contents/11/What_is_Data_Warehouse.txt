@@ -1,0 +1,22 @@
+
+What is Data Warehouse?
+
+A relational data store designed for analytic workloads, which is generally column-oriented data-store
+
+Companies will have terabytes and millions of rows of data, and they need a fast way to be able to produce analytics reports
+
+Data warehouses generally perform aggregation
+
+    aggregation is grouping data eg. find a total or average
+    Data warehouses are optimized around columns since they need to quickly aggerate column data
+
+Data warehouses are generally designed to be HOT
+
+    Hot means they can return queries very very fast even though they have vast amounts of data
+
+Data warehouses are infrequently accessed meaning they aren’t intended for real-time reporting but maybe once or twice a day or once a week to generate business and user reports.
+
+A data warehouse needs to consume data from a relational database on a regular basis.
+Reference
+
+What is Data Warehouse? Types, Definition & Example

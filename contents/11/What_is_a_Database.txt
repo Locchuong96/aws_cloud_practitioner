@@ -1,0 +1,28 @@
+
+What is a Database?
+
+A database is a data store that stores semi-structured and structured data.
+
+A database is a more complex data stores because it requires using formal design and modeling techniques
+
+Databases can be generally categorized as either:
+
+Relational databases
+
+    Structured data that strongly represents tabular data (tables, rows, and columns)
+        Row-oriented or Columnar-oriented
+
+Non-relational databases
+
+    Semi-structured that may or may not distantly resemble tabular data.
+
+Databases have a rich set of functionality:
+
+    specialized language to query (retrieve data)
+    specialized modeling strategies to optimize retrieval for different use cases
+    more fine-tune control over the transformation of the data into useful data structures or reports
+
+Normally, a database infers someone is using a relational row-oriented datastore
+Reference
+
+Database

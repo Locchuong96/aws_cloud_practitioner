@@ -1,0 +1,17 @@
+
+
+CORRECTION: The CIDR Range for the Private Subnet should be 10.0.1.0/24, not 10.0.0.0/24
+
+Virtual Private Cloud (VPC) is a logically isolated section of the AWS Network where you launch your AWS resources. You choose a range of IPs using CIDR Range
+
+CIDR Range of 10.0.0.0/16 = 65,536 IP Addresses
+
+Subnets a logical partition of an IP network into multiple smaller network segments. You are breaking up your IP range for VPC into smaller networks.
+
+    Subnets need to have a smaller CIDR range than to the VPC represent their portion.​ eg Subnet CIDR Range 10.0.0.0/24 = 256 IP Addresses
+
+Public vs Private Subnets:
+
+Public subnets are generally used for placing resources which are accessible on the internet
+
+Private subnets are used when you need resources to be more secured and only accessible through tightly filtered traffic into the subnet

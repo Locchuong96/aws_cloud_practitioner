@@ -1,0 +1,37 @@
+
+Introduction to EC2
+
+Elastic Compute Cloud (EC2) is a highly configurable virtual server.
+
+EC2 is a resizable compute capacity. It takes minutes to launch new instances.
+
+Anything and everything on AWS uses EC2 Instance underneath.
+
+Choose OS via Amazon Machine Image (AMI)
+
+    Red Hat
+    ubuntu
+    Microsoft Windows
+    Amazon Linux
+    Suse
+
+Choose Instance Type
+
+    t2.nano
+    $0.0065/hour ($4.75/month)
+
+    1 vCPU 0.5GB Mem
+
+    C4.8xlarge
+
+    $1.591/hour ($1161.43/month)
+
+    36 vCPU 60GB Mem 10 Gigabit performance
+
+Add Storage (EBS, EFS)
+
+    SSD, HDD, Virtual Magnetic Tape, Multiple Volumes
+
+Configure Instance
+
+    Security Groups, Key Pairs, UserData, IAM Roles, Placement Groups

@@ -1,0 +1,15 @@
+Cost Management - How do we save money?​
+
+Capacity Management - How do we meet the demand of traffic and usages though adding or upgrading servers?
+
+EC2 Spot Instances, Reserved Instanced and Savings Plan​ - Ways to save on computing, by paying up in full or partially, by committing to a yearly contracts or by being flexible about availability and interruption to computing service.
+
+AWS Batch - plans, schedules, and executes your batch computing workloads across the full range of AWS compute services, can utilize Spot Instance to save money.​
+
+AWS Compute Optimizer - Suggests how to reduce costs and improve performance by using machine learning to analyze you previous usage history
+
+EC2 Autoscaling Groups (ASGs)​ - Automatically adds or remove EC2 servers to meet the current demand of traffic. Will save you money and meet capacity since you only run the amount of servers you need.​
+
+Elastic Load Balancer (ELB)​ - Distributes traffic to multiple instance, can re-route traffic from unhealthy instance to healthy instances.​ Can route traffic to EC2 instances running in different Availability Zones ​
+
+Elastic Beanstalk (EB) - is for easily deploying web-applications without developers having to worry about setting up and understanding the underlying AWS Services. Similar to Heroku. ​

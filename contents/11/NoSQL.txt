@@ -1,0 +1,11 @@
+
+
+DynamoDB - is a serverless NoSQL key/value and document database. It is designed to scale to billions of records with guaranteed consistent data return in at least a second. You don’t have to worry about managing shards!​
+
+    DynamoDB is AWS’s flagship database service meaning whenever we think of a database service that just scales, is cost effective and very fast we should think DynamoDB
+
+DocumentDB - is a NoSQL document database that is “MongoDB compatible”​
+
+    MongoDB is very popular NoSQL among developers. There were open-source licensing issues around using open-source MongoDB, so AWS got around it by just building their own MongoDB database.​
+
+Amazon Keyspaces - is a fully managed Apache Cassandra database. Cassandra is an open-source NoSQL key/value database similar to DynamoDB in that is columnar store database but has some additional functionality. When you want to use Apache Casandra.

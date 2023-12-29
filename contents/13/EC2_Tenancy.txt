@@ -1,0 +1,16 @@
+
+EC2 Tenancy
+
+EC2 has three levels of tenancy:
+
+Dedicated host
+
+    Your server lives here and you have control of the physical attributes
+
+Dedicated Instance
+
+    Your server lives here
+
+Default
+
+    Your instance lives here until reboot

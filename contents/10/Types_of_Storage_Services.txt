@@ -1,0 +1,26 @@
+Types of Storage Services
+
+Elastic Block Store (EBS) - Block
+
+    Data is split into evenly split blocks
+    Directly accessed by the Operation System
+    Supports only a single write volume
+
+When you need a virtual hard drive attached to a VM
+
+AWS Elastic File Storage (EFS) - File
+
+    File is stored with data and metadata
+    Multiple connections via a network share
+    Supports multiple reads. Writing locks the file.
+
+When you need a file-share where multiple users or VMs need to access the same drive
+
+Amazon Simple Storage Service (S3) - Object
+
+    Object is stored with data, metadata, and a Unique ID
+    Scales with limited no file limit or storage limit
+    Scales with an unlimited number of objects in a bucket
+    Supports multiple reads and writes (no locks)
+
+When you just want to upload files, and not have to worry about the underlying infrastructure. Not intended for high IOPs

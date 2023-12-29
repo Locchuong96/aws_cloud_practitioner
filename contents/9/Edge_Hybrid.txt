@@ -1,0 +1,17 @@
+
+What is Edge Computing?​
+
+When you push your computing workloads outside of your networks to run close to the destination location.​
+
+eg. Pushing computing to run on phones, IoT Devices, or external servers not within your cloud network.​
+What is Hybrid Computing?​
+
+When you’re able to run workloads on both your on-premise datacenter and AWS Virtual Private Cloud (VPC)
+
+AWS Outposts - is physical rack of servers that you can put in your data center. AWS Outposts allows you to use AWS API and Services such as EC2 right in your datacenter.
+
+AWS Wavelength - AWS Wavelength allows you to build and launch your applications in a telecom datacenter. By doing this your applications with have ultra-low latency since they will be pushed over a the 5G network and be closest as possible to the end user.
+
+VMWare Cloud on AWS - allows you to manage on-premise virtual machines using VMWare as EC2 instances.​ The data-center must being using VMWare for Virtualization.
+
+AWS Local Zones - are edge datacenters located outside of an AWS region so you can use AWS closer to end destination.​ When you need faster computing, storage and databases in populated areas that are outside of an AWS Region​

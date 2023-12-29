@@ -1,0 +1,36 @@
+
+Standard vs Convertible RI
+
+There are some key differences between Standard and Convertible
+
+Standard RI
+
+RI attributes can be modified
+
+    Change the AZ within the same Region
+    Change the scope of the Zonal RI to Regional RI or visa versa
+    Change the instance size (Linux/Unix only, default tenancy )
+    Change network from Ec2-Classic to VPC and visa-versa
+
+Can't be exchanged
+
+Can be bought or sold in the RI Marketplace
+
+Convertible RI
+
+RI attributes can’t be modified (you perform an exchange) RI attributes CAN be modified
+
+Can be exchanged during the term for another Convertible RI with new RI attributes, including:
+
+    instance family
+    instance type
+    platform
+    scope
+    tenancy
+
+Can't be bought or sold in the RI Marketplace
+Reference
+
+Types of Reserved Instances (offering classes)
+
+Modify Reserved Instances

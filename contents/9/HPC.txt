@@ -1,0 +1,21 @@
+The Nitro System
+
+A combination of dedicated hardware and lightweight hypervisor enabling faster innovation and enhanced security. All new EC2 instance types use the Nitro System.​
+
+    Nitro Cards — specialized cards for VPC, EBS and Instance Storage and controller card​
+    Nitro Security Chips — Integrated into motherboard. Protects hardware resources.​
+    Nitro Hypervisor — lightweight hypervisor Memory and CPU allocation Bare Metal-like performance​
+
+Bare Metal Instance
+
+You can launch EC2 instance that have no hypervisor so you can run workloads directly​
+
+on the hardware for maximum performance and control. The M5 and R5 EC2 instances run are bare metal.​
+
+    Bottlerocket is a Linux-based open-source operation system that is purpose-built by AWS for running containers on Virtual Machines or bare metal hosts
+
+What is High Performance Computing (HPC)?​
+
+A cluster of hundreds of thousands of servers with fast connections between each of them with the purpose of boosting computing capacity. When you need a supercomputer to perform computational problems to large to fix on a standard computers or would take to long.
+
+    AWS ParallelCluster is an AWS-supported open source cluster management tool that makes it easy for you to deploy and manage High Performance Computing (HPC) clusters on AWS.

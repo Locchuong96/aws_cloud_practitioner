@@ -1,0 +1,23 @@
+
+Security Groups vs NACLs
+
+Network Access Control Lists (NACLs)
+
+Acts as a virtual firewall at the subnet level
+
+You create Allow and Deny rules.
+
+eg. Block a specific IP address known for abuse
+
+Security Groups
+
+Acts as a virtual firewall at the instance level
+
+Implicitly denies all traffic. You create only Allow rules.
+
+eg. Allow EC2 instance access on port 22 for SSH
+
+eg. You cannot block a single IP address.
+Reference
+
+Security groups for your VPC

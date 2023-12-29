@@ -1,0 +1,14 @@
+Capacity Reservations
+
+EC2 instances are backed by a different kind of hardware, and so there is a finite amount of servers available within an Availability Zone per instance type or family.
+
+You go to launch a specific type of EC2 instance but AWS has run out of that server!
+
+Capacity Reservation is a service of EC2 that allows you to request a reserve of EC2 instance type for a specific Region and AZ
+
+The reserved capacity is charged at the selected instance type’s On-Demand rate whether an instance is running in it or not.
+
+You can also use your regional reserved instances with your Capacity Reservations to benefit from billing discounts
+Reference
+
+Work with Capacity Reservations

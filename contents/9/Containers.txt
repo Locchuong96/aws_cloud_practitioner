@@ -1,0 +1,22 @@
+
+Containers
+
+    virtualizing an Operation System (OS) to run multiple workloads on a single OS instance. Containers are generally used in micro-service architecture (when you divide your application into smaller applications that talk to each other)
+
+Elastic Container Service (ECS) - is a container orchestration service that support Docker containers. Launches a cluster of server(s) on EC2 instances with Docker installed. When you need Docker as a Service, or you need to run containers.​
+
+Elastic Container Registry (ECR) - is repository for container images. In order to launch a containers you need an image.​ An image just means a saved copy. A repository just means a storage that has version control.​
+
+ECS Fargate - is a serverless orchestration container service. It is the same as ECS expect you pay-on-demand per running container (With ECS you have to keep a EC2 server running even if you have no containers running) AWS manages the underlying server, so you don’t have to scale or upgrade the EC2 server.
+
+Elastic Kubernetes Service (EKS) - is a fully managed Kubernetes service. Kubernetes (K8) is an open-source orchestration software that was created by Google and is generally the standard for managing microservices. When you need to run Kubernetes as a Service.​
+Serverless
+
+    when the underlying servers are managed by AWS. You don’t worry or configure servers.
+
+AWS Lambdais a serverless functions service. You can run code without provisioning or managing servers. You upload small pieces of code, choose much memory and how long function is allowed to run before timing out. You a charged based on the runtime of the serverless function rounded to the nearest 100ms.​
+Virtual Machines
+
+    an emulation of a physical computer using software
+
+Amazon LightSail - is the managed virtual server service. It is the “friendly” version of EC2 Virtual Machines
