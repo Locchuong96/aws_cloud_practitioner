@@ -1,0 +1,19 @@
+AWS Account ID
+
+Every AWS account has a unique Account ID
+
+The Account ID can be easily found by dropping down the current user in the Global Navigation
+
+The AWS Account ID is composed of 12 digits eg:
+
+    123456789012
+    121212121212
+    498241098510
+
+The AWS Account ID is used
+
+    when logging in with a non-root user account
+    Cross-account roles
+    Support cases
+
+It is generally good to keep your Account ID private as it is one of many components used to identify an account for the attack by a malicious actor.

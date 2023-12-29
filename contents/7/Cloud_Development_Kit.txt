@@ -1,0 +1,18 @@
+Cloud Development Kit
+
+AWS CDK allows you to use your favorite programming language to write Infrastructure as Code (IaC)
+
+TypeScript NodeJS Python Java ASP.NET
+
+    CDK is powered by CloudFormation (it generates out CloudFormation templates)
+    CDK has a large library of reusable cloud components called CDK Construct https://constructs.dev
+    CDK comes with its own CLI
+    CDK Pipelines to quickly set up CI/CD pipelines for CDK projects
+    CDK has a testing framework for Unit and Integration Testing
+
+AWS SDK looks similar, but the key difference is CDK ensures Idempotent of your Infrastructure
+Reference
+
+Construct Hub
+
+CDK Pipelines: Continuous delivery for AWS CDK applications

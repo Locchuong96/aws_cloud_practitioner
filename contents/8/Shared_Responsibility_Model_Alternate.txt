@@ -1,0 +1,24 @@
+Shared Responsibility Model
+
+The Shared Responsibility Model is a simple visualization that helps determine what the customer is responsible for and what the CSP is responsible for related to AWS.
+
+The customer is responsible for the data and the configuration of access controls that reside in AWS.
+
+The customer is responsible for the configuration of cloud services and granting access to users via permissions.
+
+CSP is generally responsible for the underlying Infrastructure.
+
+Responsibility of in the cloud
+
+If you can configure or store it then you (the customer) are responsible for it.
+
+Responsibility of the cloud
+
+If you can not configure it then CSP is responsible for it
+Reference
+
+Shared Responsibility: What This Means for You as a CISO (Cloud Next '19)
+
+Exploring container security: the shared responsibility model in GKE
+
+Google Cloud Platform: Shared Responsibility Matrix

@@ -1,0 +1,11 @@
+AWS Management Console - Service Console
+
+AWS Service each have their own customized console. You can access these consoles by searching the service name
+
+Some AWS Services Console will act as an umbrella console containing many AWS Services: e.g.
+
+    VPC Console
+    EC2 Console
+    Systems Manager Console
+    SageMaker Console
+    CloudWatch Console

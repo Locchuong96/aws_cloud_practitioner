@@ -1,0 +1,21 @@
+AWS Software Development Kit (SDK)
+
+A Software Development Kit (SDK) is a collection of software development tools in one installable package.
+
+You can use the AWS SDK to programmatically create, modify, delete or interact with AWS resources.
+
+AWS SDK is offered in various programming languages:
+
+    Java
+    Python
+    Node.js
+    Ruby
+    Go
+    .NET
+    PHP
+    JavaScript
+    C++
+
+Reference
+
+Software Development Kit (SDK)

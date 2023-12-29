@@ -1,0 +1,36 @@
+
+AWS Shared Responsibility Model
+Customer
+Configuration of Managed Services or Third-Party Software
+
+    Platforms
+    Applications
+    Identity and Access Management (IAM)
+
+Configuration of Virtual Infrastructure and Systems
+
+    Operating System
+    Network
+    Firewall
+
+Security Configuration of Data
+
+    Client-Side Data Encryption
+    Server-Side Encryption
+    Networking Traffic Protection
+    Customer Data
+
+AWS
+Software
+
+    Compute
+    Storage
+    Database
+    Networking
+
+Hardware / Global Infrastructure
+
+    Regions
+    Availability Zones
+    Edge Locations
+    Physical Security

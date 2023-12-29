@@ -1,0 +1,9 @@
+AWS Documentation
+
+AWS Documentation is a large collection of technical documentation on how to use AWS Services.
+
+docs.aws.amazon.com
+
+AWS is very good about providing detailed information about every AWS service.
+
+The basis of this course and for any AWS Certification will derive mostly from the AWS Documentation

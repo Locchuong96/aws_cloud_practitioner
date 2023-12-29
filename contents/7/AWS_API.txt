@@ -1,0 +1,51 @@
+AWS API
+
+What is an Application Programming Interface (API)?
+
+An API is software that allows two applications/services to talk to each other. The most common type of API is via HTTP/S requests.
+
+AWS API is an HTTP API and you can interact by sending HTTPS requests, using an application interacting with APIs like Postman.
+
+Each AWS Service has its own Service Endpoint which you send requests
+
+GET / HTTP/1.1
+host: monitoring.us-east-1.amazonaws.com
+x-amz-target: GraniteServiceVersion20100801.GetMetricData
+x-amz-date: 20180112T092034Z
+Authorization: AWS4-HMAC-SHA256 Credential=REDACTEDREDACTED/20180411/…..
+Content-Type: application/json
+Accept: application/json
+Content-Encoding: amz-1.0
+Content-Length: 45
+Connection: keep-alive
+
+To authorize use you will need generate a signed request You make a separate request with your AWS credentials and get back a token.
+
+You need to also provide an ACTION and accompanying parameters as the payload
+
+Rarely do users directly send HTTP requests directly to the AWS API. Its much easier to interact with the API via a variety of Developer Tools
+
+HTTP Request
+
+Directly interact with the AWS API
+
+AWS Management Console
+
+A WISWIG Web Interface
+
+AWS SDK
+
+Interact with the API using your favourite programming language
+
+AWS CLI
+
+Interact with the API via a terminal/shell program
+Reference
+
+https://en.wikipedia.org/wiki/API
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/making-api-requests.html
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/programming.html
+
+https://docs.aws.amazon.com/general/latest/gr/aws-apis.html

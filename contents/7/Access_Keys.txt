@@ -1,0 +1,30 @@
+Access Keys
+
+Access Keys is a key and secret required to have programmatic access to AWS resources when interacting with the AWS API outside of the AWS Management Console
+
+An Access Key is commonly referred to as AWS Credentials
+
+A user must be granted access to use Access Keys
+
+    Never share your access keys
+    Never commit access keys to a codebase
+    You can have two active Access Keys
+    You can deactivate Access Keys
+    Access Keys have whatever access a user has to AWS resources. 
+
+Access Keys are to be store in ~/.aws/credentials and follow a TOML file format
+
+Default will be the access key used when no profile is specified.
+
+You can store multiple access keys by giving the profile names.
+
+You can use the aws configure CLI command to populate the credential file.
+
+The AWS SDK will automatically read from these environment variables.
+
+This is the safe way of using an Access Key within your code.
+Reference
+
+Configuration and credential file settings
+
+Environment variables to configure the AWS CLI

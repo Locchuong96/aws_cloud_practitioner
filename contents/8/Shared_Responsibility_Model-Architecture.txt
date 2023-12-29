@@ -1,0 +1,30 @@
+
+Shared Responsibility Model - Architecture
+
+Less Responsibility ↑
+
+Amplify Serverless Framework
+
+Lambda Serverless Architecture
+
+Fargate Serverless Containers
+
+ECS/EKS Containers
+
+Elastic Beanstalk  Platform as a Service 
+
+EC2 Infrastructure as a Service
+
+More Responsibility ↓
+
+Serverless / Functions
+
+No more servers, just worry about data and code
+
+Microservices / Containers
+
+Mix and match languages, better utilization of resources
+
+Traditional / VMs
+
+Global workforce is most familiar with this kind of architecture and lots of documentation, frameworks, and support.

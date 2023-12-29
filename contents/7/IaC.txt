@@ -1,0 +1,39 @@
+Infrastructure as Code (IaC)
+
+Infrastructure as Code (IaC)
+
+You write a configuration script to automate creating, updating, or destroying cloud infrastructure.
+
+    IaC is a blueprint of your infrastructure.
+    IaC allows you to easily share, version, or inventory your cloud infrastructure.
+
+AWS has two offerings for writing Infrastructure as Code.
+
+AWS CloudFormation (CFN)
+
+CFN is a Declarative IaC tool
+
+AWS Cloud Development Kit (CDK)
+
+CDK is an Imperative IaC tool.
+
+Declarative
+
+    You say what you want, and the rest is filled in. Implicit Explicit
+    More verbose, but zero chance of misconfiguration
+    Uses scripting languages eg. JSON, YAML, XML
+
+Imperative
+
+    What you see is what you get. Explicit Implicit
+    Less verbose, you could end up with misconfiguration
+    Does more than Declarative
+    Uses programming languages eg. Python, Ruby, JavaScript
+
+Reference
+
+Infrastructure as code
+
+Declarative programming
+
+Imperative programming

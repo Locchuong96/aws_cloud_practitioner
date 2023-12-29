@@ -1,0 +1,12 @@
+Shared Responsibility Model
+
+The Shared Responsibility Model is a cloud security framework that defines the security obligations of the customer versa for the Cloud Service Provider (CSP) e.g. AWS.
+
+Each CSP has its own variant of the Shared Responsibility Model but they are all generally the same.
+
+AWS Shared Responsibility Model
+
+The type of cloud deployment model and/or the scope of the cloud service category can result in specialized Shared Responsibility Models.
+Reference
+
+Shared Responsibility Model

@@ -1,0 +1,9 @@
+AWS Management Console
+
+The AWS Management Console is a web-based unified console. Build, manage, and monitor everything from simple web apps to complex cloud deployments.
+
+Point and Click to manually launch and configure AWS resources with limited programming knowledge.
+
+This is known as “ClickOps” since you can perform all your system operations via clicks.
+
+The AWS Management Console is located at: console.aws.amazon.com

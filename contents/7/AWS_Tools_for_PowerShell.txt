@@ -1,0 +1,14 @@
+
+AWS Tools for PowerShell
+
+What is PowerShell?
+
+PowerShell is a task automation and configuration management framework.
+
+A command-line shell and a scripting language
+
+Unlike most shells, which accept and return text, PowerShell is built on top of the .NET Common Language Runtime (CLR), and accepts and returns .NET objects.
+
+AWS Tools for PowerShell lets you interact with the AWS API via PowerShell Cmdlets
+
+Cmdlet is a special type of command in PowerShell in the form of capitalized verb-and-noun e.g. New-S3Bucket

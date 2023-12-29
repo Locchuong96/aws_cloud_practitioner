@@ -1,0 +1,22 @@
+AWS Toolkit for VSCode
+
+AWS Toolkit is an open-source plugin for VSCode to create, debug, deploy AWS resources
+
+1. AWS Explorer
+
+Explore a wide range of AWS resources to your linked AWS Account
+
+2. AWS CDK Explorer
+
+Allows you to explore your stacks defined by CDK.
+
+3. Amazon Elastic Container Service
+
+Provides IntelliSense for ECS task-definitions files
+
+4. Serverless Applications
+
+Create, debug and deploy serverless applications via SAM and CFN
+Reference
+
+Working with AWS Services
