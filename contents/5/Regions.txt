@@ -1,0 +1,24 @@
+Regions
+
+Region: a Geographically Distinct Location, which has multiple datacentres(AZs).
+
+Every region is physically isolated from and independent of every other region in terms of location, power, water supply
+
+    Each region has at least two Availability Zones (AZs) ​
+    AWS US-EAST-1 (North Virginia) is the largest region​
+    New services almost always become available first in US-EAST​
+    Not all AWS Services are available in all regions​
+    All your billing information appears in US-EAST-1 (North Virginia)​
+    AWS is always looking to expand their footprint so new regions could be added in the upcoming years.​
+
+You can head over to AWS's Global Infrastructure page to learn more about Regions and see maps of their locations.
+
+    In the AWS Console you can change AWS Regions. Whatever AWS resources you launch will be in that region.​
+    Some AWS Services such as CloudFront operate in multiple regions and you’ll see the region change to Global ​
+
+When you choose a region, there are four factors you need to consider:
+
+    What Regulatory Compliance does this region meet?
+    What is the cost of the AWS services in this region?
+    What AWS services are available in this region?
+    What is the distance or latency to my end-users?

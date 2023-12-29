@@ -1,0 +1,15 @@
+Availability Zones
+
+Availability Zones are often referred to as AZs. An Availability Zone (AZ) is a physical location made up of one or more datacenters.​ A datacenter is a secured building that contains​ hundreds or thousands of computers. Datacenters within a region will be isolate from​ each other (different buildings). But they will​ be close enough to provide low-latency (< 10ms).​
+
+A region will generally contain 3 Availability Zones​.
+
+The use of AZ’s give customers the ability to operate production applications and databases that are more:
+
+    Highly available
+    Fault tolerant
+    Scalable
+
+Its common practice to run workloads in at least​ 3 AZs to ensure services remain available in case ​one or two datacenters fail (High Availability).
+
+    A subnet is associated with an Availability Zone.​ So to launch an AWS resource into a specific AZ you need to launch your resource in a subnet that resides in that AZ.

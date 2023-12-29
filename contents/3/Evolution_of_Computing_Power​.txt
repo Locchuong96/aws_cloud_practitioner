@@ -1,0 +1,36 @@
+Evolution of Computing Power​
+
+What is Computing Power?​
+
+The throughput is measured at which a computer can complete a computational task.​
+
+General Computing​
+
+Xeon CPU Processor​
+
+Tensor Computing​
+
+Tensor Processing Unit 3.0 (TPUs)​
+
+50x faster than traditional CPUs​
+
+Quantum Computing​
+
+    Google Foxtail (2016)​
+    Google Bristlecone (2017)​
+    Google Sycamore (2018)​
+
+100 Million times faster​
+
+Google’s Cloud Service Offering​
+
+Compute Engine​
+
+Cloud TPU​
+
+Google Quantum AI​
+Reference
+
+Tensor Processing Unit
+
+A Preview of Bristlecone, Google’s New Quantum Processor

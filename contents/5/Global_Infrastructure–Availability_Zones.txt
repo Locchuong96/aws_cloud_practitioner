@@ -1,0 +1,14 @@
+Global Infrastructure – Availability Zones
+
+A region has multiple Availability Zones
+
+An Availability Zone is made up of one or more data centers
+
+All AZs in an AWS Region are interconnected with high-bandwidth, low-latency networking, over fully redundant, dedicated metro fiber providing high-throughput, low-latency networking between 
+
+All traffic between AZs is encrypted
+
+AZs are within 100 km (60 miles) of each other.
+Reference
+
+Global Infrastructure

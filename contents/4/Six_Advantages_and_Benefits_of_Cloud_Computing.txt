@@ -1,0 +1,30 @@
+Six Advantages and Benefits of Cloud Computing
+
+    Trade capital expense for variable expense
+    Benefit from massive economies
+    Stop guessing capacity
+    Increase speed and agility
+    Stop spending money on running and maintaining data centers
+    Go global in minutes
+
+You can Pay On-Demand meaning there is no upfront cost and you pay for only what you consume or pay by the hour, minutes, or seconds.
+
+Instead of paying for upfront costs of data centers and servers
+
+You are sharing the cost with other customers to get unbeatable savings.
+
+Hundreds of thousands of customers utilize a fraction of a server
+
+Scale up or down to meet the current need. Launch and destroy services whenever
+
+Instead of paying for idle or underutilized servers.
+
+Launch resources within a few clicks in minutes instead of waiting days or weeks of your IT to implement the solution on-premise
+
+Focus on your own customers, developing and configuring your applications
+
+Instead of operations such as racking, stacking, and powering servers
+
+Deploy your app in multiple regions around the world with a few clicks.
+
+Provide lower latency and a better experience for your customers at a minimal cost.

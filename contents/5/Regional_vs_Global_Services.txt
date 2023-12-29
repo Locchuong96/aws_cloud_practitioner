@@ -1,0 +1,21 @@
+Global Infrastructure - Regional vs Global Services
+
+Regional Services
+
+AWS Scopes their AWS Management Console on a selected Region.
+
+This will determine where an AWS service will be launched and what will be seen within an AWS Service's console
+
+You generally don't explicitly set the Region for service at the time of the creation
+
+Global Services
+
+Some AWS Services operates across multiple regions and the region will be fixed to "Global"
+
+E.g. Amazon S3, Cloud Front, Route53, IAM
+
+For these global services at the time of creation:
+
+    There is no concept of region e.g. IAM User
+    A single region must be explicitly chosen e.g. S3 Bucket
+    A group of regions is chosen e.g. CloudFront Distribution

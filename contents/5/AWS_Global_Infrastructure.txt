@@ -1,0 +1,20 @@
+AWS Global Infrastructure
+What is the AWS Global Infrastructure?​
+
+The AWS Global Infrastructure is globally distributed hardware and data centers that are physically networked together to act as one large resource for the end customer.
+
+This is so you, the customer, can access their services no matter where you are located around the globe.
+The AWS Global Infrastructure is made up of the following resources*:
+
+    30 Launched Regions​
+    96 Availability Zones​
+    115 Direct Connection Locations​
+    410+ Points of Presence​
+    25 Local Zones
+
+*as of Jan 9, 2023
+
+References
+
+    https://infrastructure.aws/
+    Global Infrastructure

@@ -1,7 +1,4 @@
-Cloud Hosting
-
 Types of Hosting
-
 Dedicated Server​
 
 One physical machine dedicated to single a business​
