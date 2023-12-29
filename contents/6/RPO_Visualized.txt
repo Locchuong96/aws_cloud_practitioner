@@ -1,0 +1,6 @@
+
+RPO Visualized
+
+Recovery Point Objective (RPO) is the maximum acceptable amount of data loss after an unplanned data-loss incident, expressed as an amount of time.
+
+The objective determines what is considered an acceptable loss of data between the last recovery point and the interruption of service and is defined by the organization.

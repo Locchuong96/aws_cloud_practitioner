@@ -1,0 +1,13 @@
+Fault Tolerance
+What is Highly Fault Tolerant?
+
+The ability for your service to ensure there is no single point of failure. Preventing the chance of failure
+What is a Fail-over?
+
+Fail-overs are when you have a plan to shift traffic to a redundant system in case the primary system fails
+How can Fault Tolerance be achieved?
+
+A common example is having a copy (secondary) of your database where all ongoing changes are synced. The Secondary is not in-use until a failover occurs and it becomes the primary database.
+How can Fault Tolerance be implemented using AWS?
+
+RDS Multi-AZ - is when you run a duplicate standby database in another Availability Zone in case your primary database fails.

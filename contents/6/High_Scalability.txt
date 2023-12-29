@@ -1,0 +1,8 @@
+High Scalability
+What is High Scalability?
+
+Your ability to increase your capacity based on the increasing demand of traffic, memory and computing power
+How is High Scalability defined?
+
+    Vertical Scaling is known as Scaling Up (When Upgrade to a bigger server)
+    Horizontal Scaling is known as Scaling Out (When Add more servers of the same size)

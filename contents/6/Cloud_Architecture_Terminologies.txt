@@ -1,0 +1,22 @@
+Cloud Architecture Terminologies
+
+What is a Solutions Architect?
+
+A role in a technical organization that architects a technical solution using multiple systems via researching, documentation, experimentation.
+
+What is a Cloud Architect?
+
+A solutions architect that is focused solely on architecting technical solutions using cloud services.
+
+A cloud architect needs to understand the following terms and factor them into their design architecture based on the business requirements.
+
+    Availability - Your ability to ensure service remains available e.g. Highly Available (HA)
+    Scalability - Your ability to grow rapidly or unimpeded
+    Elasticity - Your ability to shrink and grow to meet the demand
+    Fault Tolerance - Your ability to prevent a failure
+    Disaster Recovery - Your ability to recover from a failure e.g. High Durable (DR)
+
+A Solutions Architect needs to always consider the following business factors:
+
+    (Security) How secure is this solution?
+    (Cost) How much is this going to cost?

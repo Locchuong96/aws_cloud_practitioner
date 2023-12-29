@@ -1,0 +1,14 @@
+High Elasticity
+What is High Elasticity?
+
+Your ability to automatically increase or decrease your capacity based on the current demand of traffic, memory and computing power
+How is Elasticity achieved?
+
+Elasticity relies on Horizontal Scaling. Vertical Scaling is generally hard for traditional architecture so you’ll usually only see horizontal scaling described with Elasticity.
+
+Scaling Out — Add more servers of the same size
+
+Scaling In — Removing more servers of the same size
+How can Elasticity be implemented in AWS?
+
+Auto Scaling Groups (ASG) - are an AWS feature that will automatically add or remove servers based on scaling rules you define.

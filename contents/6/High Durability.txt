@@ -1,0 +1,14 @@
+
+High Durability
+
+Your ability to recover from a disaster and to prevent the loss of data solutions that recover from a disaster is known as Disaster Recovery (DR)
+Questions you should be asking about your Disaster Recovery procedures:
+
+    Do you have a backup?
+    How fast can you restore that backup?
+    Does your backup still work?
+    How do you ensure current live data is not corrupt?
+
+CloudEndure Disaster Recovery
+
+CloudEndure Disaster Recovery continuously replicates your machines into a low-cost staging area in your target AWS account and preferred Region enabling fast and reliable recovery in case of IT data center failures.

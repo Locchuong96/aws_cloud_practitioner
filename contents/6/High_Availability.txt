@@ -1,0 +1,14 @@
+
+High Availability
+What is High Availability (HA)?
+
+Your ability for your service to remain available by ensuring there is no single point of failure and/or ensure a certain level of performance
+How can you achieve High Availability?
+
+Running your workload across multiple Availability Zones ensures that if 1 or 2 AZs become unavailable your service/applications remain available.
+How can High Availability be implemented on AWS?
+
+Using Elastic Load Balancer would assist in implementing High Availability
+Elastic Load Balancer ​
+
+A load balancer allows you to evenly distribute traffic to multiple servers in one or more data center. If a data center or server becomes unavailable (unhealthy) the load balancer will route the traffic to only available data centers with servers.​

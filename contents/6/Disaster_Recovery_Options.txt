@@ -1,0 +1,45 @@
+Disaster Recovery Options
+
+There are multiple options for recovery that trade cost vs time to recover.
+
+Backup & Restore
+
+RPO/RTO (Hours)
+
+You back up your data and restore it to new infrastructure
+
+    Lower priority use cases
+    Restore data after the event
+    Deploy resources after the event
+    Cost $
+
+Pilot Light
+
+RPO/RTO (10 mins)
+
+Data is replicated to another region with minimal services running
+
+    Less stringent RTO & RPO
+    Core Services
+    Start & scale resources after the event
+    Cost $$
+
+Warm Standby
+
+RPO/RTO (Minutes)
+
+Scaled-down copy of your infrastructure running ready to scale up
+
+    Business Critical Services
+    Scale resources after the event
+    Cost $$$
+
+Multi-site Active/active
+
+RPO/RTO (Real-time)
+
+Scaled up copy of your infrastructure in another region
+
+    Zero downtime
+    Near-zero loss
+    Cost $$$$
