@@ -1,0 +1,1463 @@
+1. Which AWS service allows developers to write their Infrastructure as Code? (IaC)
+	
+	
+
+AWS CodeStar
+	
+	
+
+AWS IaC
+	
+	
+
+AWS Config
+	
+	
+
+Amazon CloudFront
+	
+	
+
+AWS CloudFormation (x)
+
+
+2. A video game company has their game server residing in US-EAST-1 (North Virginia).
+
+They want to expand their userbase to all of North America quickly. However, their DevOps team says it will take months to automate the infrastructure as code to deploy servers to other regions.
+
+Which AWS service would immediately improve the latency to other regions to begin expanding their userbase?
+	
+	
+
+Amazon CloudFront
+	
+	
+
+AWS VPN
+	
+	
+
+AWS Direct Connect
+	
+	
+
+AWS Global Accelerator (x)
+
+
+3. 
+
+A Site Reliability Engineer has been tasked with implementing a Disaster Recovery (DR) strategy at the lowest cost possible.
+
+Which DR strategy will meet this requirement?
+	
+	
+
+Pilot Light
+	
+	
+
+Multi-site active
+	
+	
+
+Warm Standby
+	
+	
+
+Backup and Restore (x)
+
+
+4. 
+
+An AWS Availability Zone (AZ) is a single point of failure. To avoid a single point of failure, a company needs to deploy its workload across multiple AZs in the same AWS Region.
+	
+	
+
+TRUE (x)
+	
+	
+
+FALSE
+
+
+5. What is the AWS Personal Health Dashboard?
+	
+	
+
+a service that integrates with the AWS smart bracelet to monitor your health
+	
+	
+
+provides real-time updates about COVID-19 vaccination status
+	
+	
+
+detects Protected health information (PHI) within AWS storage and database accounts
+	
+	
+
+alerts and guidance for AWS events that might affect your environment (x)
+
+6. 
+
+Which AWS Support Plans provide access to ONLY the Service Quota and basic Security checks in Trusted Advisor?
+(Choose 2)
+	
+	
+
+Developer (x)
+	
+	
+
+Enterprise
+	
+	
+
+Business
+	
+	
+
+Basic (x)
+
+
+7. A company needs a dedicated connection from their on-premise data center to their AWS Cloud VPC.
+
+Which AWS service will meet this requirement?
+	
+	
+
+Amazon Connect
+	
+	
+
+Route53
+	
+	
+
+VPC Peering
+	
+	
+
+AWS Direct Connect (x)
+
+
+8. A developer needs to block specific IP addresses from reaching an EC2 instance.
+
+Which AWS Networking component can meet this requirement?
+	
+	
+
+IAM Policy
+	
+	
+
+Security Groups
+	
+	
+
+ACLs
+	
+	
+
+AWS IP Block
+	
+	
+
+NACLs (x)
+
+
+9. An AWS customer believes that one of their accounts has been comprised and it has resources running compute workloads performing illegal activities.
+
+What action should the AWS customer take?
+	
+	
+
+AWS Account Support
+	
+	
+
+AWS Access Analyzer
+	
+	
+
+AWS Technical Support
+	
+	
+
+Contact abuse@amazonaws.com (x)
+
+
+10. Which two AWS services utilize Edge Locations?
+(Choose 2)
+	
+	
+
+AWS Global Accelerator (x)
+	
+	
+
+Amazon SageMaker
+	
+	
+
+Amazon Relational Database Service (RDS)
+	
+	
+
+Amazon CloudFront  (x)
+
+
+11. An organization has a workload that needs to remain available in case of datacenter wide network failure.
+
+Which AWS service will allow them to distribute their workload across multiple instances in different Availability Zones in the same region?
+	
+	
+
+AWS Compute Distrbute
+	
+	
+
+EC2 Auto Scaling
+	
+	
+
+Elastic Load Balancer (x)
+
+
+12. For Basic Support, what Trusted Advisor checks are available to the AWS customer?
+(Choose 2)
+	
+	
+
+MFA on Root Account (x)
+	
+	
+
+Amazon EBS Snapshots
+	
+	
+
+Low Utilization Amazon EC2 Instances
+	
+	
+
+Service Limits (x)
+
+
+13. 
+
+A company must securely transfer 6 terabytes to AWS from their on-premise environment.
+
+Which AWS transfer storage should best meet this requirement?
+	
+	
+
+AWS Glue
+	
+	
+
+AWS Snowball
+	
+	
+
+AWS S3
+	
+	
+
+AWS Storage Gateway
+	
+	
+
+AWS Snowcone (x)
+
+
+14. A company has a web application built in Ruby on Rails and they want to deploy their web application to AWS without needing to fully understand how to configure and manage the underlying infrastructure so they can just focus on their code.
+
+Which AWS service would meet this requirement?
+	
+	
+
+AWS CloudFormation
+	
+	
+
+Amazon EC2
+	
+	
+
+AWS Heroku
+	
+	
+
+AWS Elastic Beanstalk (x)
+
+
+15. Which AWS service is a message queue service used by applications to exchange messages through a polling model and can be used to decouple sending and receiving components?
+	
+	
+
+SES
+	
+	
+
+Kinesis
+	
+	
+
+SNS
+	
+	
+
+SQS (x)
+
+
+16. An organization wants to build their next web application on AWS. They have decided they should begin the project by purchasing a domain name and then pointing the domain to a static website hosted on S3.
+
+Which AWS Service can be used to purchase and manage their domain name records?
+	
+	
+
+AWS DNS
+	
+	
+
+You cannot purchase domain names on AWS. Use a third-party service like GoDaddy Let AWS manage the domain
+	
+	
+
+Amazon CloudFront
+	
+	
+
+Amazon Route53 (x)
+
+
+17. A small business wants to deploy a Wordpress website with a custom domain on AWS but they have minimal knowledge of AWS.
+
+Which AWS service offering would be the easiest solution for this customer?
+	
+	
+
+AWS Elastic Beanstalk
+	
+	
+
+AWS Amplify
+	
+	
+
+AWS CodeStar (x)
+	
+	
+
+Amazon LightSail
+
+
+18. A Canadian company needs to meet regulatory compliance where the data must reside within Canada. Their CIO has experience with maintaining and trusting on-premise infrastructure because it provides a guarantee of Data sovereignty. However, they would like to use an AWS service to take care of this for them.
+
+Which AWS service provides a guarantee of Data sovereignty?
+	
+	
+
+AWS Data Sovereignty
+	
+	
+
+AWS Artifact
+	
+	
+
+AWS Data Lake
+	
+	
+
+AWS Security Hub
+	
+	
+
+AWS Outposts (x)
+
+
+19. A company wants to run a development environment for their web application which is backed by the relational database Postgres.
+
+Which AWS service would best meet their requirements?
+	
+	
+
+Amazon Aurora
+	
+	
+
+AWS Postgres
+	
+	
+
+DynamoDB
+	
+	
+
+RDS (x)
+
+
+20. Which two AWS Networking services can be used to protect incoming traffic?
+(Choose 2)
+	
+	
+
+NACLs (x)
+	
+	
+
+VPC Flow Logs
+	
+	
+
+Amazon VPC IP Address Manager (IPAM)
+	
+	
+
+Security Groups (x)
+
+
+21. A large accounting firm wants to utilize AWS to store customer accounting information in archive storage and must store this information for seven years due to regulatory compliance.
+
+Which AWS service will meet this requirement?
+	
+	
+
+Amazon Elastic Block Store
+	
+	
+
+S3 Infrequent access
+	
+	
+
+Snowball
+	
+	
+
+AWS Backup
+	
+	
+
+Glacier (x)
+
+
+22. An enterprise is evaluating whether to adopt AWS to offload most of their on-premise Virtual Machines to Ec2. The enterprise does not have much domain expertise and they need a point of contact that will help proactivity manage their account and connect them with AWS experts.
+
+Which Enterprise offering does this best describe?
+	
+	
+
+Concierge Support Team
+	
+	
+
+Werner Hans Peter Vogels
+	
+	
+
+AWS Technical Support
+	
+	
+
+TAM (x)
+
+
+23. A developer wants to gain remote access to an EC2 Instance running Linux without the need of managing a key pair.
+
+What EC2 feature will meet this requirement?
+	
+	
+
+EC2 Key Pairs
+	
+	
+
+AWS Key Management Service (KMS) (x)
+	
+	
+
+AWS IAM Role
+	
+	
+
+Sessions Manager
+
+
+24. Which AWS security services are used in mitigating DDoS attacks?
+(Choose 3)
+	
+	
+
+Security Groups
+	
+	
+
+AWS Shield Advanced (x)
+	
+	
+
+NACLs
+	
+	
+
+AWS WAF (x)
+	
+	
+
+AWS Shield (x)
+
+
+25. What is the recommended measure for protecting your root account?
+(Choose 2)
+	
+	
+
+Write down your password on paper and store it in a vault
+	
+	
+
+Delete all access keys
+	
+	
+
+Principle of Least Privledge (x)
+	
+	
+
+Rotate secret keys
+	
+	
+
+MFA (x)
+
+
+26. What best describes the Principle of Least Privilege (PoLP)?
+	
+	
+
+All users should have the same baseline permissions granted to them to use basic AWS services.
+	
+	
+
+Users should always have a little more access granted to them then they need, just in case they end up needed it in the future.
+	
+	
+
+Users should submit all access requests in written form so that there is a paper trail of who needs access to different AWS resources.
+	
+	
+
+Users should be granted permission to access only specific resource actions to accomplish their tasks. (x)
+
+
+27. Which AWS security services are capable of detecting publicly accessible S3 buckets in an organization where multiple departments manage their own AWS accounts?
+(Choose 2)
+	
+	
+
+Amazon Detector
+	
+	
+
+Amazon Macie (x)
+	
+	
+
+S3 Bucket Scanner
+	
+	
+
+Amazon GuardDuty (x)
+	 
+	
+
+AWS IAM Access Analyzer
+
+
+28. An organization wants to ensure the files that it stores in S3 are secure at rest.
+
+What functionality would provide this security?
+	
+	
+
+Client-Side Encryption
+	
+	
+
+Infrequent Access
+	
+	
+
+Presigned URLs
+	
+	
+
+Server-Side Encryption (x)
+
+
+29. A developer has a web application that is behind an Application Load Balancer. They want to protect their web app against common attack patterns, such as SQL injection or cross-site scripting.
+
+Which AWS Service will meet this requirement?
+	
+	
+
+AWS Security Hub
+	
+	
+
+AWS GuardDuty
+	
+	
+
+AWS Shield
+	
+	
+
+AWS WAF (x)
+
+
+
+30. A company wants to ensure that Termination Protection is turned on for all their EC2 instance.
+
+Which AWS service can ensure this configuration remains set and could possibly remediate the issue automatically?
+	
+	
+
+AWS CloudFormation
+	
+	
+
+AWS GuardDuty
+	
+	
+
+AWS IAM Role
+	
+	
+
+AWS Config (x)
+
+
+31. What actions within an AWS Account can only be performed by an AWS Account root user?
+(Choose 3)
+	
+	
+
+Turn on Mult-Factor Authentication (x)
+	
+	
+
+Create an Account
+	
+	
+
+Rotate AWS Access Keys
+	
+	
+
+Create an AWS Organization (x)
+	
+	
+
+Updating Billing Information (x)
+
+
+32. A company has an EC2 instance running and suddenly the server was terminated. It's suspected that a junior developer may have terminated this instance by mistake.
+
+Which AWS service will help determining who was responsible?
+	
+	
+
+Trusted Advisor
+	
+	
+
+CloudWatch Logs
+	
+	
+
+AWS Inspector
+	
+	
+
+CloudTrail (x)
+
+
+33. A customer has data that resides within an Amazon S3 Bucket.
+
+Who is responsible for ensuring that the data has Server Side Encryption?
+	
+	
+
+AWS is responsible
+	
+	
+
+The customer is responsible (x)
+
+
+34. An organization wants to download a compliance report to attest that AWS meets regulatory compliance before they decide to adopt AWS as their primary cloud service provider.
+
+Which AWS service will meet this requirement?
+	
+	
+
+Amazon Inspector
+	
+	
+
+Amazon Regulatory Reporter
+	
+	
+
+AWS Customer Compliance Center
+	
+	
+
+AWS Artifact (x)
+
+
+35. Which AWS Managed Job Function provides full access to AWS services and resources, but does not allow management of Users and groups?
+	
+	
+
+AdministratorAccess
+	
+	
+
+ViewOnlyAccess
+	
+	
+
+SystemAdministrator
+	
+	
+
+PowerUserAccess (x)
+
+
+36. An organization has many departments that manage its own AWS accounts.
+
+The Chief Information Officer(CIO) has a concern about the departments operating their own ShadowIT due to a lack of security controls.
+
+Which AWS Service can be implemented to allow AWS Account owners to access a list of technology stacks built by the company that is pre-approved and self-serve?
+	
+	
+
+AWS Stack List
+	
+	
+
+AWS Organizations (x)
+	
+	
+
+AWS Systems Manager
+	
+	
+
+AWS Service Catalog
+
+
+37. 
+
+Which of the following AWS security services enable you to implement a collection of security measures and adjustments?
+(Choose 2)
+	
+	
+
+AWS Config (x)
+	
+	
+
+AWS Managed Rules
+	
+	
+
+AWS GuardRails
+	
+	
+
+AWS Security Hub (x)
+
+
+38. The customer is responsible for security in the cloud.
+	
+	
+
+False
+	
+	
+
+True (x)
+
+
+38. Which of the following Compliance certifications attests to the security of the AWS platform regarding credit card transactions?
+	
+	
+
+ISO 27001
+	
+	
+
+SOC 2
+	
+	
+
+FedRamp
+	
+	
+
+PCI DSS Level 1 (x)
+
+
+39. A company needs to run batch jobs a few times throughout the year.
+
+These jobs can be interrupted and resumed with no impact on the business.
+
+Which instance EC2 Pricing Model is the most cost-effective option?
+	
+	
+
+On-Demand
+	
+	
+
+Dedicated Hosts
+	
+	
+
+Reserved
+	
+	
+
+Spot (x)
+
+
+40. Which AWS service is used to calculate the Total Cost of Ownership?
+	
+	
+
+TCO Calculator
+	
+	
+
+AWS Budgets
+	
+	
+
+AWS Cost Explorer
+	
+	
+
+AWS Pricing Calculator (x)
+
+
+41. A company has three different versions of its web application running in a single AWS account. Each version has wildly different architectures and must remain running due to legacy multi-year licensing agreements.
+
+The company wants to isolate the combined cost of each version of its web application's infrastructure.
+
+Which AWS billing feature or service would meet this requirement?
+	
+	
+
+AWS Budgets
+	
+	
+
+AWS Cost and Usage Reports
+	
+	
+
+AWS Cost Explorer
+	
+	
+
+Cost Allocation Tags (x)
+
+
+42. A Billing Administrator has been asked to forecast the combined costs of RDS and EC2 instances running in the production AWS account for the next three months.
+
+The Billing Administrator may need to create an adjustment to the forecast multiple times throughout the month and compile it as a report for the CFO.
+
+Which AWS Billing service will meet these requirements?
+	
+	
+
+AWS Budgets
+	
+	
+
+AWS Forecast
+	
+	
+
+AWS Cost and Usage Reports
+	
+	
+
+AWS Cost Explorer (x)
+
+
+43. An organization wants to programmatically observe if pricing information for various EC2 instance sizes changes within their region.
+
+How would this organization accomplish this?
+	
+	
+
+AWS Pricing Calculator
+	
+	
+
+AWS Pricing SDK
+	
+	
+
+AWS Budgets
+	
+	
+
+AWS Pricing API (x)
+
+
+44. An enterprise using AWS wants to provide to its billing department a detailed breakdown of the costs and usage of various services. They want the report in a CSV file for the month to the current date so they can analyze the data within Microsoft Excel.
+
+Which AWS Billing service would meet this requirement?
+	
+	
+
+AWS Cost Explorer
+	
+	
+
+AWS Budgets
+	
+	
+
+AWS Pricing Calculator
+	
+	
+
+AWS Cost and Usage Reports (x)
+
+45. An enterprise using AWS wants to provide to its billing department a detailed breakdown of the costs and usage of various services. They want the report in a CSV file for the month to the current date so they can analyze the data within Microsoft Excel.
+
+Which AWS Billing service would meet this requirement?
+	
+	
+
+AWS Cost Explorer
+	
+	
+
+AWS Budgets
+	
+	
+
+AWS Pricing Calculator
+	
+	
+
+AWS Cost and Usage Reports (x)
+
+
+46. In order to use CloudWatch Alarms to monitor Billing information, what two things must you do?
+(Choose 2)
+	
+	
+
+Create an AWS Cost and Usage Report
+	
+	
+
+Create a Billing Alarm
+	
+	
+
+Create an AWS Budget (x)
+	
+	
+
+Enable Cost and Usage Reports
+	
+	
+
+Enable Billing Alerts (x)
+
+
+47. An enterprise using AWS wants to provide to its billing department a detailed breakdown of the costs and usage of various services. They want the report in a CSV file for the month to the current date so they can analyze the data within Microsoft Excel.
+
+Which AWS Billing service would meet this requirement?
+	
+	
+
+AWS Cost Explorer
+	
+	
+
+AWS Budgets
+	
+	
+
+AWS Pricing Calculator
+	
+	
+
+AWS Cost and Usage Reports (x)
+
+
+48. A company has multiple EC2 instances managed by an Auto Scaling Group and accessed via an Application Load Balancer. These instances are used to run internal company services and are not expected to experience significant changes in traffic or usage over the next year.
+
+Which of the following EC2 pricing models would be most suitable for reducing the cost of these servers?
+	
+	
+
+On-Demand
+	
+	
+
+Dedicated
+	
+	
+
+Spot
+	
+	
+
+Reserved Instances (x)
+
+
+49. A company has been outputting AWS Cost and Usage Reports to an S3 Bucket.
+
+The Chief Financial Officer(CFO) of the company wants to use an AWS service to visualize this cost.
+
+Which AWS service would be ideal for this use case?
+	
+	
+
+AWS Tableau
+	
+	
+
+Amazon Quicksight (x)
+
+
+50.  A company is evaluating whether to move its workloads to AWS Cloud from on-premise.
+
+The Chief Executive Officer wants to understand how moving to AWS will impact their IT team that currently manages their on-premise infrastructure.
+
+What will happen to the IT team?
+	
+	
+
+The company's IT team will need to be let go. AWS will take care of the underlying infrastructure and the underlying infrastructure in most cases is not accessible or is abstracted away from the AWS customers.
+	
+	
+
+AWS does not manage the underlying infrastructure, your IT Team will work with AWS IT teams directly to provide the physical infrastructure needed to run your cloud workloads.
+	
+	
+
+The IT team can be shifted away from managing infrastructure to revenue-generating activities.  (x)
+
+51. What is the advantage of decoupling services vs having a large monolithic application?
+	
+	
+
+Create a tightly integrated application
+	
+	
+
+Improved Performance
+	
+	
+
+Better data flow between IP socks
+	
+	
+
+Reduce inter-dependencies so failures do not impact critical services (x)
+
+52. A company is building out a proof-of-concept on AWS to kick start their migration to the cloud. Previously the developers would need to submit a request to their centralized IT department to set up a physical machine with a hypervisor installed to utilize Virtualisation.
+
+However, with AWS they can self-provision resources within minutes.
+
+What best describes this cloud benefit?
+	
+	
+
+Elasticity
+	
+	
+
+Global Reach
+	
+	
+
+Reliability
+	
+	
+
+Agility (x)
+
+
+53. A company has a web application that they determined requires at least 2 running servers to meet their operational performance service level agreements (SLAs) with their customers.
+
+The company has deployed 3 identical servers across 3 different availability zones in a single region.
+
+Which AWS Cloud benefit does this describe?
+	
+	
+
+Elasticity
+	
+	
+
+Reliability (x)
+	
+	
+
+Global Reach
+	
+	
+
+High Availability
+
+
+54. A new company has decided they will exclusively run all of their infrastructure on AWS.
+
+What is the name of this cloud deployment model?
+(Choose 2)
+	
+	
+
+Cloud-First (x)
+	
+	
+
+On-Premise
+	
+	
+
+Hybrid
+	
+	
+
+Cloud-Native (x)
+
+
+55. What best describes Right-Sizing EC2 instances?
+(Choose 3)
+	
+	
+
+Matching workload performance and capacity requirements based on quarterly or annual timelines
+	
+	
+
+Identifying opportunities to eliminate or downsize without compromising capacity or other requirements, (x)
+	
+	
+
+Prioritize speed and performance over cost
+	
+	
+
+Continually analyzing instance performance and usage needs and patterns (x)
+	
+	
+
+Matching workload performance and capacity requirements at the lowest possible cost (x)
+
+
+56. Which of the following best describes the AWS Cloud benefit of Scalability?
+	
+	
+
+A company application can right-size (provision instances to match workloads)
+	
+	
+
+A company's application will have a guaranteed uptime anywhere in Noth America, even in the chance of a single region failing.
+	
+	
+
+A company can launch copies of its application anywhere in the world within minutes.
+	
+	
+
+A company offers an application or system that can adapt to the increase in demand over time.
+	
+
+A company offers an application or system that can adapt to the increase in demand over time
+
+57. A company has an existing web application running on AWS Cloud within North America. The company has observed an increase of users from Asia however due to the distance between the customer and the North American these users are experiencing severe latency. The company decides to launch an identical server within an Asia Region to reduce the latency.
+
+Which benefit of AWS Cloud does this best describe?
+	
+	
+
+High Availability
+	
+	
+
+Economy of scale
+	
+	
+
+Agility
+	
+	
+
+Global Reach (x)
+
+
+58. Which of the following are examples of Capital Expenses (CAPEX)?
+(Choose 2)
+	
+	
+
+Network Costs
+	
+	
+
+Subscription for software license (x)
+	
+	
+
+Billing Based on Compute Metrics
+	
+	
+
+IT Personnel
+	
+	
+
+Datacenter Costs (x)
+
+
+59. A company has an existing on-premise relational database. They want to migrate this database to the cloud and are willing to adopt a NoSQL database in order to gain managed sharding and provisioned throughput with a guarantee of performance at any scale.
+
+Which NoSQL offering on AWS would be suited for this workload?
+	
+	
+
+Amazon Aurora
+	
+	
+
+Amazon Neptune
+	
+	
+
+Amazon Relational Database Service
+	
+	
+
+DocumentDB
+	
+	
+
+DynamoDB (x)
+
+
+60. 
+
+An organization is migrating its Microsoft SQL Server to AWS Cloud; however, they have already purchased a software license from Microsoft for its SQL Server. Unfortunately, the license does not include Software Assurance.
+
+Is it possible for an organization to Bring-Your-Own-License (BYOL) to AWS, and how would they achieve this?
+	
+	
+
+Amazon Relational Database Service (RDS) via AWS License Manager (x)
+	
+	
+
+Import your license via AWS License Manager. Use any compute service you like
+	
+	
+
+Amazon EC2 Dedicated Host integrated with AWS License Manager.
+
+
+61. What are three key factors from the twelve-factor app pattern methodology that play a role in designing for failure?
+(Choose 3)
+	
+	
+
+Breakability (x)
+	
+	
+
+Logs (x)
+	
+	
+
+Events Streams
+	
+	
+
+Dev/prod parity
+	
+	
+
+Disposability (x)
+
+62a. Considering NovaTech's need for stringent data security and compliance, which AWS service would be most appropriate for managing identity access and ensuring secure sign-on processes?
+	
+	
+
+AWS Directory Service
+	
+	
+
+Amazon Cognito
+	
+	
+
+AWS Key Management Service (KMS)
+	
+	
+
+AWS Identity Management Service (IAM) (x)
+
+
+62b. 
+
+NovaTech is concerned about unexpected costs in AWS. What tool would you recommend they use to monitor and control their AWS spending?
+	
+	
+
+AWS Price List API
+	
+	
+
+AWS Trusted Advisor
+	
+	
+
+Amazon CloudWatch (x)
+	
+	
+
+Budgets and AWS Cost Explorer
+
+62c. Given NovaTech's extensive data storage needs for AI model training, which AWS storage service would you recommend that balances performance, scalability, and cost?
+	
+	
+
+AWS Storage Gateway
+	
+	
+
+Amazon Elastic File System (EFS)
+	
+	
+
+Amazon S3 (x)
+	
+	
+
+Amazon Elastic Block Store (EBS)
+
+
+62d. How would you ensure high performance and low latency for NovaTech's AI applications, considering their global expansion plans?
+	
+	
+
+AWS Lambda
+	
+	
+
+Amazon Elastic Cache
+	
+	
+
+AWS Global Accelerator (x)
+	
+	
+
+Amazon EC2 Auto Scaling
+
+62e. Suggest a disaster recovery plan for NovaTech's critical AI applications and data on AWS.
+	
+	
+
+AWS Backup
+	
+	
+
+Amazon RDS Multi-AZ Deployments
+	
+	
+
+AWS Elastic Disaster Recovery
+
+63. A startup company is adopting a cloud-native approach by building its web application using AWS cloud services.
+
+Which of the following cloud benefits will help keep their operational costs low?
+(Choose 2)
+	
+	
+
+Economy of scale
+	
+	
+
+Elasticity (x)
+	
+	
+
+High Availability
+	
+	
+
+Pay-as-you-go pricing (x)
+
+
+64. A company is planning to migrate their virtual machines from on-premise to AWS.
+
+The company wants to take advantage of EC2 Auto Scaling, which will allow them to programmatically and automatically add or remove servers to meet the demand at any given time.
+
+Which benefit of cloud computing best describes this scenario?
+	
+	
+
+Agility
+	
+	
+
+Economy of scale
+	
+	
+
+High Availability
+	
+	
+
+Elasticity (x)
+
+
+65. 
+
+Which of the following benefits would be attractive to a company moving from on-premise to AWS? (Choose 3)
+(Choose 3)
+	
+	
+
+Flexible (x)
+	
+	
+
+Control of Physical Servers
+	
+	
+
+Secure (x)
+	
+	
+
+Cost-Effective (x)

@@ -1,0 +1,1260 @@
+1. Which of the following components of the CloudFront service can be used to distribute content to users across the globe.
+	
+	
+
+Amazon Edge locations (x)
+	
+	
+
+Amazon Availability Zones
+	
+	
+
+Amazon VPC
+	
+	
+
+Amazon Regions
+
+2. Which of the following is the responsibility of AWS according to the Shared Security Model? Choose 3 answers from the options given below?
+(Choose 3)
+	
+	
+
+Implementing service organization Control (SOC)standards (x)
+	
+	
+
+Managing AWS Identity and Access Management(IAM)
+	
+	
+
+Monitoring physical device security (x)
+	
+	
+
+Securing edge locations (x)
+
+3. Which of the following services is a serverless compute service in AWS.
+	
+	
+
+AWS Lambda (x)
+	
+	
+
+AWS Opswork
+	
+	
+
+AWS EC2
+	
+	
+
+AWS Config
+
+
+4. There is a requirement to host a set of servers in the Cloud for a short period of 3 months. They will host stateful applications where maintaining data consistency is paramount, and any interruptions can lead to significant data corruption.
+
+Which of the following types of instances should be chosen to be cost-effective?
+	
+	
+
+On-Demand (x)
+	
+	
+
+Partial Upfront costs Reserved
+	
+	
+
+Spot Instances
+	
+	
+
+No Upfront costs Reserved
+
+
+5. Which of the following storage options provides the option of Lifecycle policies that can be used to move objects to archive storage?
+	
+	
+
+Amazon S3 (x)
+	
+	
+
+Amazon EBS
+	
+	
+
+Amazon Glacier
+	
+	
+
+Amazon Storage Gateway
+
+
+6. A company has multiple EC2 instances managed by an Auto Scaling Group and accessed via an Application Load Balancer. These instances are used to run internal company services and are not expected to experience significant changes in traffic or usage over the next year.
+
+Which of the following EC2 pricing models would be most suitable for reducing the cost of these servers?
+	
+	
+
+Reserved Instances (x)
+	
+	
+
+Dedicated
+	
+	
+
+On-Demand
+	
+	
+
+Spot
+
+
+7. Which of the following disaster recovery deployment mechanisms that has the highest downtime
+	
+	
+
+Backup and Restore (x)
+	
+	
+
+Multi Site
+	
+	
+
+Pilot light
+	
+	
+
+Warm standby
+
+
+8. Which of the below mentioned services is equivalent to hosting virtual servers on an on-premises location?
+	
+	
+
+AWS EC2 (x)
+	
+	
+
+AWS Regions
+	
+	
+
+AWS IAM
+	
+	
+
+AWS Server
+
+
+9. Which AWS service is associated with the concept of "Scaling up resources based on demand"?
+	
+	
+
+AWS Auto Scaling (x)
+	
+	
+
+Subnet
+	
+	
+
+Elastic Load Balancer
+	
+	
+
+VPC
+
+
+10. There is a requirement to collect important metrics from AWS RDS and EC2 Instances. Which of the following services can help fulfil this requirement?
+	
+	
+
+Amazon CloudWatch (x)
+	
+	
+
+Amazon Config
+	
+	
+
+Amazon CloudFront
+	
+	
+
+Amazon CloudSearch
+
+
+11. Which of the following can not be used to work with AWS services programmatically?
+	
+	
+
+AWS Console
+	
+	
+
+AWS CLI (x)
+	
+	
+
+AWS SDK
+	
+	
+
+AWS CloudShell
+
+
+12. You have a devops team in your current organization structure. They are keen to know if there is any service available in AWS which can be used to manage infrastructure as code. Which of the following can be met with such a requirement?
+	
+	
+
+Using AWS Cloudformation
+	
+	
+
+Using AWS Trusted Advisor
+	
+	
+
+Using AWS Config
+	
+	
+
+Using AWS Inspector
+
+
+13. Which of the following terms relate to “Creating systems that scale to the required capacity based on changes in demand?
+	
+	
+
+Elasticity (x)
+	
+	
+
+Aggregation
+	
+	
+
+Disaster Recovery
+	
+	
+
+Decoupling
+
+
+14. Your organization has an operational team that takes care of ID management in their on-premise data center. They now also need to manage users and groups created in AWS. Which of the following AWS tools would they need to use for performing this management function?
+	
+	
+
+AWS Identity and Access Management (IAM) (x)
+	
+	
+
+AWS Key Management Service (AWS KMS)
+	
+	
+
+AWS Config
+	
+	
+
+AWS Cloud Trail
+
+
+15. Your company currently uses VM Templates to spin up virtual machines on their on-premise infrastructure. Which of the following can be used in a similar way to spin up EC2 instances on the AWS Cloud.
+	
+	
+
+Amazon Machines Images (x)
+
+	
+
+Amazon VMware
+	
+	
+
+EBS Volumes
+	
+	
+
+EBS Snapshots
+
+
+16. Which of the following features of an Amazon VPC allows your VPC to span multiple Availability Zones?
+	
+	
+
+None of these
+	
+	
+
+Route Tables (x)
+	
+	
+
+Network Access Control Lists
+	
+	
+
+Subnet
+
+
+17. Which of the following are services where you don’t need to manage the underlying Infrastructure. Choose 2 answers from the options given below.
+(Choose 2)
+	
+	
+
+Simple Storage Service
+	
+	
+
+AWS Autoscaling (x)
+	
+	
+
+DynamoDB (x)
+	
+	
+
+EC2
+
+
+18. You have a set of developers that need to use .NET to call AWS Services. Which of the following tools can be used to achieve this purpose?
+	
+	
+
+AWS SDK (x)
+	
+	
+
+AWS IAM
+	
+	
+
+AWS Console
+	
+	
+
+AWS CLI
+
+
+19. You are planning on deploying a video-based application onto the AWS Cloud. Users across the world will access these videos. Which of the below services can help efficiently stream the content to users across the globe?
+	
+	
+
+Amazon CloudFront
+	
+	
+
+Amazon S3
+	
+	
+
+Amazon SES (x)
+	
+	
+
+Amazon Cloudtrail
+
+
+20. Which of the following are types of cloud computing deployments?
+(Choose 3)
+	
+	
+
+Public cloud (x)
+	
+	
+
+Mixed cloud
+	
+	
+
+Hybrid cloud (x)
+	
+	
+
+Private cloud (x)
+
+
+21. Your company's crucial eCommerce application requires a minimum uptime of 99.5% and needs to be globally available. In order to achieve this, a decision has been made to move the application to the AWS Cloud. Which deployment strategy would be best suited to build a robust, globally available architecture for this application?
+	
+	
+
+Deploying the application across multiple Regions (x)
+	
+	
+
+Deploying the application across multiple subnets
+	
+	
+
+Deploying the application across multiple VPCs
+	
+	
+
+Deploying the application across Edge locations
+
+
+22. A company wants to have a database hosted on AWS. As much as possible they want to have control over the database itself. Which of the following would be an ideal option for this.
+	
+	
+
+Hosting on the database on an EC2 Instance (x)
+	
+	
+
+Using the Amazon Aurora service
+	
+	
+
+Using the AWS DynamoDB service
+	
+	
+
+Using the AWS RDS service
+
+
+23. Your company has just started using the resources on the AWS Cloud. They want to get an idea of the costs incurred so far for the resources being used. How can this be achieved?
+	
+	
+
+Go to the AWS Cost Management dashboard and check the AWS Cost Explorer tool. (x)
+	
+	
+
+Check the AWS Cloud Trail logs.
+	
+	
+
+Go to the Amazon EC2 dashboard and check for the costs of running EC2 resources.
+	
+	
+
+Go to the AWS Trusted Advisor dashboard. This dashboard will give you all the costs.
+
+
+24. Which of the following are components of the AWS Compliance Programs?
+(Choose 3)
+	
+	
+
+Certifications and Attestations (x)
+	
+	
+
+Partner Validations
+	
+	
+
+Following industry best practices
+	
+	
+
+Laws, Regulations, and Privacy (x)
+	
+	
+
+Alignments and Frameworks (x)
+
+
+25. Which of the following services allows you to analyze EC2 Instances against pre-defined security templates to check for vulnerabilities
+	
+	
+
+AWS Inspector (x)
+	
+	
+
+AWS Shield
+	
+	
+
+AWS Trusted Advisor
+	
+	
+
+AWS WAF
+
+
+26. Which of the following can be used to view one bill when you have multiple AWS Accounts?
+	
+	
+
+Consolidated billing (x)
+	
+	
+
+IAM
+	
+	
+
+Combined Billing
+	
+	
+
+Cost Explorer
+
+
+27. Which of the following services helps provide a dedicated connection from on-premise infrastructure to resources hosted in the AWS Cloud without using the public internet?
+	
+	
+
+AWS Direct Connect
+	
+
+AWS Subnets
+	
+	
+
+AWS VPC
+	
+	
+
+AWS VPN (x)
+
+
+
+28. Your company is planning to move to the AWS Cloud. You need to give a presentation on the cost perspective when moving existing resources to the AWS Cloud. When it comes to Amazon EC2, which of the following is an advantage when it comes to the cost perspective.
+	
+	
+
+The ability to only pay for what you use (x)
+	
+	
+
+Ability to tag instances to reduce the overallcost
+	
+	
+
+Having the ability of automated backups of the EC2 instance, so that you don’t need to worry about the maintenance costs.
+	
+	
+
+The ability to choose low cost AMI’s to preparethe EC2 Instances
+
+
+29. Which of the following is a fully managed NoSQL database service available with AWS?
+	
+	
+
+AWS DynamoDB (x)
+	
+	
+
+AWS MongoDB
+	
+	
+
+AWS RDS
+	
+	
+
+AWS Redshift
+
+
+30. Which of the following terms refers to a geographic location in AWS?
+	
+	
+
+Region (x)
+	
+	
+
+Edge location
+	
+	
+
+Availability Zone
+	
+	
+
+Data center
+
+
+31. Which of the following statements are FALSE when it comes to elasticity?
+(Choose 2)
+	
+	
+
+Diverting traffic to instances with high loads
+	
+	
+
+Diverting traffic to instances with the least load
+	
+	
+
+Diverting traffic across multiple regions (x)
+	
+	
+
+Diverting traffic to instances based on the demand (x)
+
+
+32. True or False: AWS is responsible for the security of managed Foundation Services, such as Amazon RDS.
+	
+	
+
+False (x)
+	
+	
+
+True
+
+33. Your company is running a database on RDS and performs read-heavy database workloads on a regular basis. Which feature of RDS would help reduce the load to the primary database instance?
+	
+	
+
+Read Replicas
+	
+	
+
+Performance Insights (x)
+	
+	
+
+Multi-AZ
+	
+	
+
+Cross Region Replication
+
+33. A company is deploying a two-tier, highly available web application to AWS. The application needs a storage layer to store artefacts such as photos and videos. Which of the following services can be used as the underlying storage mechanism.
+	
+	
+
+Amazon S3 (x)
+	
+	
+
+Amazon RDS instance
+	
+	
+
+Amazon EBS volume
+	
+	
+
+Amazon EC2 instance store
+
+
+34. A company needs to run batch jobs a few times throughout the year.
+
+These jobs can be interrupted and resumed with no impact on the business.
+
+Which instance EC2 Pricing Model is the most cost-effective option?
+	
+	
+
+Spot (x)
+	
+	
+
+Dedicated Hosts
+	
+	
+
+On-Demand
+	
+	
+
+Reserved
+
+
+35. Which of the following AWS services can be used to transfer petabytes of data from on-premise locations to the AWS Cloud?
+	
+	
+
+AWS Snowmobile (x)
+	
+	
+
+AWS Transfer
+	
+	
+
+AWS Import/Export
+	
+	
+
+AWS EC2
+
+
+36. Which of the following needs a user name and password to access AWS resources?
+	
+	
+
+AWS Management Console (x)
+	
+	
+
+AWS CLI
+	
+	
+
+AWS Application Programming Interface (API)
+	
+	
+
+AWS Software Development Kit (SDK)
+
+
+37. Your company is planning to host a large eCommerce application on the AWS Cloud. One of their major concerns is Internet attacks such as DDoS attacks. Which of the following services can help mitigate this concern.
+(Choose 2)
+	
+	
+
+AWS Shield (x)
+	
+	
+
+AWS Config
+	
+	
+
+Cloudfront (x)
+	
+	
+
+AWS EC2
+
+
+38. Which of the following services can provide a complete audit trail of all AWS services used within an account?
+	
+	
+
+AWS Cloud Trail logs
+	
+	
+
+Amazon CloudWatch (x)
+	
+	
+
+AWS Trusted Advisor
+	
+	
+
+Amazon EC2 instance usage report
+
+
+39. Which of the below cannot be used to get data onto Amazon S3 Glacier?
+	
+	
+
+AWS Console
+	
+	
+
+AWS S3 Lifecycle policies
+	
+	
+
+AWS Glacier API 
+	
+	
+
+AWS Glacier SDK (x)
+
+
+40. Which of the following services relates the concept of “Distributing traffic to multiple EC2 Instances”
+	
+	
+
+Elastic Load Balancer (x)
+	
+	
+
+Subnets
+	
+	
+
+AutoScaling
+	
+	
+
+VPC
+
+
+41. Which is a significant financial benefit of shifting on-premises data center systems to AWS?
+	
+	
+
+Replaces upfront capital expenses (CAPEX) with low variable costs over time (x)
+	
+	
+
+CAPEX upfront costs are lower, adding increased privacy and security as well as computing power over time
+	
+	
+
+Replaces upfront operational expenses (OPEX) with low variable operational expenses (OPEX) over time
+	
+	
+
+Replaces variable operational expenses (OPEX) with low upfront capital expenses (CAPEX) over time
+
+
+42. Which of the following can be used to increase the fault tolerance of an application?
+	
+	
+
+Deploying resources across multiple Availability Zones (x)
+	
+	
+
+Deploying resources across multiple AWS Accounts
+	
+	
+
+Deploying resources across multiple edgelocations
+	
+	
+
+Deploying resources across multiple VPC’s
+
+
+44. Which of the following initiatives from AWS helps organizations reduce the overall expenditure for IT companies when they host resources on the AWS Cloud?
+	
+	
+
+They continually reduce the cost of cloudcomputing (x)
+	
+	
+
+They allow deployment of multiple resources
+	
+	
+
+They decommission older hardware
+	
+	
+
+They use better security mechanisms so you don’tneed to think about security at all
+
+
+45. Your company is planning to pay for an AWS Support plan. They have the following requirements:
+
+    24/7 phone, web, and chat access to Cloud Support Engineers
+    A response time of fewer than 15 minutes for business/mission-critical system down
+
+Which of the following plans best suits this company's needs?
+	
+	
+
+Enterprise (x)
+	
+	
+
+Business
+	
+	
+
+Basic
+	
+	
+
+Developer
+
+
+46. Your company is planning to host resources in the AWS Cloud. They want to use services which can be used to decouple resources hosted on the cloud. Which of the following services can help fulfil this requirement
+	
+	
+
+AWS SQS (x)
+	
+	
+
+AWS Glacier
+	
+	
+
+AWS EBS Volumes
+	
+	
+
+AWS EBS Snapshots
+
+
+47. Your company is planning to use the AWS Cloud. But there is a management decision that resources need to split department wise. And the decision is tending towards managing multiple AWS accounts. Which of the following would help in effective management and also provide an efficient costing model.
+	
+	
+
+AWS Organizations (x)
+	
+	
+
+AWS Cost Explorer
+	
+	
+
+Amazon Dev Pay
+	
+	
+
+AWS Trusted Advisor
+
+
+48. Which of the following networking component can be used to host EC2 resources in the AWS Cloud?
+	
+	
+
+AWS VPC (x)
+	
+	
+
+AWS Autoscaling
+	
+	
+
+AWS Trusted Advisor
+	
+	
+
+AWS Elastic Load Balancer
+
+
+49. When giving permission to users via the AWS Identity and Access Management tool , which of the following principles should be applied when granting permissions
+	
+	
+
+Principle of least privilege (x)
+	
+	
+
+Principle of lower privilege
+	
+	
+
+Principle of greatest privilege
+	
+	
+
+Principle of most privilege
+
+
+50. Your design team is planning to design an application that will be hosted on the AWS Cloud. One of their main non-functional requirements is given below
+
+    Reduce inter-dependencies so failures do not impact other components
+    Which of the following concepts does this requirement relate to?
+
+	
+	
+
+Decoupling (x)
+	
+	
+
+Segregation
+	
+	
+
+Integration
+	
+	
+
+Aggregation
+
+
+51. When working with the AWS Cloud which of the following are headaches you don’t need to worry about. Choose 2 answers from the options given below.
+(Choose 2)
+	
+	
+
+Upfront costs (x)
+	
+	
+
+Having no need to worry about security
+	
+	
+
+Having complete control over the physical infrastructure (x)
+	
+	
+
+Having the pay as you go model
+
+
+52. Which of the following is not a category recommendation given by the AWS Trusted Advisor?
+	
+	
+
+High Availability (x)
+	
+	
+
+Fault tolerance
+	
+	
+
+Performance
+	
+	
+
+Security
+	
+	
+
+Cost Optimization
+
+
+53. You have a set of EC2 Instances hosted on the AWS Cloud. The EC2 Instances are hosting a web application. If you get a DDoS attack from the internet which of the following can help in reducing the overall threat to your EC2 Instances.
+(Choose 2)
+	
+	
+
+Usage of Network Access Control Lists (x)
+	
+	
+
+Usage of the Internet gateway
+	
+	
+
+Usage of Security Groups (x)
+	
+	
+
+Usage of AWS Config
+
+
+54. Which of the following does AWS perform on its behalf for EBS volumes to make it less prone to failure?
+	
+	
+
+Replication of the volume in the same Availability Zone
+	
+	
+
+Replication of the volume across Edge locations
+	
+	
+
+Replication of the volume across Availability Zones (x)
+	
+	
+
+Replication of the volume across Regions
+
+
+55. Which of the following features of Amazon RDS allows for better availability of databases. Choose 2 answers from the options given below
+(Choose 2)
+	
+	
+
+Read Replica’s (x)
+	
+	
+
+Multi-Region
+	
+	
+
+Multi-AZ (x)
+	
+	
+
+VPC Peering
+
+
+56. Which of the following service is most useful when a Disaster Recovery method is triggered in AWS?
+	
+	
+
+Amazon Route 53
+	
+	
+
+Amazon Inspector (x)
+	
+	
+
+Amazon SNS
+	
+	
+
+Amazon SQS
+
+57. Which of the following can be used as an additional layer of security to using a user name and password when logging into the AWS Console
+	
+	
+
+Multi-Factor Authentication (MFA) (x)
+	
+	
+
+Secondary user name
+	
+	
+
+Secondary password
+	
+	
+
+Root access privileges
+
+
+58. Which of the following security requirements are managed by AWS?
+(Choose 3)
+	
+	
+
+Hardware patching (x)
+	
+	
+
+User permissions
+	
+	
+
+Password Policies
+	
+	
+
+Disk disposal (x)
+	
+	
+
+Physical security (x)
+
+59. By default who from the below roles has complete administrative control over all resources in the respective AWS account?
+	
+	
+
+AWS Account Owner (x)
+	
+	
+
+AWS Technical Account Manager (TAM)
+	
+	
+
+AWS Support Team
+	
+	
+
+AWS Security Team
+
+
+60. A company currently has an application which consist of a .Net layer which connects to a MySQL database. They now want to move this application onto AWS. They want to make use of all AWS features such as high availability and automated backups. Which of the following would be an ideal database in AWS to migrate to for this requirement.
+	
+	
+
+Aurora (x)
+	
+	
+
+An EC2 instance with Aurora installed.
+	
+	
+
+DynamoDB
+	
+	
+
+An EC2 instance with MySQL installed.
+
+
+61. Which of the following can be attached to EC2 Instances to store data.
+	
+	
+
+Amazon EBS Volumes (x)
+	
+	
+
+Amazon SQS
+	
+	
+
+Amazon Glacier
+	
+	
+
+Amazon EBS Snapshots
+
+
+62. Which of the following services is a fully managed, petabyte-scale data warehouse service in the AWS cloud?
+	
+	
+
+Amazon Redshift (x)
+	
+	
+
+Amazon Aurora
+	
+	
+
+Amazon DynamoDB
+	
+	
+
+Amazon ElastiCache
+
+
+63. company is exploring the AWS services and wants a tool or method to estimate the cost that fits their business use case.
+
+Which of the following would help them model their solutions and estimate the calculated cost for the services needed?
+	
+	
+
+AWS Pricing Calculator
+	
+	
+
+AWS Consolidating billing
+	
+	
+
+AWS Config
+	
+	
+
+AWS Cost Explorer (x)
+
+
+64. Which of the following are features of an edge location.
+(Choose 3)
+	
+	
+
+Used in conjunction with the Cloudfront service (x)
+	
+	
+
+Distribute load across multiple resources
+	
+	
+
+Cache common responses (x)
+	
+	
+
+Distribute content to users (x)
+
+65. Which of the following storage options is best when you want to store archive data?
+	
+	
+
+Amazon Glacier
+	
+	
+
+Amazon S3 (x)
+	
+	
+
+Amazon Storage Gateway
+	
+	
+
+Amazon EBS
