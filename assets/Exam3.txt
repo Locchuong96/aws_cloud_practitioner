@@ -1,0 +1,343 @@
+1. Which AWS service collects performance metrics from EC2 instances?
+CloudSearch
+CloudWatch (x)
+CloudTrail
+CloudFront
+2. Who has control of the data security in an AWS account?
+AWS Security Team
+AWS Account Owner (x)
+AWS Technical Account Manager (TAM)
+AWS Support Team
+3. Which AWS can be used to mitigate DDoS attacks?
+(Choose 2)
+AWS EC2 (x)
+AWS Shield (x)
+S3
+Cloudfront
+4. There is a requirement to host a database server for a minimum period of one year. Which of the following would result in the least cost?
+On-Demand
+Partial Upfront costs Reserved (x)
+No Upfront costs Reserved
+Spot Instances
+5. Which of the following is NOT a feature of an Edge Location?
+Cache common responses
+Distribute load across multiple resources (x)
+Used in conjunction with the CloudFront service
+Distribute content to users
+6. As per the AWS Customer Support Policy, penetration testing of EC2 instances:
+May be performed by the customer on their own instances without prior approval from AWS.
+Are expressly prohibited under all circumstances.
+May be performed by the customer on their own instances, only if performed from EC2 instances. (x)
+May be performed by AWS, and is periodically performed by AWS.
+May be performed by AWS, and will be performed by AWS upon customer request.
+7. How can you add another layer of protection to your AWS root account?
+AWS Trusted Advisor
+MFA (x)
+AWS Cognito
+Password Policies
+8. Which of the following can be used to secure EC2 Instances hosted in AWS.
+(Choose 2)
+Usage of AMI’s
+Usage of Network Access Control Lists (x)
+Usage of the Internet gateway
+Usage of Security Groups (x)
+9. Which of the following statements is true for Elastic Load Balancer?
+ELB will route traffic based on a set of user defined rules for multiple AWS resources
+ELB distributes traffic to multiple EC2 Instances (x)
+ELB will change the size of instances to meet the demand of traffic
+ELB will dynamically create new EC2 instances to meet traffic demands
+10. Which service should an administrator use to register a new domain name with AWS?
+Elastic Load Balancing
+Amazon Route 53 (x)
+Amazon Virtual Private Cloud (Amazon VPC)
+Amazon Cloud Front
+11. Which service allows an administrator to create and modify AWS user permissions?
+AWS Cloud Trail
+AWS Identity and Access Management (IAM) (x)
+AWS Key Management Service (AWS KMS)
+AWS Config
+12. Which of the following is the responsibility of the AWS customer according to the Shared Security Model?
+Monitoring physical device security
+Managing AWS Identity and Access Management (IAM) (x)
+Implementing service organization Control (SOC) standards
+Securing edge locations
+13. What AWS feature enables a user to manage services through a web-based user interface?
+AWS Software Development Kit (SDK)
+AWS Management Console (x)
+Amazon CloudWatch
+AWS Application Programming Interface (API)
+14. Which AWS service automates infrastructure provisioning and administrative tasks for an analytical data warehouse?
+Amazon ElastiCache
+Amazon Redshift (x)
+Amazon Aurora
+Amazon DynamoDB
+15. You plan to deploy an application on the AWS. This application needs to be PCI Compliant Which of the below steps are needed to ensure the compliance? Choose 2 answers from the below:
+(Choose 2)
+Ensure the AWS Services are made PCI Compliant
+Ensure the right steps are taken during application development for PCI Compliance
+Do an audit after the deployment of the application for PCI Compliance (x)
+Choose AWS services which are PCI Compliant (x)
+16. You need to host a file in a location that's publicly accessible from anywhere in the world. Which AWS service would best meet that need?
+RDS
+S3 (x)
+EBS
+EC2
+17. A developer has a web application that is behind an Application Load Balancer. They want to protect their web app against common attack patterns, such as SQL injection or cross-site scripting.
+Which AWS Service will meet this requirement?
+AWS Shield
+AWS WAF (x)
+AWS GuardDuty
+AWS Security Hub
+18. Which of the following is the responsibility of the customer when ensuring that data on EBS volumes is left safe
+Attaching volumes to EC2 Instances
+Creating EBS snapshots (x)
+Creating copies of EBS Volumes
+Deleting the data when the device is destroyed
+19. A company has to hold onto digital files for accounting purposes for at least seven years. In the rare event they need to access those files in case of audit, they need to recover those files in a day or two. Which AWS service is the most cost effective solution for storing their digital files?
+Amazon S3
+Amazon S3 Glacier (x)
+Amazon EBS
+AWS Storage Gateway
+20. Which AWS services can be used to store files
+(Choose 2)
+Amazon Elastic Block Store (Amazon EBS) (x)
+AWS Config
+Amazon Athena
+Amazon CloudWatch
+Amazon Simple Storage Service (Amazon S3) (x)
+21. Which AWS service is used as a global content delivery network (CDN)?
+Amazon CloudTrail
+Amazon CloudFront (x)
+Amazon S3
+Amazon SES
+22. Which of the following features of RDS allows for data redundancy across regions
+Using snapshots
+Creating Read Replica’s
+Using Multi-AZ feature
+Cross region replication (x)
+23. What is the advantage of decoupling services vs having a large monolithic application?
+Better data flow between IP socks
+Reduce inter-dependencies so failures do not impact critical services (x)
+Improved Performance
+Create a tightly integrated application
+24. Which of the following are a collection of data centers within a specific region?
+AWS Origins
+Availability Zones (x)
+Edge Locations
+Regions
+25. Which of the following disaster recovery deployment mechanisms that has the lowest downtime
+Backup Restore
+Warm standby (x)
+Devops
+Pilot light
+26. Which AWS Tool allows you to interact with AWS services within programming languages?
+AWS CLI
+AWS SDK (x)
+AWS Config
+AWS Console
+27. The Trusted Advisor service provides insight regarding which five categories of an AWS account?
+Security, access control, high availability, performance and Service Limits
+Performance, cost optimization, security, fault tolerance, and Service Limits (x)
+Performance, cost optimization, access control, connectivity and Service Limits
+Security, fault tolerance, high availability, connectivity and Service Limits
+28. A company has an EC2 instance running and suddenly the server was terminated. It's suspected that a junior developer may have terminated this instance by mistake.
+Which AWS service will help determining who was responsible?
+AWS Inspector
+CloudTrail (x)
+CloudWatch Logs
+Trusted Advisor
+29. You are currently hosting an infrastructure and most of the EC2 instances are near 90 – 100% utilized and you expect this to continue for at least a year. What is the type of EC2 instances you would utilize to ensure costs are minimized?
+Spot Instances
+Reserved Instances (x)
+Dedicated Host Instances
+On-Demand Instances
+30. There is an external audit being carried out on your company. The IT auditor needs to have a log of all access to the AWS resources in the company’s account. Which of the below services can assist in providing these details?
+AWS EC2
+AWS CloudTrail (x)
+AWS SNS
+AWS Cloudwatch
+31. A company wants to self-host a database in AWS. How would you ideally implement this solution?
+Using the AWS RDS service
+Hosting a database on an EC2 Instance (x)
+Using the Amazon Aurora service
+Using the AWS DynamoDB service
+32. Which of the following are principles of sound cloud design?
+(Choose 4)
+Disposable resources (x)
+Assume everything will fail. (x)
+Tightly-coupled components
+Scalability (x)
+Infrastructure as code (x)
+33. Which of the following are advantages of having infrastructure hosted on the AWS Cloud?
+Choose 2 answers from the options given below.
+(Choose 2)
+Having complete control over the physical infrastructure
+No Upfront costs
+Having no need to worry about security (x)
+Having the pay as you go model (x)
+34. What best describes the Principle of Least Privilege (PoLP)?
+Users should submit all access requests in written form so that there is a paper trail of who needs access to different AWS resources.
+Users should be granted permission to access only specific resource actions to accomplish their tasks. (x)
+Users should always have a little more access granted to them then they need, just in case they end up needed it in the future.
+All users should have the same baseline permissions granted to them to use basic AWS services.
+35. Which AWS service will help you visualize your day to day costs in AWS?
+AWS Budgets
+AWS Cost Explorer (x)
+AWS Trusted Advisor
+AWS TCO
+36. There is a requirement for a development and test environment with an uptime of at least 95% for three months. Which would you use?
+No Upfront costs Reserved
+On-Demand (x)
+Partial Upfront costs Reserved
+Spot Instances
+37. How can you protect your AWS account against unauthorized access?
+Request root access privileges
+Apply Multi-Factor Authentication (MFA) (x)
+Disable AWS console access
+Set up a secondary password
+38. Which AWS service allows you to link multiple AWS accounts together?
+(Choose 2)
+AWS Config
+AWS Organizations (x)
+IAM (x)
+AWS Consolidated Billing
+39. What is the value of having AWS Cloud services accessible through an Application Programming Interface (API)?
+All application testing can be managed by AWS.
+It allows developers to work with AWS resources programmatically (x)
+Customer–owned, on–premises infrastructurebecomes programmable.
+AWS resources will always be cost-optimized
+40. Which of the below can be used to import data into Amazon Glacier?
+(Choose 3)
+AWS Glacier API (x)
+AWS S3 Lifecycle policies (x)
+AWS Console
+AWS Glacier SDK (x)
+41. Which of the following MySQL-compatible databases has the capability to automatically scale up its storage size?
+Amazon RDS Microsoft SQL Server
+Amazon Aurora
+Amazon RDS MySQL (x)
+Amazon DynamoDB
+42. Which AWS service is designed to store data as objects?
+SNS
+Amazon S3 (x)
+SQS
+Amazon EBS
+43. According to AWS, the benefit of Elasticity is:
+Enable AWS to automatically select the most cost-effective services.
+Create systems that scale to the required capacity based on changes in demand (x)
+Accelerate the design process because recovery from failure is automated, reducing the need for testing
+Minimize storage requirements by reducing logging and auditing activities
+44. Which of the following is a fully managed NoSQL database service available with AWS?
+AWS Redshift
+AWS DynamoDB (x)
+AWS DocumentDB
+AWS RDS
+45. Which AWS Support plan gives access to a Support Concierge?
+(Choose 2)
+Developer
+Enterprise (x)
+Business (x)
+Enterprise On-Ramp
+46. Which AWS service provides infrastructure security optimization recommendations?
+Reserved Instances
+AWS Trusted Advisor (x)
+Amazon Elastic Compute Cloud (Amazon EC2) SpotFleet
+AWS Application Programming Interface(API)
+47. Which AWS service allows you to apply Multi-Factor Authentication (MFA) to your AWS user account?
+Trusted Advisor
+IAM (x)
+AWS Shield
+AWS Config
+48. Which of the following is a benefit of Amazon Elastic Compute Cloud (Amazon EC2) over on-premise physical servers?
+The ability to choose hardware vendors
+Paying only for what you use (x)
+Root /administrator access
+Automated backup
+49. Which of the below mentioned services can be used to host virtual servers on AWS?
+AWS Server
+AWS EC2 (x)
+AWS Regions
+AWS IAM
+50. Which of the following security requirements are managed by the AWS customer?
+(Choose 2)
+User permissions (x)
+Disk disposal
+Hardware patching
+Physical security
+Password Policies (x)
+51. When creating security groups, which of the following is a responsibility of the customer. Choose 2 answers from the options given below.
+(Choose 2)
+Ensure the rules are applied immediately
+Defining the rules as per the customer requirements. (x)
+Ensure the security groups are linked to the Elastic Network interface (x)
+Giving a name and description for the security group
+52. A company is deploying a three-tier, highly available web application to AWS. Which service provides durable storage for static content while utilizing lower Overall CPU resources for the Business layer?
+Amazon EC2 Instance Store
+Amazon S3
+Amazon RDS Instance
+Amazon EBS volume (x)
+53. You work for a company that plans to use the AWS EC2 service. Currently, the company creates golden images of their production Operating System. Which of the following corresponds to a golden image in AWS?
+EBS Snapshots
+Amazon Machines Images (x)
+EC2 Copies
+EBS Volumes
+54. Your company is considering migrating to AWS. Which service should you use to do a cost comparison between on-premise and AWS?
+AWS Cost Explorer
+AWS Pricing Calculator (x)
+AWS Consolidating Billing
+AWS Config
+55. There is a requirement to store objects. The objects are downloaded via a URL. Which storage option would you choose?
+Amazon Storage Gateway
+Amazon S3 (x)
+Amazon EBS
+Amazon Glacier
+56. When architecting for the cloud AWS has a best practice called Design for failure and nothing will fail. Which of the following would provide the greatest amount of fault-tolerance?
+Deploying your application across multiple Edge Locations
+Deploying an application across multiple Availability Zones and Regions (x)
+Setting CloudWatch Events to create scheduled automated backups.
+Utilizing a Load Balancer and Auto Scaling Groups
+57. A Disaster Recovery Strategy on AWS should be based on launching resources in a separate :
+Security Group
+AWS Region
+Amazon Virtual Private Cloud (Amazon VPC) (x)
+Subnet
+58. Amazon Elastic Compute Cloud (Amazon EC2) Spot instances would be most appropriate for which of the following scenarios:
+Workloads that need to run for long periods of time without interruption
+Workloads where the availability of the Amazon EC2 instances can be flexible (x)
+Workloads that are critical and need Amazon EC2 instances with termination protection
+Workloads that are only run in the morning and stopped at night
+59. Which of the following is a benefit of running an application across two Availability Zones?
+It is more secure than running in a single Availability Zone.
+It increases the availability of an application compared to running in a single Availability Zone. (x)
+It significantly reduces the total cost of ownership versus running in a single Availability Zone.
+Performance is improved over running in a single Availability Zone.
+60. Your company has a set of EC2 Instances hosted in AWS. There is a requirement to create snapshots from the EBS volumes attached to these EC2 Instances in another geographical location. As per this requirement , where would you create the snapshots
+In another data center
+In another Region (x)
+In another Edge location
+In another Availability Zone
+61. Which of the following services uses AWS Edge Locations?
+Amazon Elastic Compute Cloud (Amazon EC2)
+Amazon CloudFront (x)
+AWS Identity and Access Management (IAM)
+Amazon Virtual Private Cloud (Amazon VPC)
+62. Where can a customer go to get more detail about Amazon Elastic Compute Cloud (Amazon EC2) billing activity that took place 3 months ago?
+AWS Trusted Advisor Dashboard
+AWS Cost Explorer (x)
+AWS Cloud Trail logs stored in Amazon Simple StorageService (Amazon S3)
+Amazon EC2 Dashboard
+63. Which of the following statements is true for Autoscaling Groups?
+They distribute traffic to AWS resources across multiple regions
+They scale up resources based on demand (x)
+They increase the size of the EC2 Instance based on demand
+They distribute traffic to multiple EC2 Instances
+64. A company is planning to use AWS to host critical applications. Most of their systems are business critical and need to have response times less than 15 minutes. Which of the following support plans should they consider?
+Developer
+Enterprise (x)
+Business
+Basic
+65. What is the AWS feature that enables fast, easy, and secure transfers of files over long distances between your client and your Amazon S3 bucket?
+HTTP Transfer
+Transfer Acceleration (x)
+EC2 Acceleration
+File Transfer
