@@ -50,6 +50,11 @@
           padding: 20px;
           box-sizing: border-box;
       }
+
+      pre {
+        text-align: left;
+        white-space: pre-line;
+      }
     </style>
     <title>SVG Button Example</title>
   </head>
@@ -60,43 +65,44 @@
 
     <!-- Compute -->
     <div class="row">
-      <button onclick="openPopup()">
+      <button onclick="openPopup_Amazon_EC2()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-EC2_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_Amazon_Elastic_Container_Service()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Elastic-Container-Service_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_Amazon_Elastic_Container_Registry()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Elastic-Container-Registry_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_AWS_Fargate()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Fargate_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_Amazon_Elastic_Kubernetes_Service()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Elastic-Kubernetes-Service_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_AWS_Lambda()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Lambda_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_AWS_Elastic_Beanstalk()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Elastic-Beanstalk_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_Amazon_Lightsail()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Lightsail_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_AWS_Batch()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Batch_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_Bottlerocket()">
         <img src="assets/AWS_icons/icons_16/Arch_Bottlerocket_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_Parallel_Cluster()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Parallel-Cluster_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
+    
     <!-- Storage -->
     <div class="row">
-      <button onclick="openPopup()">
+      <button onclick="openPopup_Amazon_Simple_Storage_Service()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Simple-Storage-Service_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
       <button onclick="openPopup()">
@@ -130,6 +136,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Storage-Gateway_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
+    
     <!-- Database -->
     <div class="row">
       <button onclick="openPopup()">
@@ -163,6 +170,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Database-Migration-Service_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
+    
     <!-- Network -->
     <div class="row">
       <button onclick="openPopup()">
@@ -193,6 +201,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_Elastic-Load-Balancing_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
+    
     <!-- Provision -->
     <div class="row">
       <button onclick="openPopup()">
@@ -223,6 +232,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-AppSync_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
+    
     <!-- Services -->
     <div class="row">
       <button onclick="openPopup()">
@@ -259,6 +269,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-CodeStar_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
+    
     <!-- Security -->
     <div class="row">
       <button onclick="openPopup()">
@@ -325,6 +336,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Firewall-Manager_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
+    
     <!-- ML&AI -->
     <div class="row">
       <button onclick="openPopup()">
@@ -388,6 +400,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Kendra_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
+    
     <!-- BigData -->
     <div class="row">
       <button onclick="openPopup()">
@@ -409,6 +422,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Lake-Formation_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
+    
     <!-- Infastructure -->
     <div class="row">
       <button onclick="openPopup()">
@@ -467,24 +481,305 @@
       </button>
     </div>
 
-    <!-- Flashcard Default -->
+    <!-- Flashcard -->
     <script>
       // Function to open the popup
-      function openPopup() {
-        document.getElementById('overlay').style.display = 'flex';
+      function openPopup_Amazon_EC2() {
+        document.getElementById('overlay_Amazon_EC2').style.display = 'flex';
       }
 
       // Function to close the popup
-      function closePopup() {
-        document.getElementById('overlay').style.display = 'none';
+      function closePopup_Amazon_EC2() {
+        document.getElementById('overlay_Amazon_EC2').style.display = 'none';
       }
     </script>
-    <div class="overlay" id="overlay">
+    <div class="overlay" id="overlay_Amazon_EC2">
       <div class="popup">
-        <span class="close-btn" onclick="closePopup()">&times;</span>
-        <h3>This is a Popup</h3>
-        <pre>Popup content goes here. First line of text page,
-          Popup content goes here. Second line of text page
+        <span class="close-btn" onclick="closePopup_Amazon_EC2()">&times;</span>
+        <h3>Elastic Compute Cloud (EC2)</h3>
+        <pre>
+          What is a Virtual Machine?
+          A Virtual Machine (VM) is an emulation of a physical computer using software.
+          Server Virtualization allows you to easily create, copy, resize or migrate your server.
+          Multiple VMs can run on the same physical server, so you can share the cost with other customers.
+          Imagine if your server or computer was an executable file on your computer.
+          EC2 is a highly configurable server where you can choose AMI that affects options such as:
+          • The amount of CPUs
+          • The amount of Memory (RAM)
+          • The amount of Network Bandwidth
+          • The Operation System (OS) eg. Windows 10, Ubuntu, Amazon Linux 2
+          • Attach multiple virtual hard drives for storage eg. Elastic Block Store (EBS)
+          Elastic Compute Cloud (EC2) allows you to launch Virtual Machines (VM)
+          EC2 is also considered the backbone of AWS because the majority of AWS services
+          are using EC2 as their underlying servers. eg. S3, RDS, DynamoDB, Lambdas
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_Amazon_Elastic_Container_Service() {
+        document.getElementById('overlay_Amazon_Elastic_Container_Service').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_Amazon_Elastic_Container_Service() {
+        document.getElementById('overlay_Amazon_Elastic_Container_Service').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_Amazon_Elastic_Container_Service">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_Amazon_Elastic_Container_Service()">&times;</span>
+        <h3>Elastic Container Service (ECS)</h3>
+        <pre>
+          is a container orchestration service that supports Docker containers. Launches a cluster 
+          of server(s) on EC2 instances with Docker installed. When you need Docker as a Service, or you need to run containers
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_Amazon_Elastic_Container_Registry() {
+        document.getElementById('overlay_Amazon_Elastic_Container_Registry').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_Amazon_Elastic_Container_Registry() {
+        document.getElementById('overlay_Amazon_Elastic_Container_Registry').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_Amazon_Elastic_Container_Registry">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_Amazon_Elastic_Container_Registry()">&times;</span>
+        <h3>Elastic Container Registry (ECR)</h3>
+        <pre>
+          is a repository for container images. In order to launch a container, you need an image.
+          An image just means a saved copy. A repository just means storage that has version control
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_AWS_Fargate() {
+        document.getElementById('overlay_AWS_Fargate').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_AWS_Fargate() {
+        document.getElementById('overlay_AWS_Fargate').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_AWS_Fargate">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_AWS_Fargate()">&times;</span>
+        <h3>ECS Fargate</h3>
+        <pre>
+          is a serverless orchestration container service. It is the same as ECS, except you pay-on-demand per running
+          container (With ECS, you have to keep an EC2 server running even if you have no containers running). AWS manages the
+          underlying server, so you don’t have to scale or upgrade the EC2 serve
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_Amazon_Elastic_Kubernetes_Service() {
+        document.getElementById('overlay_Amazon_Elastic_Kubernetes_Service').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_Amazon_Elastic_Kubernetes_Service() {
+        document.getElementById('overlay_Amazon_Elastic_Kubernetes_Service').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_Amazon_Elastic_Kubernetes_Service">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_Amazon_Elastic_Kubernetes_Service()">&times;</span>
+        <h3>Elastic Kubernetes Service (EKS)</h3>
+        <pre>
+          is a fully managed Kubernetes service. Kubernetes (K8) is an open-source orchestration
+          software that was created by Google and is generally the standard for managing microservices. When you need to run
+          Kubernetes as a Service.
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_AWS_Lambda() {
+        document.getElementById('overlay_AWS_Lambda').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_AWS_Lambda() {
+        document.getElementById('overlay_AWS_Lambda').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_AWS_Lambda">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_AWS_Lambda()">&times;</span>
+        <h3>AWS Lambda</h3>
+        <pre>
+          is a serverless functions service. You can run code without provisioning or managing servers.
+          You upload small pieces of code, choose much memory, and how long the function is allowed to run before
+          timing out. You a charged based on the runtime of the serverless function rounded to the nearest 100ms.
+          Serverless — when the underlying servers are managed by AWS. You don’t worry or configure servers.
+          Computing Services          
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_AWS_Elastic_Beanstalk() {
+        document.getElementById('overlay_AWS_Elastic_Beanstalk').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_AWS_Elastic_Beanstalk() {
+        document.getElementById('overlay_AWS_Elastic_Beanstalk').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_AWS_Elastic_Beanstalk">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_AWS_Elastic_Beanstalk()">&times;</span>
+        <h3>AWS Elastic Beanstalk</h3>
+        <pre>
+          orchestrates various AWS services, including EC2, S3, SNS, CloudWatch, ASGs, and ELBs       
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_Amazon_Lightsail() {
+        document.getElementById('overlay_Amazon_Lightsail').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_Amazon_Lightsail() {
+        document.getElementById('overlay_Amazon_Lightsail').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_Amazon_Lightsail">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_Amazon_Lightsail()">&times;</span>
+        <h3>AWS Amazon LightSail</h3>
+        <pre>
+          is a managed virtual server service. It is the “friendly” version of EC2 Virtual Machines
+          When you need to launch a Linux or Windows server but don’t have much AWS knowledge. eg. Launch a WordPress        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_AWS_Batch() {
+        document.getElementById('overlay_AWS_Batch').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_AWS_Batch() {
+        document.getElementById('overlay_AWS_Batch').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_AWS_Batch">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_AWS_Batch()">&times;</span>
+        <h3>AWS Batch</h3>
+        <pre>
+          plans, schedules, and executes your batch computing workloads across the full range of AWS compute services
+          and features, such as Amazon EC2 and Spot Instances
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_Bottlerocket() {
+        document.getElementById('overlay_Bottlerocket').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_Bottlerocket() {
+        document.getElementById('overlay_Bottlerocket').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_Bottlerocket">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_Bottlerocket()">&times;</span>
+        <h3>Bottlerocket</h3>
+        <pre>
+          is a Linux-based open-source operating system that is purpose-built by AWS for running
+          containers on Virtual Machines or bare metal hosts
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_Parallel_Cluster() {
+        document.getElementById('overlay_Parallel_Cluster').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_Parallel_Cluster() {
+        document.getElementById('overlay_Parallel_Cluster').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_Parallel_Cluster">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_Parallel_Cluster()">&times;</span>
+        <h3>AWS ParallelCluster</h3>
+        <pre>
+          is an AWS-supported open-source cluster management tool that makes it
+          easy for you to deploy and manage High-Performance Computing (HPC) clusters on AWS.
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_Amazon_Simple_Storage_Service() {
+        document.getElementById('overlay_Amazon_Simple_Storage_Service').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_Amazon_Simple_Storage_Service() {
+        document.getElementById('overlay_Amazon_Simple_Storage_Service').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_Amazon_Simple_Storage_Service">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_Amazon_Simple_Storage_Service()">&times;</span>
+        <h3>Amazon Simple Storage Service (S3) - Object</h3>
+        <pre>
+          Object is stored with data, metadata, and Unique ID
+          Scales with limited no file limit or storage limit
+          Supports multiple reads and writes (no locks)
         </pre>
       </div>
     </div>
