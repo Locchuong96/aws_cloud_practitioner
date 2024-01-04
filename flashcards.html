@@ -37,7 +37,7 @@
       body {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
+            /*font-family: Arial, sans-serif;*/
         }
 
       .row {
@@ -54,9 +54,11 @@
     <title>SVG Button Example</title>
   </head>
   <body>
+    <h1>AWS Cloud Practitioner Materials-Flashcards</h1>
+    <p>Author: locchuong Email: locc7196@gmail.com GitHub: https://github.com/Locchuong96/aws_cloud_practitioner</p>
     <a href="index.html">Home</a>
 
-    <!-- Button -->
+    <!-- Compute -->
     <div class="row">
       <button onclick="openPopup()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-EC2_16.svg" alt="SVG Image" style="height:50px;width:50px">
@@ -92,7 +94,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Parallel-Cluster_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
-
+    <!-- Storage -->
     <div class="row">
       <button onclick="openPopup()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Simple-Storage-Service_16.svg" alt="SVG Image" style="height:50px;width:50px">
@@ -128,7 +130,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Storage-Gateway_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
-
+    <!-- Database -->
     <div class="row">
       <button onclick="openPopup()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-DynamoDB_16.svg" alt="SVG Image" style="height:50px;width:50px">
@@ -161,7 +163,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Database-Migration-Service_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
-
+    <!-- Network -->
     <div class="row">
       <button onclick="openPopup()">
         <img src="assets/AWS_icons/icons_16/Arch-Category_Networking-Content-Delivery_16.svg" alt="SVG Image" style="height:50px;width:50px">
@@ -191,7 +193,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_Elastic-Load-Balancing_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
-
+    <!-- Provision -->
     <div class="row">
       <button onclick="openPopup()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Simple-Queue-Service_16.svg" alt="SVG Image" style="height:50px;width:50px">
@@ -221,7 +223,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-AppSync_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
-
+    <!-- Services -->
     <div class="row">
       <button onclick="openPopup()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Connect_16.svg" alt="SVG Image" style="height:50px;width:50px">
@@ -257,7 +259,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-CodeStar_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
-    
+    <!-- Security -->
     <div class="row">
       <button onclick="openPopup()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Identity-and-Access-Management_16.svg" alt="SVG Image" style="height:50px;width:50px">
@@ -323,7 +325,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Firewall-Manager_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
-
+    <!-- ML&AI -->
     <div class="row">
       <button onclick="openPopup()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-SageMaker_16.svg" alt="SVG Image" style="height:50px;width:50px">
@@ -386,7 +388,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Kendra_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
-
+    <!-- BigData -->
     <div class="row">
       <button onclick="openPopup()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Athena_16.svg" alt="SVG Image" style="height:50px;width:50px">
@@ -407,7 +409,7 @@
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Lake-Formation_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
-
+    <!-- Infastructure -->
     <div class="row">
       <button onclick="openPopup()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Local-Zones_16.svg" alt="SVG Image" style="height:50px;width:50px">
@@ -427,9 +429,6 @@
     </div>
 
     <div class="row">
-      <button onclick="openPopup()">
-        <img src="assets/AWS_icons/icons_16/Arch_AWS-Elastic-Beanstalk_16.svg" alt="SVG Image" style="height:50px;width:50px">
-      </button>
       <button onclick="openPopup()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-OpsWorks_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
@@ -468,7 +467,7 @@
       </button>
     </div>
 
-    <!-- Function -->
+    <!-- Flashcard Default -->
     <script>
       // Function to open the popup
       function openPopup() {
@@ -480,16 +479,39 @@
         document.getElementById('overlay').style.display = 'none';
       }
     </script>
-
-  <div class="overlay" id="overlay">
-    <div class="popup">
-      <span class="close-btn" onclick="closePopup()">&times;</span>
-      <h3>This is a Popup</h3>
-      <pre>Popup content goes here. Second line of text page,
-        Popup content goes here. Second line of text page
-      </pre>
+    <div class="overlay" id="overlay">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <h3>This is a Popup</h3>
+        <pre>Popup content goes here. First line of text page,
+          Popup content goes here. Second line of text page
+        </pre>
+      </div>
     </div>
-  </div>
+    <!-- END -->
+
+    <!-- Flashcard Default -->
+    <script>
+      // Function to open the popup
+      function openPopup() {
+        document.getElementById('overlay').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup() {
+        document.getElementById('overlay').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <h3>This is a Popup</h3>
+        <pre>Popup content goes here. First line of text page,
+          Popup content goes here. Second line of text page
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
 
   </body>
 </html>
