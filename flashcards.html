@@ -105,35 +105,35 @@
       <button onclick="openPopup_Amazon_Simple_Storage_Service()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-Simple-Storage-Service_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
-        <img src="assets/AWS_icons/icons_16/Arch_Amazon-Simple-Storage-Service-Glacier_16.svg" alt="SVG Image" style="height:50px;width:50px">
+      <button onclick="openPopup_Amazon_Elastic_Block_Store()">
+        <img src="assets/AWS_icons/icons_16/Arch_Amazon-Elastic-Block-Store_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
-        <img src="assets/AWS_icons/icons_16/Arch_AWS-Storage-Gateway_16.svg" alt="SVG Image" style="height:50px;width:50px">
-      </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_Amazon_EFS()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-EFS_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_Amazon_Simple_Storage_Service_Glacier()">
+        <img src="assets/AWS_icons/icons_16/Arch_Amazon-Simple-Storage-Service-Glacier_16.svg" alt="SVG Image" style="height:50px;width:50px">
+      </button>
+      <button onclick="openPopup_Storage_Gateway()">
+        <img src="assets/AWS_icons/icons_16/Arch_AWS-Storage-Gateway_16.svg" alt="SVG Image" style="height:50px;width:50px">
+      </button>
+      <button onclick="openPopup_AWS_Snowball()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Snowball_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_AWS_Snowball_Edge()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Snowball-Edge_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_AWS_Snowmobile()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Snowmobile_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_AWS_Backup()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Backup_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_AWS_Elastic_Disaster_Recovery()">
         <img src="assets/AWS_icons/icons_16/Arch_AWS-Elastic-Disaster-Recovery_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
-      <button onclick="openPopup()">
+      <button onclick="openPopup_Amazon_FSx_16()">
         <img src="assets/AWS_icons/icons_16/Arch_Amazon-FSx_16.svg" alt="SVG Image" style="height:50px;width:50px">
-      </button>
-      <button onclick="openPopup()">
-        <img src="assets/AWS_icons/icons_16/Arch_AWS-Storage-Gateway_16.svg" alt="SVG Image" style="height:50px;width:50px">
       </button>
     </div>
     
@@ -780,6 +780,359 @@
           Object is stored with data, metadata, and Unique ID
           Scales with limited no file limit or storage limit
           Supports multiple reads and writes (no locks)
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_Amazon_Elastic_Block_Store() {
+        document.getElementById('overlay_Amazon_Elastic_Block_Store').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_Amazon_Elastic_Block_Store() {
+        document.getElementById('overlay_Amazon_Elastic_Block_Store').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_Amazon_Elastic_Block_Store">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_Amazon_Elastic_Block_Store()">&times;</span>
+        <h3>Elastic Block Store (EBS) - Block</h3>
+        <pre>
+          Data is split into evenly split blocks
+          Directly accessed by the Operation System
+          Supports only a single write volume
+          When you need a virtual hard drive attached to a VM
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_Amazon_EFS() {
+        document.getElementById('overlay_Amazon_EFS').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_Amazon_EFS() {
+        document.getElementById('overlay_Amazon_EFS').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_Amazon_EFS">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_Amazon_EFS()">&times;</span>
+        <h3>AWS Elastic File Storage (EFS) - File</h3>
+        <pre>
+          File is stored with data and metadata
+          Multiple connections via a network share
+          Supports multiple reads; writing locks the file.
+          When you need a file-share where multiple users or
+          VMs need to access the same drive
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
+        </pre>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Flashcard -->
+    <script>
+      // Function to open the popup
+      function openPopup_() {
+        document.getElementById('overlay_').style.display = 'flex';
+      }
+
+      // Function to close the popup
+      function closePopup_() {
+        document.getElementById('overlay_').style.display = 'none';
+      }
+    </script>
+    <div class="overlay" id="overlay_">
+      <div class="popup">
+        <span class="close-btn" onclick="closePopup_()">&times;</span>
+        <h3>...</h3>
+        <pre>
+          ...
         </pre>
       </div>
     </div>
