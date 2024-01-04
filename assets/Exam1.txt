@@ -44,7 +44,7 @@ Route53
 VPC Peering
 AWS Direct Connect (x)
 
-(8). A developer needs to block specific IP addresses from reaching an EC2 instance.
+8. A developer needs to block specific IP addresses from reaching an EC2 instance.
 Which AWS Networking component can meet this requirement?
 IAM Policy
 Security Groups
@@ -52,7 +52,7 @@ ACLs
 AWS IP Block
 NACLs (x)
 
-(9). An AWS customer believes that one of their accounts has been comprised and it has resources running compute workloads performing illegal activities.
+9. An AWS customer believes that one of their accounts has been comprised and it has resources running compute workloads performing illegal activities.
 What action should the AWS customer take?
 AWS Account Support
 AWS Access Analyzer
@@ -72,7 +72,7 @@ AWS Compute Distrbute
 EC2 Auto Scaling
 Elastic Load Balancer (x)
 
-(12). For Basic Support, what Trusted Advisor checks are available to the AWS customer?
+12. For Basic Support, what Trusted Advisor checks are available to the AWS customer?
 (Choose 2)
 MFA on Root Account (x)
 Amazon EBS Snapshots (x)
@@ -107,12 +107,12 @@ You cannot purchase domain names on AWS. Use a third-party service like GoDaddy 
 Amazon CloudFront
 Amazon Route53 (x)
 
-(17). A small business wants to deploy a Wordpress website with a custom domain on AWS but they have minimal knowledge of AWS.
+17. A small business wants to deploy a Wordpress website with a custom domain on AWS but they have minimal knowledge of AWS.
 Which AWS service offering would be the easiest solution for this customer?
 AWS Elastic Beanstalk
 AWS Amplify
-AWS CodeStar
-Amazon LightSail (x)
+AWS CodeStar (x)
+Amazon LightSail
 
 18. A Canadian company needs to meet regulatory compliance where the data must reside within Canada. Their CIO has experience with maintaining and trusting on-premise infrastructure because it provides a guarantee of Data sovereignty. However, they would like to use an AWS service to take care of this for them.
 Which AWS service provides a guarantee of Data sovereignty?
@@ -151,12 +151,12 @@ Werner Hans Peter Vogels
 AWS Technical Support
 TAM (x)
 
-(23). A developer wants to gain remote access to an EC2 Instance running Linux without the need of managing a key pair.
+23. A developer wants to gain remote access to an EC2 Instance running Linux without the need of managing a key pair.
 What EC2 feature will meet this requirement?
-EC2 Key Pairs
+EC2 Key Pairs (x)
 AWS Key Management Service (KMS)
 AWS IAM Role
-Sessions Manager (x)
+Sessions Manager
 
 24. Which AWS security services are used in mitigating DDoS attacks?
 (Choose 3)
@@ -180,13 +180,13 @@ Users should always have a little more access granted to them then they need, ju
 Users should submit all access requests in written form so that there is a paper trail of who needs access to different AWS resources.
 Users should be granted permission to access only specific resource actions to accomplish their tasks. (x)
 
-(27). Which AWS security services are capable of detecting publicly accessible S3 buckets in an organization where multiple departments manage their own AWS accounts?
+27. Which AWS security services are capable of detecting publicly accessible S3 buckets in an organization where multiple departments manage their own AWS accounts?
 (Choose 2)
 Amazon Detector
 Amazon Macie (x)
-S3 Bucket Scanner
+S3 Bucket Scanner (x)
 Amazon GuardDuty
-AWS IAM Access Analyzer (x)
+AWS IAM Access Analyzer
 
 28. An organization wants to ensure the files that it stores in S3 are secure at rest.
 What functionality would provide this security?
@@ -195,7 +195,7 @@ Infrequent Access
 Presigned URLs
 Server-Side Encryption (x)
 
-(29). A developer has a web application that is behind an Application Load Balancer. They want to protect their web app against common attack patterns, such as SQL injection or cross-site scripting.
+29. A developer has a web application that is behind an Application Load Balancer. They want to protect their web app against common attack patterns, such as SQL injection or cross-site scripting.
 Which AWS Service will meet this requirement?
 AWS Security Hub
 AWS GuardDuty
@@ -209,13 +209,13 @@ AWS GuardDuty
 AWS IAM Role
 AWS Config (x)
 
-(31). What actions within an AWS Account can only be performed by an AWS Account root user?
+31. What actions within an AWS Account can only be performed by an AWS Account root user?
 (Choose 3)
 Turn on Mult-Factor Authentication (x)
-Create an Account (x)
+Create an Account
 Rotate AWS Access Keys
 Create an AWS Organization (x)
-Updating Billing Information
+Updating Billing Information (x)
 
 32. A company has an EC2 instance running and suddenly the server was terminated. It's suspected that a junior developer may have terminated this instance by mistake.
 Which AWS service will help determining who was responsible?
@@ -236,7 +236,7 @@ Amazon Regulatory Reporter
 AWS Customer Compliance Center
 AWS Artifact (x)
 
-(35). Which AWS Managed Job Function provides full access to AWS services and resources, but does not allow management of Users and groups?
+35. Which AWS Managed Job Function provides full access to AWS services and resources, but does not allow management of Users and groups?
 AdministratorAccess
 ViewOnlyAccess
 SystemAdministrator
@@ -247,10 +247,10 @@ The Chief Information Officer(CIO) has a concern about the departments operating
 Which AWS Service can be implemented to allow AWS Account owners to access a list of technology stacks built by the company that is pre-approved and self-serve?
 AWS Stack List
 AWS Organizations
-AWS Systems Manager (x)
-AWS Service Catalog
+AWS Systems Manager
+AWS Service Catalog (x)
 
-(37). Which of the following AWS security services enable you to implement a collection of security measures and adjustments?
+37. Which of the following AWS security services enable you to implement a collection of security measures and adjustments?
 (Choose 2)
 AWS Config (x)
 AWS Managed Rules
@@ -316,15 +316,15 @@ Which of the following cloud benefits will help keep their operational costs low
 (Choose 2)
 Pay-as-you-go pricing (x)
 Economy of scale
-Elasticity
-High Availability (x)
+Elasticity (x)
+High Availability
 
-(46). In order to use CloudWatch Alarms to monitor Billing information, what two things must you do?
+46. In order to use CloudWatch Alarms to monitor Billing information, what two things must you do?
 (Choose 2)
 Create an AWS Cost and Usage Report
-Create a Billing Alarm (x)
+Create a Billing Alarm
 Create an AWS Budget (x)
-Enable Cost and Usage Reports
+Enable Cost and Usage Reports (x)
 Enable Billing Alerts
 
 47. An enterprise using AWS wants to provide to its billing department a detailed breakdown of the costs and usage of various services. They want the report in a CSV file for the month to the current date so they can analyze the data within Microsoft Excel.
@@ -371,12 +371,12 @@ Agility (x)
 53. A company has a web application that they determined requires at least 2 running servers to meet their operational performance service level agreements (SLAs) with their customers.
 The company has deployed 3 identical servers across 3 different availability zones in a single region.
 Which AWS Cloud benefit does this describe?
-Elasticity
+Elasticity (x)
 Reliability
 Global Reach
-High Availability (x)
+High Availability
 
-(54). A new company has decided they will exclusively run all of their infrastructure on AWS.
+54. A new company has decided they will exclusively run all of their infrastructure on AWS.
 What is the name of this cloud deployment model?
 (Choose 2)
 Cloud-First
@@ -384,7 +384,7 @@ On-Premise
 Hybrid (x)
 Cloud-Native (x)
 
-(55). What best describes Right-Sizing EC2 instances?
+55. What best describes Right-Sizing EC2 instances?
 (Choose 3)
 Matching workload performance and capacity requirements based on quarterly or annual timelines
 Identifying opportunities to eliminate or downsize without compromising capacity or other requirements, (x)
@@ -393,10 +393,10 @@ Continually analyzing instance performance and usage needs and patterns (x)
 Matching workload performance and capacity requirements at the lowest possible cost (x)
 
 56. Which of the following best describes the AWS Cloud benefit of Scalability?
-A company application can right-size (provision instances to match workloads)
+A company application can right-size (provision instances to match workloads) (x)
 A company's application will have a guaranteed uptime anywhere in Noth America, even in the chance of a single region failing.
 A company can launch copies of its application anywhere in the world within minutes.
-A company offers an application or system that can adapt to the increase in demand over time. (x)
+A company offers an application or system that can adapt to the increase in demand over time.
 
 57. A company has an existing web application running on AWS Cloud within North America.
 The company has observed an increase of users from Asia however due to the distance between the customer and the North American these users are experiencing severe latency.
@@ -407,13 +407,13 @@ Economy of scale
 Agility
 Global Reach (x)
 
-(58). Which of the following are examples of Capital Expenses (CAPEX)?
+58. Which of the following are examples of Capital Expenses (CAPEX)?
 (Choose 2)
 Network Costs (x)
 Subscription for software license
 Billing Based on Compute Metrics
-IT Personnel
-Datacenter Costs (x)
+IT Personnel (x)
+Datacenter Costs
 
 59. A company has an existing on-premise relational database. They want to migrate this database to the cloud and are willing to adopt a NoSQL database in order to gain managed sharding and provisioned throughput with a guarantee of performance at any scale.
 Which NoSQL offering on AWS would be suited for this workload?
@@ -425,23 +425,23 @@ DynamoDB (x)
 
 60. An organization is migrating its Microsoft SQL Server to AWS Cloud; however, they have already purchased a software license from Microsoft for its SQL Server. Unfortunately, the license does not include Software Assurance.
 Is it possible for an organization to Bring-Your-Own-License (BYOL) to AWS, and how would they achieve this?
-Amazon Relational Database Service (RDS) via AWS License Manager
+Amazon Relational Database Service (RDS) via AWS License Manager (x)
 Import your license via AWS License Manager. Use any compute service you like
-Amazon EC2 Dedicated Host integrated with AWS License Manager. (x)
+Amazon EC2 Dedicated Host integrated with AWS License Manager.
 
-(61). What are three key factors from the twelve-factor app pattern methodology that play a role in designing for failure?
+61. What are three key factors from the twelve-factor app pattern methodology that play a role in designing for failure?
 (Choose 3)
 Breakability (x)
-Logs (x)
+Logs
 Events Streams
 Dev/prod parity (x)
-Disposability
+Disposability (x)
 
 62a. Considering NovaTech's need for stringent data security and compliance,
 which AWS service would be most appropriate for managing identity access and ensuring secure sign-on processes?
 AWS Directory Service
-Amazon Cognito (x)
-AWS Key Management Service (KMS)
+Amazon Cognito
+AWS Key Management Service (KMS) (x)
 AWS Identity Management Service (IAM)
 
 62b. NovaTech is concerned about unexpected costs in AWS. What tool would you recommend they use to monitor and control their AWS spending?
