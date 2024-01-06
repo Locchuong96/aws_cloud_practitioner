@@ -1,0 +1,407 @@
+1. You have a mission-critical application that must be globally available at all times. If this is the case, which of the below deployment mechanisms would you employ?
+Deployment to Multiple Regions (x)
+Deployment to multiple Availability Zones
+Deployment to multiple Data Centers
+Deployment to multiple edge locations
+
+2. Which of the following can be used to protect against DDoS attacks.
+(Choose 2)
+AWS Shield Advanced (x)
+AWS EC2
+AWS ELB
+AWS Shield (x)
+
+3. Which of the following are the right principles when designing cloud-based systems?
+(Choose 2)
+Assume everything will fail (x)
+Build Tightly-coupled components
+Use as many services as possible
+Build loosely-coupled components (x)
+
+4. A company does not want to manage their database. Which of the following services is a fully managed NoSQL database provided by AWS.
+DynamoDB (x)
+Oracle RDS
+Elastic Map Reduce
+AWS RDS
+
+5. Which AWS service allows for distribution of incoming application traffic across multiple EC2 instances?
+AWS ELB (x)
+AWS Autoscaling
+AWS Inspector
+AWS EC2
+
+6. Which of the following benefits does consolidated billing provide in AWS Organizations?
+Improved security and access control across multiple accounts.
+Enhanced resource utilization and performance optimization.
+Expanded geographic coverage for AWS services.
+Simplified payment process with a single bill and payment method. (x)
+
+(7). Which of the following is the amount of storage that can be stored in the Simple Storage service?
+Virtually unlimited storage (o)
+5 TB
+1 PB
+1 TB
+
+8. What AWS tool lets you to view and analyze your costs and usage?
+Cost Explorer (x)
+AWS Consolidated billing
+Payment History
+Cost Allocation Tags
+
+9. What is the service provided by AWS that lets you host Domain Name systems?
+Route 53 (x)
+Direct Connect
+VPN
+VPC
+
+10. What service helps you to aggregate logs from your EC2 instance?
+Cloudwatch Logs (x)
+S3
+Cloudtrail
+SQS
+
+11. Which of the following is a serverless compute offering from AWS?
+AWS Lambda (x)
+AWS SNS
+AWS SQS
+AWS EC2
+
+12. Which of the following storage mechanisms can be used to store messages effectively which can be used across distributed systems.
+Amazon SQS (x)
+Amazon EBS Volumes
+Amazon EBS Snapshots
+Amazon Glacier
+
+(13). When working on the costing for on-demand EC2 instances, which of the following attributes determine the cost of the EC2 Instance?
+(Choose 3)
+Location Type (x) (o)
+Instance Type (x) (o)
+Edge location (x)
+AMI Type (o)s
+
+14. Which of the following services helps provide a connection from on-premises infrastructure to resources hosted in the AWS Cloud.
+(Choose 2)
+AWS Direct Connect (x)
+AWS VPC
+AWS Subnets
+AWS VPN (x)
+
+15. In order to predict the cost of moving resources from on-premise to the cloud, which of the following can be used?
+AWS Pricing Calculator (x)
+AWS WAF
+AWS Trusted Advisor
+AWS Inspector
+
+16. In order to predict the cost of moving resources from on-premise to the cloud, which of the following can be used?
+AWS Pricing Calculator (x)
+AWS WAF
+AWS Trusted Advisor
+AWS Inspector
+
+17. There is a requirement to host a set of servers in the Cloud for three months. Which of the following purchasing options for AWS EC2 instances would be the most cost-effective?
+On-Demand Instances (x)
+No Upfront Reserved Instances
+Partial Upfront Reserved Instances
+Spot Instances
+
+18. What is a document that provides a formal statement of one or more permissions?
+Policy (x)
+Role
+Resource
+Permission
+
+19. You are planning to serve a web application on the AWS Platform by using EC2 Instances. Which of the below principles would you adopt to ensure that even if some of the EC2 Instances crashes , you still have a working application
+Using a fault-tolerant system (x)
+Using an elastic system
+Using a regional system
+Using a scalable system
+
+(20). Which security feature can be used in a VPC subnet to protect against incoming traffic requests?
+NACL (o)
+Subnet Groups
+Security Groups (x)
+AWS Inspector
+
+21. AWS provides a storage option known as Amazon S3 Glacier.
+What is this AWS service designed for? (Select 2)
+(Choose 2)
+Data archives (x)
+Cached session data
+Active database storage
+Infrequently accessed data (x)
+
+22. What is the concept of an AWS region?
+It is a geographical area divided into Availability Zones (x)
+It is a collection of Compute capacity
+It is the same as an Availability zone
+It is a collection of Edge locations
+
+23. Which one of the following features is normally present in all AWS Support plans?
+24/7 access to Customer Service (x)
+A technical Account Manager
+A dedicated support person
+Access to all features in the Trusted Advisor
+
+24. Which of the following is AWS services allows you to build a data warehouse on the cloud?
+AWS Redshift (x)
+AWS Storage Gateway
+AWS EMR
+AWS Snowball
+
+25. Which of the following IAM identities allow an application deployed on an EC2 instance to write data to S3 in a secure manner?
+AWS IAM Roles
+AWS IAM Groups
+AWS IAM Permissions (x)
+AWS IAM Users (o)
+
+26. When using On-Demand instances in AWS, which of the following statements is false regarding the cost for the Instance? (SELECT TWO)
+(Choose 2)
+You have to pay the termination fees if you terminate the instance. (x)
+No long-term commitments
+Pay for compute capacity by the hour or second (minimum of 60 seconds)
+You pay upfront costs for the instance. (x)
+
+27. Which of the following AWS services can assist you with cost optimization?
+AWS Trusted Advisor (x)
+AWS Inspector
+AWS WAF
+AWS Shield
+
+28. Which of the following is AWS managed database service provides processing power that is up to 5X faster than a traditional MySQL database.
+Aurora (x)
+PostgreSQL
+DynamoDB
+MariaDB
+
+29. There is a requirement to move a 10 TB data warehouse to the AWS cloud. Which of the following is an ideal service which can be used to move this amount of data to the AWS Cloud?
+AWS Snowcone SSD (x)
+Amazon S3 MultiPart Upload
+Amazon S3 Connector
+Amazon Direct Connect
+
+(30). Which of the following are attributes to the costing for using the Simple Storage Service. Choose 2 answers from the options given below
+(Choose 2)
+The total size in gigabytes of all objects stored. (x)
+Number of S3 buckets (o)
+Using encryption in S3
+The storage class used for the objects stored. (x) (o)
+
+31. You are exploring what services AWS has off-hand. You have a large number of data sets that need to be processed. Which of the following services can help fulfil this requirement.
+EMR
+Glacier
+Storage gateway (x)
+S3 (o)
+
+32. You are are running a web-application and you want to improve response times for data that is requested frequently. Which AWS service should you use to improve performance to frequently accessed data?
+Amazon ElastiCache (x)
+Amazon RDS
+Amazon DynamoDB
+Amazon Simple Object Storage
+
+33. How do you backup an EBS Volume?
+EBS Snapshot (x)
+EBS Automatic Backups
+Store Backups in Glacier
+Store Backups in S3
+
+34. A company wants to utilize AWS storage. For them, low storage cost is paramount, the data is rarely retrieved, and data retrieval times of several hours are acceptable for them. What is the best storage option to use?
+AWS Glacier (x)
+EBS-backed storage connected to EC2
+AWS CloudFront
+AWS S3 Reduced Redundancy Storage
+
+35. You have a distributed application that regularly processes large amounts of data across multiple Amazon EC2 instances and can recover smoothly from interruptions. This application does not require continuous, dedicated compute capacity. What is the most cost-effective way to ensure the availability of this application?
+Spot Instances (x)
+Dedicated instances
+On-Demand instances
+Reserved instances
+
+36. What are the characteristics of Amazon S3? (Select 2)
+(Choose 2)
+Objects are directly accessible via a URL. (x)
+S3 allows you to store objects of virtually unlimited size.
+S3 should be used to host a relational database.
+S3 allows you to store unlimited amounts of data. (x)
+
+37. If you want to develop an application in Java, which of the following tools would you use?
+AWS SDK (x)
+AWS CLI
+AWS Console
+AWS Powershell
+
+38. Which services allow the customer to retain full administrative privileges of the underlying virtual infrastructure?
+Amazon EC2 (x)
+Amazon Lambda
+Amazon DynamoDB
+Amazon S3
+
+39. You have a Web application hosted in an EC2 Instance that needs to send notifications based on events. Which of the below services can assist in sending notifications?
+AWS SNS (x)
+AWS SQS
+AWS EC2
+AWS SES
+
+40. Which AWS service uses Edge Locations for content caching?
+AWS CloudFront (x)
+AWS SQS
+AWS Inspector
+AWS SNS
+
+41. Which of the following is NOT a disaster recovery option in the cloud?
+Single Site (x)
+Warm standby
+Multi-Site
+Pilot light
+
+42. Which of the following is a best practice when working with permissions in AWS?
+Ensure the least privilege access is used (x)
+Don’t use IAM users and groups
+Ensure the highest privilege access is used
+Use the root account credentials
+
+43. Which of the following AWS services automatically increases or decreases the number of resources (such as EC2 or ECS) running in a group based on demand?
+AWS Auto Scaling (x)
+AWS ELB
+AWS Inspector
+AWS EC2
+
+44. What acts as a firewall that controls the traffic allowed to reach one or more instances?
+Security group (x)
+IAM
+EC2
+ACL
+
+45. In your AWS Organization, there are two accounts: one for Development (Dev) and another for Quality Assurance (QA). Both are part of a consolidated billing system managed by the master account. The master account has purchased three Reserved Instances, a billing model offering discounted rates compared to On-Demand pricing.
+Currently, the Dev team is utilizing two of these Reserved Instances. The QA team plans to deploy three instances.
+How will the instances used by the QA team be billed according to the available pricing models?
+One Reserved and two On-Demand (x)
+Two Reserved and one On-Demand
+Three Reserved and no On-Demand
+No Reserved and three On-Demand
+
+(46). What is the AWS service provided which provides a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
+DynamoDB (o)
+Oracle RDS
+Elastic Map Reduce (x)
+AWS RDS
+
+(47). What AWS service has built-in DDoS mitigation?
+CloudFront (o)
+EC2 (x)
+CloudWatch
+CloudTrail
+
+48. What is the key difference between an availability zone and an edge location?
+An availability zone is an isolated location within an AWS region, whereas an edge location will deliver cached content to the closest location to reduce latency (x)
+Edge locations are used as control stations forAWS resources
+None of the above
+An availability zone is a grouping of AWSresources in a specific region; an edge location is a specific resource withinthe AWS region
+
+49. Which of the following can be used to manage identities in AWS.
+AWS IAM (x)
+AWS Trusted Advisor
+AWS
+AWS Config
+
+50. What is the service provided by AWS that allows developers to easily deploy and manage applications on the cloud?
+Elastic Beanstalk (x)
+Opswork
+Container service
+CloudFormation
+
+51. Which of the following is not a supported database engine in the AWS Relation Database Service?
+DB2 (x)
+MariaDB
+MySQL
+Aurora
+
+(52). In AWS billing, what option can be used to ensure costs can be reduced if you have multiple accounts?
+Consolidated billing (o)
+Costs are automatically reduced for multiple accountsby AWS.
+It is not possible to reduce costs with multipleaccounts
+Combined billing (x)
+
+(53). You want to take a snapshot of an EC2 Instance and create a new instance out of it. In AWS what is this snapshot equivalent to?
+AMI (o)
+EC2 Snapshot (x)
+EBS Snapshot
+EBS Volumes
+
+54. A company wants to create standard templates for the deployment of its Infrastructure. Which AWS service can be used in this regard?
+AWS CloudFormation (x)
+AWS Elastic Beanstalk
+AWS OpsWorks
+Amazon Simple Workflow Service
+
+55. Which of the following AWS services should you use to migrate an existing database to AWS?
+AWS DMS (x)
+AWS Storage gateway
+AWS Snowball
+AWS Lambda
+
+(56). You want to monitor the CPU utilization of an EC2 resource in AWS. Which of the below services can help in this regard
+AWS Cloudwatch (o)
+AWS Inspector
+AWS Trusted Advisor (x)
+AWS Cloudtrail
+
+57. What is the ability provided by AWS to enable fast, easy, and secure transfers of files over long distances between your client and your Amazon S3 bucket.
+S3 Transfer Acceleration (x)
+HTTP Transfer
+S3 Acceleration
+File Transfer
+
+(58). In AWS, which security aspects are the customer’s responsibility?
+(Choose 4)
+Security Group and ACL (Access Control List)settings (x) (o)
+Patch management on the EC2 instance’s guest operating system (o)
+Controlling physical access to computing resources 
+Encryption of EBS (Elastic Block Storage) volumes (x) (o)
+Decommissioning storage devices (x)
+None
+Life-cycle management of IAM credentials (x) (o)
+
+59. Which of the following options of AWS RDS allows for AWS to failover to a secondary database in case the primary one fails?
+AWS Multi-AZ (x)
+AWS Secondary
+AWS Standby
+AWS Failover
+
+60. Which of the following benefits would be attractive to a company moving from on-premise to AWS? (Choose 3)
+(Choose 3)
+Cost-Effective (x)
+Secure (x)
+Control of Physical Servers
+Flexible (x)
+
+61. Which of the following allows you to carve out your own portion of the AWS Cloud?
+AWS VPC (x)
+AWS Regions
+AWS Availability Zones
+AWS Subnets
+
+62. What are the four levels of AWS Premium Support?
+Developer, Business, Enterprise On-Ramp, Enterprise (o)
+Developer, Business, Free, Basic
+All support is free
+Basic, Startup, Business, Enterprise (x)
+
+63. A company is deploying a two-tier, highly available web application to AWS. Which service provides durable storage for static content while utilizing lower Overall CPU resources for the web tier?
+Amazon RDS instance
+Amazon S3 (x)
+Amazon EBS volume
+Amazon EC2 instance store
+
+64. Which of the following service enables you to assess, audit, and evaluate the configurations of your AWS resources?
+AWS SNS
+AWS Config
+AWS CloudTrail
+AWS Cloudwatch (x)
+
+65. Which of the following are benefits of the AWS's Relational Database Service (RDS)?
+(Choose 2)
+It allows you to store NoSQL data
+You can resize the capacity accordingly (x)
+Automated patches and backups  (x)
+It allows you to store unstructured data
+
