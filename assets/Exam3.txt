@@ -10,12 +10,12 @@ AWS Account Owner (x)
 AWS Technical Account Manager (TAM)
 AWS Support Team
 
-3. Which AWS can be used to mitigate DDoS attacks?
+(3). Which AWS can be used to mitigate DDoS attacks?
 (Choose 2)
 AWS EC2 (x)
-AWS Shield (x)
+AWS Shield (x) (o)
 S3
-Cloudfront
+Cloudfront (o)
 
 4. There is a requirement to host a database server for a minimum period of one year. Which of the following would result in the least cost?
 On-Demand
@@ -29,11 +29,11 @@ Distribute load across multiple resources (x)
 Used in conjunction with the CloudFront service
 Distribute content to users
 
-6. As per the AWS Customer Support Policy, penetration testing of EC2 instances:
+(6). As per the AWS Customer Support Policy, penetration testing of EC2 instances:
 May be performed by the customer on their own instances without prior approval from AWS.
 Are expressly prohibited under all circumstances.
 May be performed by the customer on their own instances, only if performed from EC2 instances. (x)
-May be performed by AWS, and is periodically performed by AWS.
+May be performed by AWS, and is periodically performed by AWS. (o)
 May be performed by AWS, and will be performed by AWS upon customer request.
 
 7. How can you add another layer of protection to your AWS root account?
@@ -85,17 +85,17 @@ Amazon Redshift (x)
 Amazon Aurora
 Amazon DynamoDB
 
-15. You plan to deploy an application on the AWS. This application needs to be PCI Compliant Which of the below steps are needed to ensure the compliance? Choose 2 answers from the below:
+(15). You plan to deploy an application on the AWS. This application needs to be PCI Compliant Which of the below steps are needed to ensure the compliance? Choose 2 answers from the below:
 (Choose 2)
-Ensure the AWS Services are made PCI Compliant
+Ensure the AWS Services are made PCI Compliant (o)
 Ensure the right steps are taken during application development for PCI Compliance
-Do an audit after the deployment of the application for PCI Compliance (x)
+Do an audit after the deployment of the application for PCI Compliance (x) (o)
 Choose AWS services which are PCI Compliant (x)
 
-16. You need to host a file in a location that's publicly accessible from anywhere in the world. Which AWS service would best meet that need?
+(16). You need to host a file in a location that's publicly accessible from anywhere in the world. Which AWS service would best meet that need?
 RDS
 S3 (x)
-EBS
+EBS (o)
 EC2
 
 17. A developer has a web application that is behind an Application Load Balancer. They want to protect their web app against common attack patterns, such as SQL injection or cross-site scripting.
@@ -131,9 +131,9 @@ Amazon CloudFront (x)
 Amazon S3
 Amazon SES
 
-22. Which of the following features of RDS allows for data redundancy across regions
+(22). Which of the following features of RDS allows for data redundancy across regions
 Using snapshots
-Creating Read Replica’s
+Creating Read Replica’s (o)
 Using Multi-AZ feature
 Cross region replication (x)
 
@@ -200,13 +200,13 @@ Tightly-coupled components
 Scalability (x)
 Infrastructure as code (x)
 
-33. Which of the following are advantages of having infrastructure hosted on the AWS Cloud?
+(33). Which of the following are advantages of having infrastructure hosted on the AWS Cloud?
 Choose 2 answers from the options given below.
 (Choose 2)
 Having complete control over the physical infrastructure
-No Upfront costs
+No Upfront costs (o)
 Having no need to worry about security (x)
-Having the pay as you go model (x)
+Having the pay as you go model (x) (o)
 
 34. What best describes the Principle of Least Privilege (PoLP)?
 Users should submit all access requests in written form so that there is a paper trail of who needs access to different AWS resources.
@@ -232,10 +232,10 @@ Apply Multi-Factor Authentication (MFA) (x)
 Disable AWS console access
 Set up a secondary password
 
-38. Which AWS service allows you to link multiple AWS accounts together?
+(38). Which AWS service allows you to link multiple AWS accounts together?
 (Choose 2)
-AWS Config
-AWS Organizations (x)
+AWS Config (o)
+AWS Organizations (x) (o)
 IAM (x)
 AWS Consolidated Billing
 
@@ -252,9 +252,9 @@ AWS S3 Lifecycle policies (x)
 AWS Console
 AWS Glacier SDK (x)
 
-41. Which of the following MySQL-compatible databases has the capability to automatically scale up its storage size?
+(41). Which of the following MySQL-compatible databases has the capability to automatically scale up its storage size?
 Amazon RDS Microsoft SQL Server
-Amazon Aurora
+Amazon Aurora (o)
 Amazon RDS MySQL (x)
 Amazon DynamoDB
 
@@ -276,12 +276,12 @@ AWS DynamoDB (x)
 AWS DocumentDB
 AWS RDS
 
-45. Which AWS Support plan gives access to a Support Concierge?
+(45). Which AWS Support plan gives access to a Support Concierge?
 (Choose 2)
 Developer
-Enterprise (x)
+Enterprise (x) (o)
 Business (x)
-Enterprise On-Ramp
+Enterprise On-Ramp (o)
 
 46. Which AWS service provides infrastructure security optimization recommendations?
 Reserved Instances
@@ -315,16 +315,16 @@ Hardware patching
 Physical security
 Password Policies (x)
 
-51. When creating security groups, which of the following is a responsibility of the customer. Choose 2 answers from the options given below.
+(51). When creating security groups, which of the following is a responsibility of the customer. Choose 2 answers from the options given below.
 (Choose 2)
 Ensure the rules are applied immediately
 Defining the rules as per the customer requirements. (x)
-Ensure the security groups are linked to the Elastic Network interface (x)
-Giving a name and description for the security group
+Ensure the security groups are linked to the Elastic Network interface (x) (o)
+Giving a name and description for the security group (o)
 
-52. A company is deploying a three-tier, highly available web application to AWS. Which service provides durable storage for static content while utilizing lower Overall CPU resources for the Business layer?
+(52). A company is deploying a three-tier, highly available web application to AWS. Which service provides durable storage for static content while utilizing lower Overall CPU resources for the Business layer?
 Amazon EC2 Instance Store
-Amazon S3
+Amazon S3 (o)
 Amazon RDS Instance
 Amazon EBS volume (x)
 
@@ -352,9 +352,9 @@ Deploying an application across multiple Availability Zones and Regions (x)
 Setting CloudWatch Events to create scheduled automated backups.
 Utilizing a Load Balancer and Auto Scaling Groups
 
-57. A Disaster Recovery Strategy on AWS should be based on launching resources in a separate :
+(57). A Disaster Recovery Strategy on AWS should be based on launching resources in a separate :
 Security Group
-AWS Region
+AWS Region (o)
 Amazon Virtual Private Cloud (Amazon VPC) (x)
 Subnet
 
