@@ -1,0 +1,706 @@
+1. What are three key factors from the twelve-factor app pattern methodology that play a role in designing for failure?
+(Choose 3)
+Disposability
+Breakability
+Logs
+Dev/prod parity
+Events Streams
+
+2. A small business wants to deploy a Wordpress website with a custom domain on AWS but they have minimal knowledge of AWS.
+Which AWS service offering would be the easiest solution for this customer?
+AWS Amplify
+AWS Elastic Beanstalk
+AWS CodeStar
+Amazon LightSail
+
+3. What actions within an AWS Account can only be performed by an AWS Account root user?
+(Choose 3)
+Updating Billing Information
+Turn on Mult-Factor Authentication
+Create an Account
+Create an AWS Organization
+Rotate AWS Access Keys
+
+4. A company has a web application that they determined requires at least 2 running servers to meet their operational performance service level agreements (SLAs) with their customers.
+The company has deployed 3 identical servers across 3 different availability zones in a single region.
+Which AWS Cloud benefit does this describe?
+Reliability
+Elasticity
+Global Reach
+High Availability
+
+5. Considering NovaTech's need for stringent data security and compliance, which AWS service would be most appropriate for managing identity access and ensuring secure sign-on processes?
+AWS Directory Service
+Amazon Cognito
+AWS Key Management Service (KMS)
+AWS Identity Management Service (IAM)
+
+6. NovaTech is concerned about unexpected costs in AWS. What tool would you recommend they use to monitor and control their AWS spending?
+AWS Price List API
+AWS Trusted Advisor
+Amazon CloudWatch
+Budgets and AWS Cost Explorer
+
+7. Given NovaTech's extensive data storage needs for AI model training, which AWS storage service would you recommend that balances performance, scalability, and cost?
+AWS Storage Gateway
+Amazon Elastic File System (EFS)
+Amazon S3
+Amazon Elastic Block Store (EBS)
+
+8. How would you ensure high performance and low latency for NovaTech's AI applications, considering their global expansion plans?
+AWS Lambda
+Amazon Elastic Cache
+AWS Global Accelerator
+Amazon EC2 Auto Scaling
+
+9. Suggest a disaster recovery plan for NovaTech's critical AI applications and data on AWS.
+AWS Backup
+Amazon RDS Multi-AZ Deployments
+AWS Elastic Disaster Recovery
+
+10. An organization is migrating its Microsoft SQL Server to AWS Cloud; however, they have already purchased a software license from Microsoft for its SQL Server. Unfortunately, the license does not include Software Assurance.
+Is it possible for an organization to Bring-Your-Own-License (BYOL) to AWS, and how would they achieve this?
+Amazon Relational Database Service (RDS) via AWS License Manager
+Import your license via AWS License Manager. Use any compute service you like
+Amazon EC2 Dedicated Host integrated with AWS License Manager.
+
+11. Which of the following best describes the AWS Cloud benefit of Scalability?
+A company's application will have a guaranteed uptime anywhere in Noth America, even in the chance of a single region failing.
+A company application can right-size (provision instances to match workloads)
+A company can launch copies of its application anywhere in the world within minutes.
+A company offers an application or system that can adapt to the increase in demand over time.
+
+12. Which of the following are examples of Capital Expenses (CAPEX)?
+(Choose 2)
+Datacenter Costs
+Network Costs
+Subscription for software license
+IT Personnel
+Billing Based on Compute Metrics
+
+13. A developer wants to gain remote access to an EC2 Instance running Linux without the need of managing a key pair.
+What EC2 feature will meet this requirement?
+AWS Key Management Service (KMS)
+EC2 Key Pairs
+AWS IAM Role
+Sessions Manager
+
+14. An organization has many departments that manage its own AWS accounts.
+The Chief Information Officer(CIO) has a concern about the departments operating their own ShadowIT due to a lack of security controls.
+Which AWS Service can be implemented to allow AWS Account owners to access a list of technology stacks built by the company that is pre-approved and self-serve?
+AWS Organizations
+AWS Stack List
+AWS Systems Manager
+AWS Service Catalog
+
+15. Which AWS security services are capable of detecting publicly accessible S3 buckets in an organization where multiple departments manage their own AWS accounts?
+(Choose 2)
+AWS IAM Access Analyzer
+Amazon Detector
+Amazon Macie
+Amazon GuardDuty
+S3 Bucket Scanner
+
+16. What is the recommended measure for protecting your root account?
+(Choose 2)
+MFA
+Write down your password on paper and store it in a vault
+Delete all access keys
+Rotate secret keys
+Principle of Least Privledge
+
+17. A startup company is adopting a cloud-native approach by building its web application using AWS cloud services.
+Which of the following cloud benefits will help keep their operational costs low?
+(Choose 2)
+Elasticity
+Economy of scale
+High Availability
+Pay-as-you-go pricing
+
+18. In order to use CloudWatch Alarms to monitor Billing information, what two things must you do?
+(Choose 2)
+Enable Billing Alerts
+Create an AWS Cost and Usage Report
+Create a Billing Alarm
+Enable Cost and Usage Reports
+Create an AWS Budget
+
+19. Which of the following are services where you don’t need to manage the underlying Infrastructure. Choose 2 answers from the options given below.
+(Choose 2)
+EC2
+DynamoDB
+Simple Storage Service
+AWS Autoscaling
+
+20. Your company is running a database on RDS and performs read-heavy database workloads on a regular basis. Which feature of RDS would help reduce the load to the primary database instance?
+Cross Region Replication
+Multi-AZ
+Read Replicas
+Performance Insights
+
+21. Which of the following is not a category recommendation given by the AWS Trusted Advisor?
+Fault tolerance
+Cost Optimization
+Security
+High Availability
+Performance
+
+22. Which of the following can not be used to work with AWS services programmatically?
+AWS CloudShell
+AWS SDK
+AWS Console
+AWS CLI
+
+23. Which of the following does AWS perform on its behalf for EBS volumes to make it less prone to failure?
+Replication of the volume across Regions
+Replication of the volume across Availability Zones
+Replication of the volume in the same Availability Zone
+Replication of the volume across Edge locations
+
+24. Which of the following storage options is best when you want to store archive data?
+Amazon EBS
+Amazon Storage Gateway
+Amazon Glacier
+Amazon S3
+
+25. Which of the following service is most useful when a Disaster Recovery method is triggered in AWS?
+Amazon SQS
+Amazon SNS
+Amazon Route 53
+Amazon Inspector
+
+26. Which of the below cannot be used to get data onto Amazon S3 Glacier?
+AWS Glacier SDK
+AWS Glacier API
+AWS Console
+AWS S3 Lifecycle policies
+
+27. Which of the following services can provide a complete audit trail of all AWS services used within an account?
+Amazon EC2 instance usage report
+AWS Trusted Advisor
+AWS Cloud Trail logs
+Amazon CloudWatch
+
+28. Your company is planning to use the AWS Cloud. But there is a management decision that resources need to split department wise. And the decision is tending towards managing multiple AWS accounts. Which of the following would help in effective management and also provide an efficient costing model.
+AWS Trusted Advisor
+Amazon Dev Pay
+AWS Organizations
+AWS Cost Explorer
+
+29. Your company is planning to move to the AWS Cloud. You need to give a presentation on the cost perspective when moving existing resources to the AWS Cloud. When it comes to Amazon EC2, which of the following is an advantage when it comes to the cost perspective.
+The ability to choose low cost AMI’s to preparethe EC2 Instances
+Having the ability of automated backups of the EC2 instance, so that you don’t need to worry about the maintenance costs.
+The ability to only pay for what you use
+Ability to tag instances to reduce the overallcost
+
+30. True or False: AWS is responsible for the security of managed Foundation Services, such as Amazon RDS.
+True
+False
+
+31. Which of the following services helps provide a dedicated connection from on-premise infrastructure to resources hosted in the AWS Cloud without using the public internet?
+AWS VPN
+AWS VPC
+AWS Direct Connect
+AWS Subnets
+
+32. Which of the following can be used to increase the fault tolerance of an application?
+Deploying resources across multiple VPC’s
+Deploying resources across multiple edgelocations
+Deploying resources across multiple Availability Zones
+Deploying resources across multiple AWS Accounts
+
+33. Which of the following statements are FALSE when it comes to elasticity?
+(Choose 2)
+Diverting traffic to instances based on the demand
+Diverting traffic across multiple regions
+Diverting traffic to instances with high loads
+Diverting traffic to instances with the least load
+
+34. A company is exploring the AWS services and wants a tool or method to estimate the cost that fits their business use case.
+Which of the following would help them model their solutions and estimate the calculated cost for the services needed?
+AWS Cost Explorer
+AWS Config
+AWS Pricing Calculator
+AWS Consolidating billing
+
+35. You are planning on deploying a video-based application onto the AWS Cloud. Users across the world will access these videos. Which of the below services can help efficiently stream the content to users across the globe?
+Amazon Cloudtrail
+Amazon SES
+Amazon CloudFront
+Amazon S3
+
+36. Which of the following components of the CloudFront service can be used to distribute content to users across the globe.
+Amazon Regions
+Amazon VPC
+Amazon Edge locations
+Amazon Availability Zones
+
+37. Which of the following features of an Amazon VPC allows your VPC to span multiple Availability Zones?
+Subnet
+Network Access Control Lists
+None of these
+Route Tables
+
+38. Which of the following are advantages of having infrastructure hosted on the AWS Cloud?
+Choose 2 answers from the options given below.
+(Choose 2)
+Having the pay as you go model
+Having complete control over the physical infrastructure
+Having no need to worry about security
+No Upfront costs
+
+39. Which of the following MySQL-compatible databases has the capability to automatically scale up its storage size?
+Amazon DynamoDB
+Amazon RDS Microsoft SQL Server
+Amazon RDS MySQL
+Amazon Aurora
+
+40. Which of the following features of RDS allows for data redundancy across regions
+Cross region replication
+Using snapshots
+Using Multi-AZ feature
+Creating Read Replica’s
+
+41. Which AWS can be used to mitigate DDoS attacks?
+(Choose 2)
+Cloudfront
+AWS EC2
+S3
+AWS Shield
+
+42. A company is deploying a three-tier, highly available web application to AWS. Which service provides durable storage for static content while utilizing lower Overall CPU resources for the Business layer?
+Amazon EBS volume
+Amazon EC2 Instance Store
+Amazon RDS Instance
+Amazon S3
+
+43. When creating security groups, which of the following is a responsibility of the customer. Choose 2 answers from the options given below.
+(Choose 2)
+Giving a name and description for the security group
+Ensure the rules are applied immediately
+Ensure the security groups are linked to the Elastic Network interface
+Defining the rules as per the customer requirements.
+
+44. As per the AWS Customer Support Policy, penetration testing of EC2 instances:
+May be performed by AWS, and will be performed by AWS upon customer request.
+Are expressly prohibited under all circumstances.
+May be performed by AWS, and is periodically performed by AWS.
+May be performed by the customer on their own instances, only if performed from EC2 instances.
+May be performed by the customer on their own instances without prior approval from AWS.
+
+45. Which AWS Support plan gives access to a Support Concierge?
+(Choose 2)
+Enterprise On-Ramp
+Developer
+Business
+Enterprise
+
+46. Which AWS service allows you to link multiple AWS accounts together?
+(Choose 2)
+AWS Consolidated Billing
+AWS Config
+IAM
+AWS Organizations
+
+47. You plan to deploy an application on the AWS. This application needs to be PCI Compliant Which of the below steps are needed to ensure the compliance? Choose 2 answers from the below:
+(Choose 2)
+Choose AWS services which are PCI Compliant
+Ensure the AWS Services are made PCI Compliant
+Do an audit after the deployment of the application for PCI Compliance
+Ensure the right steps are taken during application development for PCI Compliance
+
+48. You need to host a file in a location that's publicly accessible from anywhere in the world. Which AWS service would best meet that need?
+EC2
+RDS
+EBS
+S3
+
+49. A Disaster Recovery Strategy on AWS should be based on launching resources in a separate :
+Subnet
+Security Group
+Amazon Virtual Private Cloud (Amazon VPC)
+AWS Region
+
+50. In AWS billing, what option can be used to ensure costs can be reduced if you have multiple accounts?
+Costs are automatically reduced for multiple accountsby AWS.
+Consolidated billing
+It is not possible to reduce costs with multipleaccounts
+Combined billing
+
+51. Which of the following are benefits of the AWS's Relational Database Service (RDS)?
+(Choose 2)
+It allows you to store unstructured data
+You can resize the capacity accordingly
+It allows you to store NoSQL data
+Automated patches and backups
+
+52. Which of the following is the amount of storage that can be stored in the Simple Storage service?
+5 TB
+Virtually unlimited storage
+1 PB
+1 TB
+
+53. When working on the costing for on-demand EC2 instances, which of the following attributes determine the cost of the EC2 Instance?
+(Choose 3)
+Instance Type
+Location Type
+Edge location
+AMI Type
+
+54. A company is deploying a two-tier, highly available web application to AWS. Which service provides durable storage for static content while utilizing lower Overall CPU resources for the web tier?
+Amazon EC2 instance store
+Amazon S3
+Amazon RDS instance
+Amazon EBS volume
+
+55. What are the four levels of AWS Premium Support?
+Developer, Business, Free, Basic
+Developer, Business, Enterprise On-Ramp, Enterprise
+All support is free
+Basic, Startup, Business, Enterprise
+
+56. In AWS, which security aspects are the customer’s responsibility?
+(Choose 4)
+Life-cycle management of IAM credentials
+Patch management on the EC2 instance’s guest operating system
+Decommissioning storage devices
+None
+Encryption of EBS (Elastic Block Storage) volumes
+Security Group and ACL (Access Control List)settings
+Controlling physical access to computing resources
+
+57. What is the AWS service provided which provides a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
+Oracle RDS
+DynamoDB
+Elastic Map Reduce
+AWS RDS
+
+58. You want to monitor the CPU utilization of an EC2 resource in AWS. Which of the below services can help in this regard
+AWS Inspector
+AWS Cloudwatch
+AWS Trusted Advisor
+AWS Cloudtrail
+
+59. Which of the following IAM identities allow an application deployed on an EC2 instance to write data to S3 in a secure manner?
+AWS IAM Groups
+AWS IAM Roles
+AWS IAM Permissions
+AWS IAM Users
+
+60. Which of the following are attributes to the costing for using the Simple Storage Service. Choose 2 answers from the options given below
+(Choose 2)
+Number of S3 buckets
+The total size in gigabytes of all objects stored.
+Using encryption in S3
+The storage class used for the objects stored.
+
+61. Which security feature can be used in a VPC subnet to protect against incoming traffic requests?
+Subnet Groups
+NACL
+Security Groups
+AWS Inspector
+
+62. Which of the following service enables you to assess, audit, and evaluate the configurations of your AWS resources?
+AWS Cloudwatch
+AWS Config
+AWS SNS
+AWS CloudTrail
+
+63. What AWS service has built-in DDoS mitigation?
+EC2
+CloudFront
+CloudWatch
+CloudTrail
+
+64. You are exploring what services AWS has off-hand. You have a large number of data sets that need to be processed. Which of the following services can help fulfil this requirement.
+Glacier
+EMR
+Storage gateway
+S3
+
+65. You want to take a snapshot of an EC2 Instance and create a new instance out of it. In AWS what is this snapshot equivalent to?
+EC2 Snapshot
+AMI
+EBS Snapshot
+EBS Volumes
+
+66. Which of the following is an example of a service in which the customer's responsibilities may shift compared to using EC2?
+Amazon RDS
+Amazon DynamoDB
+Amazon SQS
+Amazon S3
+
+67. Where can you find documentation on AWS security best practices and official documents?
+AWS Knowledge Center
+AWS Systems Manager
+AWS Glue
+AWS Marketplace
+
+68. What design principle suggests that applications should be designed to perform multiple tasks simultaneously?
+Think parallel
+Think distributed
+Think redundant
+Think scalable
+
+69. Which of the following is true about managed policies in IAM?
+They are defined and managed by the AWS Customer
+They can only be attached to IAM groups
+They are defined and managed by AWS
+They cannot be modified by the AWS Customer
+
+70. A company is migrating to the AWS Cloud instead of running its infrastructure on-premises.
+Which of the following are advantages of this migration? (Choose two.)
+(Choose 2)
+Increased global reach and agility
+Elimination of the need to perform security auditing
+Redundancy by default for all compute services
+Ability to deploy globally in minutes
+
+71. What is the role of capital expenses (CapEx) in a Total Cost of Ownership (TCO) proposal?
+They are a one-time cost associated with the purchase of physical assets.
+They are expenses related to employee salaries and benefits.
+They are expenses related to software licensing and maintenance.
+They are ongoing expenses related to the operation and maintenance of physical assets.
+
+72. What is the benefit of AWS cloud's managed services?
+They enable users to pay only for the resources they use without any upfront costs or long-term commitments.
+They enable users to access resources and services that are always available and fault-tolerant.
+They reduce the burden of managing infrastructure and allow users to focus on their core business.
+They allow users to quickly and easily provision resources.
+
+73. Which two benefits can be gained from migrating to the AWS Cloud? (Choose 2)
+(Choose 2)
+Operational resilience
+Increased staff retention
+Discounts for products on Amazon.com
+Business agility
+Business Excellence
+
+74. What is the role of the Concierge in the AWS Enterprise Support Plan?
+To manage AWS resources.
+To provide technical expertise for the full range of AWS services and obtain a detailed understanding of your use case and technology architecture.
+To serve as your primary point of contact and provide assistance with billing or account inquiries.
+To inspect your AWS environment and alert you of opportunities to save money
+
+75. Which of the following AWS services provides a fully managed serverless computing platform that enables you to run code without provisioning or managing servers?
+AWS Lambda
+Amazon Simple Notification Service (SNS)
+Amazon Simple Queue Service (SQS)
+Amazon Elastic Block Store (EBS)
+
+76. What is AWS Direct Connect?
+A dedicated network connection provided by AWS between a customer’s datacenter and AWS
+A private internet connection provided by AWS
+A VPN connection provided by AWS
+A public internet connection provided by AWS
+
+77. What is the primary purpose of AWS User and Identity Management capabilities?
+To securely store data in the cloud
+To host scalable web applications in the cloud
+To create secure backups of data in the cloud
+To allow users to access resources in the cloud
+
+78. What are the three main cloud models?
+Public Cloud, Private Cloud, Hybrid
+Cloud-only, Hybrid, Virtual Machines
+On-premises, Hybrid, Virtual Machines
+On-premises, Cloud-native, Hybrid
+
+79. How does the AWS cloud enable users to focus on business value?
+By offering managed services that automate common administrative tasks
+By offering pay-as-you-go pricing that enables users to start small and scale up as their needs grow
+By providing a comprehensive set of security services and features
+By providing a global infrastructure with regions and availability zones spread across the world
+
+80. Which of the following resources for technology support on AWS provides technical guidance, planning, and ongoing support to help customers achieve their business objectives?
+Technical Account Managers
+AWS Support Cases
+Premium Support
+AWS Abuse
+
+81. Which of the following benefits of AWS cloud refers to the ability to ensure the confidentiality, integrity, and availability of your data and resources?
+Security
+High Availability
+Elasticity
+Reliability
+
+82. Which of the following operations would reduce costs by moving to the cloud?
+Right-sizing infrastructure
+Manually managing infrastructure
+Using legacy software that is not compatible with the cloud
+Increasing compliance scope
+
+83. What is the MOST operationally efficient solution to delegate permissions for an EC2 instance to access AWS resources such as S3 and DynamoDB?
+Creating an IAM user and using its access key and secret access key to create a CLI profile in the EC2 instance
+Creating an IAM role with the required permissions and attaching the role to the administrative IAM user
+Create an IAM role with the required permissions and attach the role to the EC2 instance.
+Creating an IAM user and using its access key and secret access key in the application
+
+84. What is a use case for considering the use of multiple AWS Regions related to data sovereignty?
+To simplify resource management
+To improve security
+To comply with local regulations
+To minimize the cost of data transfer
+
+85. Which AWS service provides managed databases?
+Amazon Athena
+Amazon RDS
+Amazon S3
+Amazon EMR
+
+86. What strategy can be implemented to reduce compliance scope, such as reporting?
+(Choose 3)
+Growing the team responsible for compliance
+Reducing customer data stored
+Shifting existing compliance efforts elsewhere
+Adjusting the existing compliance strategy with automation
+Reducing the business area covered by compliance policies
+
+87. Which of the following is an advantage of implementing elasticity in the cloud as opposed to on-premises?
+On-premises environments are more cost-effective for elastic workloads.
+On-premises environments can handle unpredictable traffic patterns more efficiently.
+Cloud providers allow for on-demand provisioning of resources.
+Cloud providers offer unlimited resources without additional cost.
+
+88. Which one of these is a design principle for AWS?
+Test First
+Think Parallel
+Detail Orientation
+Error handling
+
+89. How can multiple AWS accounts aid in allocating costs across departments?
+By providing separate access control for each department
+By allowing departments to share resources without additional costs
+By providing separate billing for each department
+By consolidating billing into a single payment
+
+90. What is AWS Storage Gateway?
+A managed service that provides you with a Software Defined Network (SDN) solution to control traffic types and prioritize applications.
+A hybrid storage service that enables on-premises applications to use AWS storage services
+A service that provides high-speed internet access from home.
+A service that allows you to store and retrieve data from the internet.
+
+91. Which AWS service or tool should a company use to centrally request and track service limit increases?
+AWS Service Catalog
+AWS Budgets
+Service Quotas
+AWS Config
+
+92. Which of the following are advantages of the AWS Cloud? (Choose two.)
+(Choose 2)
+Increased deployment time to market
+High economies of scale
+Increased fixed expenses
+Ability to quickly change required capacity
+AWS management of user-owned infrastructure
+
+93. Which of the following sources can provide technical assistance and knowledge to AWS customers?
+Training and certification
+Professional services
+Amazon Partner Network
+All of the options
+Solution architects
+
+94. What are some advantages of using Amazon EC2 instances to host applications in the AWS Cloud instead of on-premises? (Choose two.)
+(Choose 2)
+EC2 has a 100% service level agreement (SLA).
+EC2 has a flexible, pay-as-you-go pricing model.
+EC2 has automatic storage cost optimization.
+EC2 integrates with Amazon VPC, AWS CloudTrail, and AWS Identity and Access Management (IAM).
+EC2 includes operating system patch management.
+
+95. Which of the following describes the main objective of the AWS Cloud Adoption Framework (CAF)?
+To help customers manage their AWS resources and monitor their performance in real-time.
+To provide customers with pre-configured AWS Cloud infrastructure, allowing them to quickly deploy applications and services.
+To help customers develop and implement effective business and technical strategies for adopting the AWS Cloud.
+To help customers migrate all of their on-premises IT infrastructure to the AWS Cloud.
+
+96. A company needs to establish a connection between two VPCs. The VPCs are located in two different AWS Regions. The company wants to use the existing infrastructure of the VPCs for this connection.
+Which AWS service or feature can be used to establish this connection?
+AWS Direct Connect
+VPC endpoints
+VPC peering
+AWS Client VPN
+
+97. Which of the following options is the recommended way to get billing support on AWS?
+Use the AWS Billing and Cost Management dashboard
+Use third-party partners and tools
+Open a billing support case
+Contact your account manager
+
+98. What is the role of the Concierge for AWS Enterprise Support Plan customers?
+To provide training and certification support
+To provide security and compliance support
+To manage AWS billing and cost optimization
+To provide technical support for AWS services
+
+99. Which of the following statements best describes Reserved-Instances flexibility in AWS?
+Reserved-Instances cannot be modified or exchanged once purchased.
+Reserved-Instances can only be modified or exchanged for different instance types or operating systems during the initial purchase.
+Reserved-Instances can only be modified or exchanged for different instance types or operating systems for an additional cost.
+Reserved-Instances can be modified or exchanged for different instance types or operating systems without additional cost.
+
+100. A company needs to establish a connection between two VPCs. The VPCs are located in two different AWS Regions. The company wants to use the existing infrastructure of the VPCs for this connection.
+Which AWS service or feature can be used to establish this connection?
+VPC peering
+AWS Client VPN
+VPC endpoints
+AWS Direct Connect
+
+101. You are an AWS Enterprise customer with questions about billing and you overall AWS account? Which of the following AWS support personnel should you contact?
+AWS Support
+AWS Billing and Accounts
+AWS Concierge
+AWS Technical Account Manager
+
+102. Which benefit of the AWS Cloud ensures that resources are always available and performing as expected, with minimal downtime or interruptions?
+Elasticity
+High Availability
+Reliability
+Security
+
+103. A new company has decided they will exclusively run all of their infrastructure on AWS.
+What is the name of this cloud deployment model?
+(Choose 2)
+On-Premise
+Hybrid
+Cloud-Native
+Cloud-First
+
+104. Which of the following is true about managed policies in IAM?
+They are defined and managed by the AWS Customer
+They cannot be modified by the AWS Customer
+They are defined and managed by AWS
+They can only be attached to IAM groups
+
+105. You want to take a snapshot of an EC2 Instance and create a new instance out of it. In AWS what is this snapshot equivalent to?
+EBS Snapshot
+EC2 Snapshot
+AMI
+EBS Volumes
+
+106. Which component of the AWS global infrastructure is made up of one or more discrete data centers that have redundant power, networking, and connectivity?
+Availability Zone
+AWS Region
+AWS Outposts
+Edge location
+
+107 .Which of the below cannot be used to get data onto Amazon S3 Glacier?
+AWS S3 Lifecycle policies
+AWS Glacier SDK
+AWS Console
+AWS Glacier API
+
+108. A company is migrating to the AWS Cloud instead of running its infrastructure on-premises.
+Which of the following are advantages of this migration? (Choose two.)
+(Choose 2)
+Increased global reach and agility
+Ability to deploy globally in minutes
+Redundancy by default for all compute services
+Elimination of the need to perform security auditing
+
+109. How does the AWS cloud enable users to focus on business value?
+By offering managed services that automate common administrative tasks
+By providing a global infrastructure with regions and availability zones spread across the world
+By providing a comprehensive set of security services and features
+By offering pay-as-you-go pricing that enables users to start small and scale up as their needs grow
