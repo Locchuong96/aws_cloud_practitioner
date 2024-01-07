@@ -4,10 +4,10 @@ Providing additional data storage options for AWS services
 Enhancing network security and access control
 Reducing latency and improving content delivery to end-users (x)
 
-2. Which AWS service provides managed databases?
+(2). Which AWS service provides managed databases?
 Amazon EMR
 Amazon Athena (x)
-Amazon RDS
+Amazon RDS (o)
 Amazon S3
 
 3. Which AWS service monitors AWS accounts for security threats?
@@ -16,18 +16,18 @@ Amazon Cognito
 AWS Certificate Manager (ACM)
 Amazon GuardDuty (x)
 
-4. Which one of these is a design principle for AWS?
+(4). Which one of these is a design principle for AWS?
 Error handling (x)
 Test First
-Think Parallel
+Think Parallel (o)
 Detail Orientation
 
 5. What strategy can be implemented to reduce compliance scope, such as reporting?
 (Choose 3)
-Reducing the business area covered by compliance policies (x)
+Reducing the business area covered by compliance policies (x) (o)
 Reducing customer data stored
-Adjusting the existing compliance strategy with automation (x)
-Growing the team responsible for compliance
+Adjusting the existing compliance strategy with automation (x) (o)
+Growing the team responsible for compliance (o)
 Shifting existing compliance efforts elsewhere (x)
 
 6. Which AWS service will help protect applications running on AWS from DDoS attacks?
@@ -72,8 +72,8 @@ To automatically scale storage capacity as needed
 To automatically provision new instances based on demand (x)
 To automatically manage network security
 
-13. Which of the following statements best describes Reserved-Instances flexibility in AWS?
-Reserved-Instances can be modified or exchanged for different instance types or operating systems without additional cost.
+(13). Which of the following statements best describes Reserved-Instances flexibility in AWS?
+Reserved-Instances can be modified or exchanged for different instance types or operating systems without additional cost. (o)
 Reserved-Instances cannot be modified or exchanged once purchased. (x)
 Reserved-Instances can only be modified or exchanged for different instance types or operating systems during the initial purchase.
 Reserved-Instances can only be modified or exchanged for different instance types or operating systems for an additional cost.
@@ -84,10 +84,10 @@ To manage network security
 To provide computing power for applications
 To distribute incoming traffic across multiple instances (x)
 
-15. Which of the following describes the main objective of the AWS Cloud Adoption Framework (CAF)?
-To help customers migrate all of their on-premises IT infrastructure to the AWS Cloud.
+(15). Which of the following describes the main objective of the AWS Cloud Adoption Framework (CAF)?
+To help customers migrate all of their on-premises IT infrastructure to the AWS Cloud. (o)
 To help customers manage their AWS resources and monitor their performance in real-time.
-To provide customers with pre-configured AWS Cloud infrastructure, allowing them to quickly deploy applications and services. (o)
+To provide customers with pre-configured AWS Cloud infrastructure, allowing them to quickly deploy applications and services. (x)
 To help customers develop and implement effective business and technical strategies for adopting the AWS Cloud.
 
 16. What design principle suggests that instead of building a single, monolithic application, it is better to break it down into smaller, loosely coupled components?
@@ -127,10 +127,10 @@ A marketplace for buying and selling AWS services
 An API for accessing pricing information on AWS services
 A business intelligence tool for analyzing data and generating visualizations (x)
 
-22. What is the MOST operationally efficient solution to delegate permissions for an EC2 instance to access AWS resources such as S3 and DynamoDB?
+(22). What is the MOST operationally efficient solution to delegate permissions for an EC2 instance to access AWS resources such as S3 and DynamoDB?
 Creating an IAM user and using its access key and secret access key in the application
 Creating an IAM user and using its access key and secret access key to create a CLI profile in the EC2 instance (x)
-Creating an IAM role with the required permissions and attaching the role to the administrative IAM user
+Creating an IAM role with the required permissions and attaching the role to the administrative IAM user (o)
 Create an IAM role with the required permissions and attach the role to the EC2 instance.
 
 23. What is Amazon DynamoDB?
@@ -170,7 +170,8 @@ A storage service for long-term backups
 A terabyte-scale data transport solution (x)
 A high-performance block storage service
 
-29. A company needs to establish a connection between two VPCs. The VPCs are located in two different AWS Regions. The company wants to use the existing infrastructure of the VPCs for this connection.
+(29). A company needs to establish a connection between two VPCs. The VPCs are located in two different AWS Regions.
+The company wants to use the existing infrastructure of the VPCs for this connection.
 Which AWS service or feature can be used to establish this connection?
 AWS Client VPN (x)
 AWS Direct Connect
@@ -189,11 +190,11 @@ Security
 Reliability
 Elasticity
 
-32. Which of the following is an advantage of implementing elasticity in the cloud as opposed to on-premises?
+(32). Which of the following is an advantage of implementing elasticity in the cloud as opposed to on-premises?
 Cloud providers offer unlimited resources without additional cost.
 On-premises environments are more cost-effective for elastic workloads. (x)
 On-premises environments can handle unpredictable traffic patterns more efficiently.
-Cloud providers allow for on-demand provisioning of resources.
+Cloud providers allow for on-demand provisioning of resources. (o)
 
 33. Which AWS tool or feature acts as a VPC firewall at the subnet level?
 Security group
@@ -201,19 +202,19 @@ Traffic Mirroring
 Internet gateway
 Network ACL (x)
 
-34. Which of the following are advantages of the AWS Cloud? (Choose two.)
+(34). Which of the following are advantages of the AWS Cloud? (Choose two.)
 (Choose 2)
-AWS management of user-owned infrastructure (x)
-High economies of scale
+AWS management of user-owned infrastructure (x) (o)
+High economies of scale (o)
 Ability to quickly change required capacity (x)
 Increased deployment time to market
 Increased fixed expenses
 
-35. How can multiple AWS accounts aid in allocating costs across departments?
+(35). How can multiple AWS accounts aid in allocating costs across departments?
 By consolidating billing into a single payment
 By providing separate access control for each department
 By allowing departments to share resources without additional costs
-By providing separate billing for each department
+By providing separate billing for each department (x)
 
 36. A company is operating several factories where it builds products. The company needs the ability to process data, store data, and run applications with local system interdependencies that require low latency. Which AWS service should the company use to meet these requirements?
 AWS IoT Greengrass
@@ -221,11 +222,11 @@ AWS Lambda
 AWS Snowball Edge
 AWS Outposts (x)
 
-37. Which of the following options is the recommended way to get billing support on AWS?
+(37). Which of the following options is the recommended way to get billing support on AWS?
 Contact your account manager
 Use the AWS Billing and Cost Management dashboard (x)
 Use third-party partners and tools
-Open a billing support case
+Open a billing support case (o)
 
 38. Which of the following is a best practice for securing an Amazon EC2 instance?
 Using a static IP address for remote access
@@ -236,7 +237,7 @@ Restricting access using security groups and network ACLs (x)
 39. What is AWS Storage Gateway?
 A service that allows you to store and retrieve data from the internet.
 A managed service that provides you with a Software Defined Network (SDN) solution to control traffic types and prioritize applications. (x)
-A hybrid storage service that enables on-premises applications to use AWS storage services
+A hybrid storage service that enables on-premises applications to use AWS storage services (o)
 A service that provides high-speed internet access from home.
 
 40. What is the difference between infrastructure as a service (IaaS) and platform as a service (PaaS)?
@@ -257,18 +258,18 @@ With on-premises elasticity, monitoring is more difficult than with cloud-based 
 Using elasticity on-premises doesn't require an expert in the network administrator role.
 Cloud elasticity can allow for greater cost savings due to the scalability of resources. (x)
 
-43. Which of the following sources can provide technical assistance and knowledge to AWS customers?
+(43). Which of the following sources can provide technical assistance and knowledge to AWS customers?
 Solution architects
 Professional services
-All of the options
+All of the options (o)
 Training and certification
 Amazon Partner Network (x)
 
-44. Which AWS service or tool should a company use to centrally request and track service limit increases?
+(44). Which AWS service or tool should a company use to centrally request and track service limit increases?
 AWS Config
 AWS Service Catalog
 AWS Budgets (x)
-Service Quotas 
+Service Quotas (o)
 
 45. What is the benefit of using a region in the AWS Cloud?
 Regions provide access to a specific set of AWS services.
@@ -279,14 +280,14 @@ Regions allow users to choose the physical location of their data. (x)
 46. What is a use case for considering the use of multiple AWS Regions related to data sovereignty?
 To minimize the cost of data transfer (x)
 To simplify resource management
-To improve security
+To improve security (o)
 To comply with local regulations
 
-47. What is the role of the Concierge for AWS Enterprise Support Plan customers?
+(47). What is the role of the Concierge for AWS Enterprise Support Plan customers?
 To provide technical support for AWS services (x)
 To provide training and certification support
 To provide security and compliance support
-To manage AWS billing and cost optimization
+To manage AWS billing and cost optimization (o)
 
 48. How do Regions, Availability Zones, and Edge Locations work together in AWS?
 Regions contain multiple Edge Locations, and Availability Zones are subdivisions within an Edge Location.
@@ -399,7 +400,7 @@ By using Amazon EC2 auto-scaling services to scale resources up and down based o
 65. What are some advantages of using Amazon EC2 instances to host applications in the AWS Cloud instead of on-premises? (Choose two.)
 (Choose 2)
 EC2 includes operating system patch management.
-EC2 has a flexible, pay-as-you-go pricing model. (x)
+EC2 has a flexible, pay-as-you-go pricing model. (x) (o)
 EC2 integrates with Amazon VPC, AWS CloudTrail, and AWS Identity and Access Management (IAM). (x)
 EC2 has a 100% service level agreement (SLA).
-EC2 has automatic storage cost optimization.
+EC2 has automatic storage cost optimization. (o)
