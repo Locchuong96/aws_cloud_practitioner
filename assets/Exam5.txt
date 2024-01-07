@@ -1,1236 +1,393 @@
 1. Which of the following benefits of AWS cloud refers to the ability to quickly and easily provision resources?
-	
-	
-
 Agility (x)
-	
-	
-
 Reliability
-	
-	
-
 Elasticity
-	
-	
-
 Security
-
 
 2. Which of the following operations would reduce costs by moving to the cloud?
-	
-	
-
 Right-sizing infrastructure (o)
-	
-	
-
 Using legacy software that is not compatible with the cloud
-	
-	
-
 Increasing compliance scope
-	
-	
-
 Manually managing infrastructure (x)
 
-
 3. A company wants to review its monthly costs of using Amazon EC2 and Amazon RDS for the past year. Which AWS service or tool provides this information?
-	
-	
-
 Cost Explorer (x)
-	
-	
-
 Amazon CloudWatch
-	
-	
-
 AWS Trusted Advisor
-	
-	
-
 Amazon Forecast
 
-
 4. What is the relationship between Regions and Availability Zones in AWS?
-	
-	
-
 Regions are made up of multiple Availability Zones, and each Availability Zone is a distinct data center. (x)
-	
-	
-
 Regions and Availability Zones refer to the same thing in AWS.
-	
-	
-
 Regions are individual data centers, and Availability Zones are subdivisions within a Region.
-	
-	
-
 Availability Zones are made up of multiple Regions, and each Region is a distinct data center.
 
-
 5. What are the different connectivity options available in AWS?
-	
-	
-
 VPN, AWS Direct Connect, and Public internet (x)
-	
-	
-
 VPN and Private internet
-	
-	
-
 AWS Direct Connect and Public internet
-	
-	
-
 VPN, AWS Direct Connect, and Private internet
 
-
 6. Which of the following is part of best practices for access key and password policies?
-	
-	
-
 Password policies do not need to be updated
-	
-	
-
 Passwords should not include symbols
-	
-	
-
 Passwords should be shorter than 8 characters in length
-	
-	
-
 Access keys should be rotated regularly (x)
 
-
-
 7. What is the role of the Concierge in the AWS Enterprise Support Plan?
-	
-	
-
 To manage AWS resources.
-	
-	
-
 To serve as your primary point of contact and provide assistance with billing or account inquiries. (o)
-	
-	
-
 To inspect your AWS environment and alert you of opportunities to save money
-	
-	
-
 To provide technical expertise for the full range of AWS services and obtain a detailed understanding of your use case and technology architecture. (x)
 
-
 8. Where can you find 3rd party security products for AWS?
-	
-	
-
 AWS Marketplace (x)
-	
-	
-
 Amazon Elastic Compute Cloud (EC2)
-	
-	
-
 AWS Identity and Access Management (IAM)
-	
-	
-
 Amazon Simple Storage Service (S3)
 
-
 9. What is Amazon Redshift used for?
-	
-	
-
 Data warehousing (x)
-	
-	
-
 Key-value storage
-	
-	
-
 Object storage
-	
-	
-
 Document-based storage
 
-
 10. Which of the following benefits of AWS cloud refers to the ability to access resources and services that are always available and fault-tolerant?
-	
-	
-
 High Availability (x)
-	
-	
-
 Elasticity
-	
-	
-
 Security
-	
-	
-
 Reliability
 
-
 11. How does the AWS cloud enable users to focus on business value?
-	
-	
-
 By offering managed services that automate common administrative tasks (o)
-	
-	
-
 By providing a comprehensive set of security services and features (x)
-	
-	
-
 By providing a global infrastructure with regions and availability zones spread across the world
-	
-	
-
 By offering pay-as-you-go pricing that enables users to start small and scale up as their needs grow
 
-
 12. What is the role of OpEx in a TCO proposal for moving to the cloud?
-	
-	
-
 It represents the ongoing costs associated with using and managing cloud services (x)
-	
-	
-
 It represents the upfront costs of acquiring and maintaining hardware and software
-	
-	
-
 It is not relevant to a TCO proposal for moving to the cloud
-	
-	
-
 It represents the cost of licensing proprietary software
 
-
 13. Which design principle suggests that instead of trying to prevent failures, the system should be designed to tolerate failures and continue functioning with minimal disruption?
-	
-	
-
 Design for failure (x)
-	
-	
-
 Design for security
-	
-	
-
 Design for success
-	
-	
-
 Design for scalability
 
-
 14. What is the benefit of AWS cloud's managed services?
-	
-	
-
 They enable users to pay only for the resources they use without any upfront costs or long-term commitments. (o)
-	
-	
-
 They reduce the burden of managing infrastructure and allow users to focus on their core business.
-	
-	
-
 They allow users to quickly and easily provision resources.
-	
-	
-
 They enable users to access resources and services that are always available and fault-tolerant. (x)
 
-
 15. Where can you find documentation on AWS security best practices and official documents?
-	
-	
-
 AWS Knowledge Center
-	
-	
-
 AWS Glue (x)
-	
-	
-
 AWS Marketplace
-	
-	
-
 AWS Systems Manager
 
-
 16. Which of the following services allows you to securely store and retrieve objects in the cloud?
-	
-	
-
 Amazon Virtual Private Cloud (VPC)
-	
-	
-
 Amazon Simple Storage Service (S3) (x)
-	
-	
-
 Amazon Elastic Block Store (EBS)
-	
-	
-
 Amazon Elastic Compute Cloud (EC2)
-
 
 17. Which AWS service provides detailed cost and usage reports?
-	
-	
-
 AWS Cost and Usage Report (x)
-	
-	
-
 AWS Trusted Advisor
-	
-	
-
 Amazon QuickSight
-	
-	
-
 AWS Marketplace
 
-
 18. Which of the following scenarios would be the best fit for Reserved-Instance pricing on AWS?
-	
-	
-
 A company with a steady-state workload that can be predicted in advance. (x)
-	
-	
-
 A company that needs to run workloads for a short period of time.
-	
-	
-
 A company with unpredictable and varying workloads that require on-demand resources.
-	
-	
-
 A company that needs to frequently switch between instances with different instance types.
 
-
 19. Who is responsible for enabling encryption on AWS for a given service?
-	
-	
-
 Customer (x)
-	
-	
-
 Third-party service provider
-	
-	
-
 AWS Support team
-	
-	
-
 AWS Compliance team
 
-
 20. Which of the following AWS services provides a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications?
-	
-	
-
 Amazon Simple Queue Service (SQS) (x)
-	
-	
-
 Amazon Elastic Compute Cloud (EC2)
-	
-	
-
 Amazon Simple Notification Service (SNS)
-	
-	
-
 AWS Lambda
 
-
 21. Where can customers find information about AWS compliance controls and requirements?
-	
-	
-
 On the AWS website, third-party websites, and various compliance standards documents (x)
-	
-	
-
 Only through contacting AWS customer support
-	
-	
-
 Only on the AWS website
-	
-	
-
 Only through purchasing an AWS compliance package
 
-
 22. Which category of services on AWS includes services such as Amazon EC2, AWS Lambda, and AWS Elastic Beanstalk?
-	
-	
-
 Compute (x)
-	
-	
-
 Database
-	
-	
-
 Storage
-	
-	
-
 Network
 
 23. Which of the following operations will reduce costs by moving to the cloud?
-	
-	
-
 Using managed services like RDS, ECS, EKS, and DynamoDB. (x)
-	
-	
-
 Expanding the scope of compliance reporting.
-	
-	
-
 Investing in on-premises hardware and software.
-	
-	
-
 Using manual processes instead of automation.
 
-
-
 24. Which of the following AWS services enables you to launch and manage virtual machines in the cloud?
-	
-	
-
 Amazon Elastic Compute Cloud (EC2) (x)
-	
-	
-
 Amazon Simple Notification Service (SNS)
-	
-	
-
 Amazon CloudFront
-	
-	
-
 Amazon Elastic Block Store (EBS)
 
-
 25. What is AWS Simple Monthly Calculator?
-	
-	
-
 A tool for calculating the cost of AWS services based on usage (x)
-	
-	
-
 A tool for managing AWS user access
-	
-	
-
 A tool for automating AWS infrastructure deployment
-	
-	
-
 A tool for monitoring AWS resource utilization
 
-
 26. Which of the following scenarios is best suited for Spot Instance pricing?
-	
-	
-
 Running a batch processing job that can be interrupted or paused without significant impact. (x)
-	
-	
-
 Running a workload that requires dedicated, on-demand capacity.
-	
-	
-
 Running a production workload that requires high availability and consistent performance.
-	
-	
-
 Running a workload with predictable, steady-state usage patterns.
-
 
 27. What is the purpose of Multi-Factor Authentication (MFA)?
 (Choose 1)
-	
-	
-
 To increase the security of user information. (x)
-	
-	
-
 To reduce the number of authentication steps.
-	
-	
-
 To decrease the security of user information.
-	
-	
-
 To monitor user activity on a network.
 
-
 28. Which of the following benefits of AWS cloud refers to the ability to pay only for the resources you use, without any upfront costs or long-term commitments?
-	
-	
-
 Pay-as-you-go pricing (x)
-	
-	
-
 Scalability
-	
-	
-
 Security
-	
-	
-
 Reliability
 
 29. Which of the following AWS services enables you to assess, audit, and evaluate the configuration of your AWS resources, maintain a detailed inventory of resource configurations over time, and continuously monitor and record configuration changes within your AWS account to have a historical record of these changes?
-	
-	
-
 Amazon RDS
-	
-	
-
 AWS Config (x)
-	
-	
-
 Amazon S3
-	
-	
-
 Amazon CloudFront
 
-
 30. What is the main benefit of using AWS Global Accelerator?
-	
-	
-
 Reducing latency and improving content delivery to end-users (x)
-	
-	
-
 Enhancing network security and access control
-	
-	
-
 Increasing the number of AWS Regions available for use
-	
-	
-
 Providing additional data storage options for AWS services
 
-
 31. What is Amazon S3 Glacier?
-	
-	
-
 A low-cost storage service for data archiving and backup (x)
-	
-	
-
 A high-performance block storage service
-
-	
-
 A storage service for long-term backups
-	
-	
-
 A durable and scalable object storage service
 
-
 32. Which of the following AWS services provides a scalable and fully-managed database service?
-	
-	
-
 Amazon DynamoDB (x)
-	
-	
-
 Amazon Elastic Compute Cloud (EC2)
-	
-	
-
 Amazon EC2
-	
-	
-
 Amazon Elastic Block Store (EBS)
 
-
 33. When might an organization consider using multiple AWS Regions for low latency?
-	
-	
-
 When end-users are located on different continents (x)
-	
-	
-
 When end-users are located in the same city
-	
-	
-
 When end-users are located in same countries
-	
-	
-
 When end-users are located in the same country
 
-
 34. Which of the following is true about managed policies in IAM?
-	
-	
-
 They are defined and managed by the AWS Customer (x)
-	
-	
-
 They are defined and managed by AWS
-	
-	
-
 They cannot be modified by the AWS Customer
-	
-	
-
 They can only be attached to IAM groups (o)
 
-
 (35). What design principle suggests that applications should be designed to perform multiple tasks simultaneously?
-	
-	
-
 Think parallel (o)
-	
-	
-
 Think redundant
-	
-	
-
 Think scalable (x)
-	
-	
-
 Think distributed
 
-
 36. Which of the following statements is true regarding achieving high availability in AWS using multiple Availability Zones?
-	
-	
-
 High availability is achieved by using multiple Availability Zones. (x)
-	
-	
-
 High availability can be achieved by using a single Availability Zone.
-	
-	
-
 It is not possible to achieve high availability using multiple Availability Zones.
-	
-	
-
 Availability Zones share a single point of failure.
 
-
 37. What is the AWS Shared Responsibility Model?
-	
-	
-
 A model that outlines the shared responsibilities between AWS and its customers for ensuring security and compliance in the cloud (x)
-	
-	
-
 A model that outlines the shared responsibilities between AWS and its customers for financial management of AWS services
-	
-	
-
 A model that outlines the shared responsibilities between AWS and third-party vendors for providing support to AWS customers
-	
-	
-
 A model that outlines the shared responsibilities between AWS and its customers for managing and maintaining AWS infrastructure
 
-
 38 . Which of the following is a feature of AWS Organizations?
-	
-	
-
 Consolidated billing (x)
-	
-	
-
 Amazon Elastic File System
-	
-	
-
 Shared VPC
-	
-	
-
 AWS Direct Connect
 
-
 39. Which of the following benefits of AWS cloud refers to the ability to achieve cost savings by leveraging AWS's massive scale?
-	
-	
-
 Economy of scale (x)
-	
-	
-
 Global Reach
-	
-	
-
 Security
-	
-	
-
 Reliability
-
 
 40. Which of the following are different ways of provisioning and operating in the AWS cloud?
-	
-	
-
 All of the options (x)
-	
-	
-
 Infrastructure as Code
-	
-	
-
 AWS Management Console
-	
-	
-
 AWS Command Line Interface (CLI)
-	
-	
-
 APIs and SDKs
 
-
 41. What is the purpose of security groups in AWS?
-	
-	
-
 To control inbound and outbound traffic to AWS resources (x)
-	
-	
-
 To monitor AWS resources for security threats
-	
-	
-
 To manage user access to AWS resources
-	
-	
-
 To encrypt data at rest
 
-
 42. Where can you find pricing information for AWS services?
-	
-	
-
 AWS Services product pages (x)
-	
-	
-
 AWS CloudTrail
-	
-	
-
 AWS Marketplace
-	
-	
-
 AWS CloudFormation
 
-
 43. Which component of the AWS global infrastructure is made up of one or more discrete data centers that have redundant power, networking, and connectivity?
-	
-	
-
 Availability Zone (x)
-	
-	
-
 AWS Outposts
-	
-	
-
 AWS Region
-	
-	
-
 Edge location
 
-
 44. What are some different encryption options available on AWS?
-	
-	
-
 Both at rest and in transit (x)
-	
-	
-
 None of the options
-	
-	
-
 Only at rest
-	
-	
-
 Only in transit
 
-
 45. What are the three main cloud models?
-	
-	
-
 Public Cloud, Private Cloud, Hybrid (o)
-	
-	
-
 On-premises, Hybrid, Virtual Machines
-	
-	
-
 On-premises, Cloud-native, Hybrid (x)
-	
-	
-
 Cloud-only, Hybrid, Virtual Machines
 
-
 46. Which of the following benefits of AWS cloud refers to the ability to access the cloud from anywhere in the world?
-	
-	
-
 Global Reach (x)
-	
-	
-
 High Availability
-	
-	
-
 Security
-	
-	
-
 Reliability
-
 
 47. According to the AWS shared responsibility model, which of the following is the responsibility of the customer?
-	
-	
-
 Managing security configurations for operating systems, platforms, and network traffic (x)
-	
-	
-
 Updating and patching the firmware and software of the AWS hardware
-	
-	
-
 Configuring physical security for the data center
-	
-	
-
 Monitoring the underlying infrastructure of AWS services
 
-
 48. Which of the following benefits of AWS cloud refers to the ability to add or remove resources on demand to meet changes in demand or spikes in traffic?
-	
-	
-
 Elasticity (x)
-	
-	
-
 High Availability
-	
-	
-
 Security
-	
-	
-
 Reliability
 
-
 49. Which IAM entity is used to define permissions and access control for AWS resources?
-	
-	
-
 Policies (x)
-	
-	
-
 Roles
-	
-	
-
 Groups
-	
-	
-
 Users
 
-
 50. A large company has multiple departments. Each department has its own AWS account. Each department has purchased Amazon EC2 Reserved Instances.
-
 Some departments do not use all the Reserved Instances that they purchased, and other departments need more Reserved Instances than they purchased. The company needs to manage the AWS accounts for all the departments so that the departments can share the Reserved Instances.
-
 Which AWS service or tool should the company use to meet these requirements?
-	
-	
-
 AWS Organizations (x)
-	
-	
-
 AWS Systems Manager
-	
-	
-
 AWS Trusted Advisor
-	
-	
-
 Cost Explorer
 
-
 51. What are some reasons to consider the use of multiple AWS Regions?
-	
-	
-
 For disaster recovery/business continuity, low latency for end-users, and data sovereignty (x)
-	
-	
-
 None
-	
-	
-
 To save costs and improve performance
-	
-	
-
 To limit scalability and reduce redundancy
-
 
 52. Which of the following IAM entities can be used to grant temporary access to AWS resources?
 (Choose 1)
-	
-	
-
 Roles (x)
-	
-	
-
 All actions taken by root users are tracked and logged within AWS Billing
-	
-	
-
 Users
-	
-	
-
 Groups
-	
-	
-
 Policies
 
-
 53. What are some examples of native AWS services for network security?
-	
-	
-
 Security groups, Network ACLs, AWS WAF (x)
-	
-	
-
 Amazon SNS, Amazon SQS, Amazon SWF
-	
-	
-
 AWS CodePipeline, AWS Lambda, AWS Elastic Beanstalk
-	
-	
-
 AWS Glue, Amazon Redshift, Amazon EMR
 
-
 54. Which of the following is a scenario that would best fit with On-Demand Instance pricing on AWS?
-	
-	
-
 Running a development environment for a small team that only needs occasional access. (x)
-	
-	
-
 Running a production database that requires consistent performance and uptime.
-	
-	
-
 Running an application 24/7 with predictable, steady traffic.
-	
-	
-
 Running a high-performance computing (HPC) workload that requires specific hardware configurations.
 
-
 55. What is the purpose of Edge Locations in AWS?
-	
-	
-
 Edge Locations are used to cache content closer to end users for faster delivery. (x)
-	
-	
-
 Edge Locations are used for development and testing purposes.
-	
-	
-
 Edge Locations are where AWS deploys its core infrastructure services.
-	
-	
-
 Edge Locations are used to store data in the cloud.
 
-
 56.Which of the following benefits of AWS cloud refers to the ability to ensure the confidentiality, integrity, and availability of your data and resources?
-	
-	
-
 Security
-	
-	
-
 Elasticity
-	
-	
-
 Reliability (o)
-	
-	
-
 High Availability (x)
 
-
 57. Which of the following is an example of a service in which the customer's responsibilities may shift compared to using EC2?
-	
-	
-
 Amazon RDS
-	
-	
-
 Amazon SQS
-	
-	
-
 Amazon S3 (x)
-	
-	
-
 Amazon DynamoDB
 
-
 58. A company is migrating to the AWS Cloud instead of running its infrastructure on-premises.
-
 Which of the following are advantages of this migration? (Choose two.)
 (Choose 2)
-	
-	
-
 Elimination of the need to perform security auditing
-	
-	
-
 Increased global reach and agility (x)
-	
-	
-
 Redundancy by default for all compute services (x)
-	
-	
-
 Ability to deploy globally in minutes
 
-
 59. What is AWS Direct Connect?
-	
-	
-
 A private internet connection provided by AWS
-	
-	
-
 A dedicated network connection provided by AWS between a customer’s datacenter and AWS (x)
-	
-	
-
 A VPN connection provided by AWS
-	
-	
-
 A public internet connection provided by AWS
 
-
 60. Which of the following resources for technology support on AWS provides technical guidance, planning, and ongoing support to help customers achieve their business objectives?
-	
-	
-
 AWS Support Cases (x)
-	
-	
-
 Technical Account Managers
-	
-	
-
 Premium Support
-	
-	
-
 AWS Abuse
 
-
 61. What is the primary purpose of AWS User and Identity Management capabilities?
-	
-	
-
 To host scalable web applications in the cloud
-	
-	
-
 To securely store data in the cloud
-	
-	
-
 To create secure backups of data in the cloud
-	
-	
-
 To allow users to access resources in the cloud (x)
 
-
 62. Which of the following AWS services provides a fully managed serverless computing platform that enables you to run code without provisioning or managing servers?
-	
-	
-
 Amazon Simple Notification Service (SNS)
-	
-	
-
 AWS Lambda (x)
-	
-	
-
 Amazon Simple Queue Service (SQS)
-	
-	
-
 Amazon Elastic Block Store (EBS)
 
-
 63. What is the role of capital expenses (CapEx) in a Total Cost of Ownership (TCO) proposal?
-	
-	
-
 They are expenses related to employee salaries and benefits.
-	
-	
-
 They are a one-time cost associated with the purchase of physical assets.
-	
-	
-
 They are expenses related to software licensing and maintenance. (x)
-	
-	
-
 They are ongoing expenses related to the operation and maintenance of physical assets.
-
 
 64. Which two benefits can be gained from migrating to the AWS Cloud? (Choose 2)
 (Choose 2)
-	
-	
-
 Increased staff retention
-	
-	
-
 Business Excellence
-	
-	
-
 Business agility
-	
-	
-
 Operational resilience
-	
-	
-
 Discounts for products on Amazon.com
